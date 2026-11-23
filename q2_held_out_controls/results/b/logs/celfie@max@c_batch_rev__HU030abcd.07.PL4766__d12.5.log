@@ -1,0 +1,7 @@
+/scratch/mxf4642/code/epiread-tools/epiread_tools/epiparser.py:218: RuntimeWarning: invalid value encountered in true_divide
+  self.beta = self.meth/self.cov
+/scratch/mxf4642/code/deconvolution_models/deconvolution_models/celfie.py:172: RuntimeWarning: invalid value encountered in true_divide
+  add_pseudocounts(1, np.nan_to_num(y / y_depths), y, y_depths)
+/scratch/mxf4642/code/deconvolution_models/deconvolution_models/celfie.py:173: RuntimeWarning: invalid value encountered in true_divide
+  add_pseudocounts(0, np.nan_to_num(y / y_depths), y, y_depths)
+TIMING	celfie@max@c_batch_rev__HU030abcd.07.PL4766__d12.5	126.0s	0.90GB	rc=0

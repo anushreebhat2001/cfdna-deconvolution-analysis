@@ -1,0 +1,14 @@
+[2026-11-16T19:13:42+00:00] submitting conditions: c_batch_fwd c_batch_rev 
+[2026-11-16T14:13:47-05:00] conditions: c_batch_fwd c_batch_rev 
+[2026-11-16T14:13:47-05:00] markers: max   methods: celfieish celfie   nproc: 14
+[2026-11-16T14:13:47-05:00] 20 CRC samples
+[2026-11-16T14:13:47-05:00] === c_batch_fwd  (pool of 11 controls)
+[2026-11-16T14:13:57-05:00]   pool lines: 24524327
+[2026-11-16T14:15:18-05:00]   mixtures: 100 / 100
+[2026-11-16T14:53:48-05:00]   estimate files for c_batch_fwd: 300
+[2026-11-16T14:53:48-05:00] === c_batch_rev  (pool of 11 controls)
+[2026-11-16T14:54:03-05:00]   pool lines: 45197910
+[2026-11-16T14:55:36-05:00]   mixtures: 100 / 100
+[2026-11-16T15:50:11-05:00]   estimate files for c_batch_rev: 300
+[2026-11-16T15:50:11-05:00] DONE. estimates: 4600
+Disk in use under /scratch/rm4973/mrd/data/mix_b: 4.8G

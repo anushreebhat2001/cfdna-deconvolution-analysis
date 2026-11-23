@@ -1,0 +1,1325 @@
+condition	role	sample	note
+a_rescore_00	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_00	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_00	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_00	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_00	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_00	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_00	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_00	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_00	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_00	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_00	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_00	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_00	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_00	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_00	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_00	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_00	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_00	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_00	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_00	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_00	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_00	score_heldout	HU012.04.PL4374	random stratified 11 of 22
+a_rescore_00	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_00	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_00	score_heldout	HU012.08.PL4420	random stratified 11 of 22
+a_rescore_00	score_heldout	HU012.11.PL4512	random stratified 11 of 22
+a_rescore_00	score_heldout	HU083.65	random stratified 11 of 22
+a_rescore_00	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_00	score_heldout	HU083.71	random stratified 11 of 22
+a_rescore_00	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_00	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_01	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_01	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_01	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_01	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_01	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_01	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_01	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_01	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_01	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_01	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_01	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_01	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_01	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_01	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_01	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_01	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_01	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_01	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_01	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_01	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_01	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_01	score_heldout	HU012.04.PL4374	random stratified 11 of 22
+a_rescore_01	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_01	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_01	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_01	score_heldout	HU012.11.PL4512	random stratified 11 of 22
+a_rescore_01	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_01	score_heldout	HU083.71	random stratified 11 of 22
+a_rescore_01	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_01	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_01	score_heldout	HU083.89	random stratified 11 of 22
+a_rescore_02	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_02	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_02	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_02	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_02	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_02	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_02	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_02	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_02	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_02	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_02	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_02	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_02	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_02	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_02	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_02	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_02	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_02	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_02	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_02	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_02	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_02	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_02	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_02	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_02	score_heldout	HU012.08.PL4420	random stratified 11 of 22
+a_rescore_02	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_02	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_02	score_heldout	HU083.69	random stratified 11 of 22
+a_rescore_02	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_02	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_02	score_heldout	HU083.89	random stratified 11 of 22
+a_rescore_03	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_03	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_03	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_03	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_03	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_03	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_03	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_03	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_03	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_03	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_03	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_03	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_03	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_03	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_03	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_03	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_03	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_03	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_03	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_03	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_03	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_03	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_03	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_03	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_03	score_heldout	HU012.08.PL4420	random stratified 11 of 22
+a_rescore_03	score_heldout	HU012.09.PL4430	random stratified 11 of 22
+a_rescore_03	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_03	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_03	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_03	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_03	score_heldout	HU083.89	random stratified 11 of 22
+a_rescore_04	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_04	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_04	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_04	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_04	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_04	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_04	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_04	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_04	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_04	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_04	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_04	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_04	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_04	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_04	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_04	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_04	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_04	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_04	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_04	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_04	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_04	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_04	score_heldout	HU012.04.PL4374	random stratified 11 of 22
+a_rescore_04	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_04	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_04	score_heldout	HU012.11.PL4512	random stratified 11 of 22
+a_rescore_04	score_heldout	HU083.63	random stratified 11 of 22
+a_rescore_04	score_heldout	HU083.65	random stratified 11 of 22
+a_rescore_04	score_heldout	HU083.69	random stratified 11 of 22
+a_rescore_04	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_04	score_heldout	HU083.89	random stratified 11 of 22
+a_rescore_05	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_05	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_05	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_05	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_05	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_05	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_05	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_05	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_05	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_05	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_05	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_05	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_05	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_05	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_05	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_05	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_05	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_05	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_05	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_05	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_05	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_05	score_heldout	HU012.04.PL4374	random stratified 11 of 22
+a_rescore_05	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_05	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_05	score_heldout	HU012.09.PL4430	random stratified 11 of 22
+a_rescore_05	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_05	score_heldout	HU083.64	random stratified 11 of 22
+a_rescore_05	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_05	score_heldout	HU083.68	random stratified 11 of 22
+a_rescore_05	score_heldout	HU083.71	random stratified 11 of 22
+a_rescore_05	score_heldout	HU083.89	random stratified 11 of 22
+a_rescore_06	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_06	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_06	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_06	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_06	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_06	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_06	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_06	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_06	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_06	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_06	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_06	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_06	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_06	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_06	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_06	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_06	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_06	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_06	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_06	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_06	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_06	score_heldout	HU012.04.PL4374	random stratified 11 of 22
+a_rescore_06	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_06	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_06	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_06	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_06	score_heldout	HU083.63	random stratified 11 of 22
+a_rescore_06	score_heldout	HU083.64	random stratified 11 of 22
+a_rescore_06	score_heldout	HU083.65	random stratified 11 of 22
+a_rescore_06	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_06	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_07	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_07	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_07	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_07	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_07	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_07	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_07	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_07	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_07	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_07	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_07	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_07	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_07	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_07	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_07	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_07	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_07	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_07	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_07	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_07	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_07	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_07	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_07	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_07	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_07	score_heldout	HU012.09.PL4430	random stratified 11 of 22
+a_rescore_07	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_07	score_heldout	HU083.63	random stratified 11 of 22
+a_rescore_07	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_07	score_heldout	HU083.69	random stratified 11 of 22
+a_rescore_07	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_07	score_heldout	HU083.89	random stratified 11 of 22
+a_rescore_08	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_08	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_08	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_08	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_08	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_08	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_08	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_08	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_08	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_08	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_08	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_08	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_08	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_08	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_08	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_08	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_08	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_08	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_08	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_08	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_08	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_08	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_08	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_08	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_08	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_08	score_heldout	HU012.11.PL4512	random stratified 11 of 22
+a_rescore_08	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_08	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_08	score_heldout	HU083.68	random stratified 11 of 22
+a_rescore_08	score_heldout	HU083.69	random stratified 11 of 22
+a_rescore_08	score_heldout	HU083.71	random stratified 11 of 22
+a_rescore_09	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_09	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_09	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_09	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_09	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_09	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_09	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_09	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_09	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_09	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_09	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_09	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_09	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_09	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_09	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_09	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_09	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_09	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_09	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_09	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_09	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_09	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_09	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_09	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_09	score_heldout	HU012.09.PL4430	random stratified 11 of 22
+a_rescore_09	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_09	score_heldout	HU083.63	random stratified 11 of 22
+a_rescore_09	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_09	score_heldout	HU083.68	random stratified 11 of 22
+a_rescore_09	score_heldout	HU083.69	random stratified 11 of 22
+a_rescore_09	score_heldout	HU083.71	random stratified 11 of 22
+a_rescore_10	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_10	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_10	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_10	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_10	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_10	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_10	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_10	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_10	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_10	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_10	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_10	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_10	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_10	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_10	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_10	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_10	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_10	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_10	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_10	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_10	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_10	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_10	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_10	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_10	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_10	score_heldout	HU012.08.PL4420	random stratified 11 of 22
+a_rescore_10	score_heldout	HU083.65	random stratified 11 of 22
+a_rescore_10	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_10	score_heldout	HU083.68	random stratified 11 of 22
+a_rescore_10	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_10	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_11	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_11	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_11	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_11	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_11	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_11	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_11	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_11	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_11	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_11	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_11	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_11	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_11	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_11	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_11	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_11	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_11	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_11	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_11	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_11	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_11	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_11	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_11	score_heldout	HU012.04.PL4374	random stratified 11 of 22
+a_rescore_11	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_11	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_11	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_11	score_heldout	HU083.63	random stratified 11 of 22
+a_rescore_11	score_heldout	HU083.64	random stratified 11 of 22
+a_rescore_11	score_heldout	HU083.69	random stratified 11 of 22
+a_rescore_11	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_11	score_heldout	HU083.89	random stratified 11 of 22
+a_rescore_12	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_12	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_12	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_12	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_12	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_12	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_12	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_12	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_12	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_12	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_12	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_12	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_12	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_12	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_12	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_12	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_12	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_12	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_12	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_12	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_12	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_12	score_heldout	HU012.04.PL4374	random stratified 11 of 22
+a_rescore_12	score_heldout	HU012.08.PL4420	random stratified 11 of 22
+a_rescore_12	score_heldout	HU012.09.PL4430	random stratified 11 of 22
+a_rescore_12	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_12	score_heldout	HU012.11.PL4512	random stratified 11 of 22
+a_rescore_12	score_heldout	HU083.64	random stratified 11 of 22
+a_rescore_12	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_12	score_heldout	HU083.69	random stratified 11 of 22
+a_rescore_12	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_12	score_heldout	HU083.89	random stratified 11 of 22
+a_rescore_13	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_13	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_13	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_13	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_13	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_13	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_13	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_13	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_13	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_13	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_13	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_13	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_13	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_13	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_13	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_13	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_13	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_13	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_13	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_13	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_13	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_13	score_heldout	HU012.04.PL4374	random stratified 11 of 22
+a_rescore_13	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_13	score_heldout	HU012.08.PL4420	random stratified 11 of 22
+a_rescore_13	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_13	score_heldout	HU012.11.PL4512	random stratified 11 of 22
+a_rescore_13	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_13	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_13	score_heldout	HU083.68	random stratified 11 of 22
+a_rescore_13	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_13	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_14	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_14	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_14	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_14	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_14	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_14	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_14	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_14	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_14	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_14	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_14	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_14	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_14	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_14	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_14	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_14	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_14	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_14	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_14	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_14	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_14	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_14	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_14	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_14	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_14	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_14	score_heldout	HU012.08.PL4420	random stratified 11 of 22
+a_rescore_14	score_heldout	HU083.63	random stratified 11 of 22
+a_rescore_14	score_heldout	HU083.64	random stratified 11 of 22
+a_rescore_14	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_14	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_14	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_15	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_15	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_15	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_15	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_15	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_15	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_15	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_15	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_15	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_15	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_15	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_15	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_15	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_15	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_15	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_15	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_15	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_15	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_15	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_15	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_15	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_15	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_15	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_15	score_heldout	HU012.08.PL4420	random stratified 11 of 22
+a_rescore_15	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_15	score_heldout	HU012.11.PL4512	random stratified 11 of 22
+a_rescore_15	score_heldout	HU083.63	random stratified 11 of 22
+a_rescore_15	score_heldout	HU083.65	random stratified 11 of 22
+a_rescore_15	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_15	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_15	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_16	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_16	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_16	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_16	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_16	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_16	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_16	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_16	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_16	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_16	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_16	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_16	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_16	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_16	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_16	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_16	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_16	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_16	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_16	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_16	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_16	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_16	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_16	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_16	score_heldout	HU012.08.PL4420	random stratified 11 of 22
+a_rescore_16	score_heldout	HU012.09.PL4430	random stratified 11 of 22
+a_rescore_16	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_16	score_heldout	HU083.63	random stratified 11 of 22
+a_rescore_16	score_heldout	HU083.64	random stratified 11 of 22
+a_rescore_16	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_16	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_16	score_heldout	HU083.71	random stratified 11 of 22
+a_rescore_17	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_17	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_17	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_17	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_17	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_17	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_17	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_17	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_17	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_17	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_17	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_17	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_17	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_17	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_17	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_17	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_17	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_17	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_17	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_17	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_17	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_17	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_17	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_17	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_17	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_17	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_17	score_heldout	HU083.64	random stratified 11 of 22
+a_rescore_17	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_17	score_heldout	HU083.71	random stratified 11 of 22
+a_rescore_17	score_heldout	HU083.73	random stratified 11 of 22
+a_rescore_17	score_heldout	HU083.89	random stratified 11 of 22
+a_rescore_18	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_18	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_18	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_18	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_18	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_18	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_18	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_18	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_18	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_18	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_18	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_18	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_18	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_18	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_18	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_18	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_18	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_18	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_18	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_18	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_18	score_heldout	HU012.01.PL4406	random stratified 11 of 22
+a_rescore_18	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_18	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_18	score_heldout	HU012.07.PL4412	random stratified 11 of 22
+a_rescore_18	score_heldout	HU012.09.PL4430	random stratified 11 of 22
+a_rescore_18	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_18	score_heldout	HU083.63	random stratified 11 of 22
+a_rescore_18	score_heldout	HU083.64	random stratified 11 of 22
+a_rescore_18	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_18	score_heldout	HU083.67	random stratified 11 of 22
+a_rescore_18	score_heldout	HU083.69	random stratified 11 of 22
+a_rescore_19	pool	HU012.01.PL4406	paper pool; mixtures already exist
+a_rescore_19	pool	HU012.02.PL4504	paper pool; mixtures already exist
+a_rescore_19	pool	HU012.03.PL4472	paper pool; mixtures already exist
+a_rescore_19	pool	HU012.04.PL4374	paper pool; mixtures already exist
+a_rescore_19	pool	HU012.05.PL4473	paper pool; mixtures already exist
+a_rescore_19	pool	HU012.06.PL4376	paper pool; mixtures already exist
+a_rescore_19	pool	HU012.07.PL4412	paper pool; mixtures already exist
+a_rescore_19	pool	HU012.08.PL4420	paper pool; mixtures already exist
+a_rescore_19	pool	HU012.09.PL4430	paper pool; mixtures already exist
+a_rescore_19	pool	HU012.10.PL4489	paper pool; mixtures already exist
+a_rescore_19	pool	HU012.11.PL4512	paper pool; mixtures already exist
+a_rescore_19	pool	HU083.64	paper pool; mixtures already exist
+a_rescore_19	pool	HU083.65	paper pool; mixtures already exist
+a_rescore_19	pool	HU083.66	paper pool; mixtures already exist
+a_rescore_19	pool	HU083.68	paper pool; mixtures already exist
+a_rescore_19	pool	HU083.69	paper pool; mixtures already exist
+a_rescore_19	pool	HU083.71	paper pool; mixtures already exist
+a_rescore_19	pool	HU083.72	paper pool; mixtures already exist
+a_rescore_19	pool	HU083.73	paper pool; mixtures already exist
+a_rescore_19	pool	HU083.89	paper pool; mixtures already exist
+a_rescore_19	score_heldout	HU012.02.PL4504	random stratified 11 of 22
+a_rescore_19	score_heldout	HU012.03.PL4472	random stratified 11 of 22
+a_rescore_19	score_heldout	HU012.04.PL4374	random stratified 11 of 22
+a_rescore_19	score_heldout	HU012.05.PL4473	random stratified 11 of 22
+a_rescore_19	score_heldout	HU012.06.PL4376	random stratified 11 of 22
+a_rescore_19	score_heldout	HU012.10.PL4489	random stratified 11 of 22
+a_rescore_19	score_heldout	HU083.64	random stratified 11 of 22
+a_rescore_19	score_heldout	HU083.66	random stratified 11 of 22
+a_rescore_19	score_heldout	HU083.71	random stratified 11 of 22
+a_rescore_19	score_heldout	HU083.72	random stratified 11 of 22
+a_rescore_19	score_heldout	HU083.89	random stratified 11 of 22
+b_split_00	pool	HU012.01.PL4406	build mixtures from these
+b_split_00	pool	HU012.05.PL4473	build mixtures from these
+b_split_00	pool	HU012.06.PL4376	build mixtures from these
+b_split_00	pool	HU012.07.PL4412	build mixtures from these
+b_split_00	pool	HU012.09.PL4430	build mixtures from these
+b_split_00	pool	HU012.11.PL4512	build mixtures from these
+b_split_00	pool	HU083.63	build mixtures from these
+b_split_00	pool	HU083.68	build mixtures from these
+b_split_00	pool	HU083.69	build mixtures from these
+b_split_00	pool	HU083.72	build mixtures from these
+b_split_00	pool	HU083.89	build mixtures from these
+b_split_00	score_leaky	HU012.01.PL4406	same controls as pool
+b_split_00	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_00	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_00	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_00	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_00	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_00	score_leaky	HU083.63	same controls as pool
+b_split_00	score_leaky	HU083.68	same controls as pool
+b_split_00	score_leaky	HU083.69	same controls as pool
+b_split_00	score_leaky	HU083.72	same controls as pool
+b_split_00	score_leaky	HU083.89	same controls as pool
+b_split_00	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_00	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_00	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_00	score_heldout	HU012.08.PL4420	disjoint from pool
+b_split_00	score_heldout	HU012.10.PL4489	disjoint from pool
+b_split_00	score_heldout	HU083.64	disjoint from pool
+b_split_00	score_heldout	HU083.65	disjoint from pool
+b_split_00	score_heldout	HU083.66	disjoint from pool
+b_split_00	score_heldout	HU083.67	disjoint from pool
+b_split_00	score_heldout	HU083.71	disjoint from pool
+b_split_00	score_heldout	HU083.73	disjoint from pool
+b_split_01	pool	HU012.02.PL4504	build mixtures from these
+b_split_01	pool	HU012.05.PL4473	build mixtures from these
+b_split_01	pool	HU012.06.PL4376	build mixtures from these
+b_split_01	pool	HU012.07.PL4412	build mixtures from these
+b_split_01	pool	HU012.10.PL4489	build mixtures from these
+b_split_01	pool	HU083.63	build mixtures from these
+b_split_01	pool	HU083.64	build mixtures from these
+b_split_01	pool	HU083.66	build mixtures from these
+b_split_01	pool	HU083.68	build mixtures from these
+b_split_01	pool	HU083.71	build mixtures from these
+b_split_01	pool	HU083.72	build mixtures from these
+b_split_01	score_leaky	HU012.02.PL4504	same controls as pool
+b_split_01	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_01	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_01	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_01	score_leaky	HU012.10.PL4489	same controls as pool
+b_split_01	score_leaky	HU083.63	same controls as pool
+b_split_01	score_leaky	HU083.64	same controls as pool
+b_split_01	score_leaky	HU083.66	same controls as pool
+b_split_01	score_leaky	HU083.68	same controls as pool
+b_split_01	score_leaky	HU083.71	same controls as pool
+b_split_01	score_leaky	HU083.72	same controls as pool
+b_split_01	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_01	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_01	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_01	score_heldout	HU012.08.PL4420	disjoint from pool
+b_split_01	score_heldout	HU012.09.PL4430	disjoint from pool
+b_split_01	score_heldout	HU012.11.PL4512	disjoint from pool
+b_split_01	score_heldout	HU083.65	disjoint from pool
+b_split_01	score_heldout	HU083.67	disjoint from pool
+b_split_01	score_heldout	HU083.69	disjoint from pool
+b_split_01	score_heldout	HU083.73	disjoint from pool
+b_split_01	score_heldout	HU083.89	disjoint from pool
+b_split_02	pool	HU012.05.PL4473	build mixtures from these
+b_split_02	pool	HU012.06.PL4376	build mixtures from these
+b_split_02	pool	HU012.07.PL4412	build mixtures from these
+b_split_02	pool	HU012.08.PL4420	build mixtures from these
+b_split_02	pool	HU012.10.PL4489	build mixtures from these
+b_split_02	pool	HU012.11.PL4512	build mixtures from these
+b_split_02	pool	HU083.63	build mixtures from these
+b_split_02	pool	HU083.64	build mixtures from these
+b_split_02	pool	HU083.65	build mixtures from these
+b_split_02	pool	HU083.66	build mixtures from these
+b_split_02	pool	HU083.72	build mixtures from these
+b_split_02	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_02	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_02	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_02	score_leaky	HU012.08.PL4420	same controls as pool
+b_split_02	score_leaky	HU012.10.PL4489	same controls as pool
+b_split_02	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_02	score_leaky	HU083.63	same controls as pool
+b_split_02	score_leaky	HU083.64	same controls as pool
+b_split_02	score_leaky	HU083.65	same controls as pool
+b_split_02	score_leaky	HU083.66	same controls as pool
+b_split_02	score_leaky	HU083.72	same controls as pool
+b_split_02	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_02	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_02	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_02	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_02	score_heldout	HU012.09.PL4430	disjoint from pool
+b_split_02	score_heldout	HU083.67	disjoint from pool
+b_split_02	score_heldout	HU083.68	disjoint from pool
+b_split_02	score_heldout	HU083.69	disjoint from pool
+b_split_02	score_heldout	HU083.71	disjoint from pool
+b_split_02	score_heldout	HU083.73	disjoint from pool
+b_split_02	score_heldout	HU083.89	disjoint from pool
+b_split_03	pool	HU012.01.PL4406	build mixtures from these
+b_split_03	pool	HU012.02.PL4504	build mixtures from these
+b_split_03	pool	HU012.03.PL4472	build mixtures from these
+b_split_03	pool	HU012.06.PL4376	build mixtures from these
+b_split_03	pool	HU012.09.PL4430	build mixtures from these
+b_split_03	pool	HU083.63	build mixtures from these
+b_split_03	pool	HU083.64	build mixtures from these
+b_split_03	pool	HU083.66	build mixtures from these
+b_split_03	pool	HU083.68	build mixtures from these
+b_split_03	pool	HU083.69	build mixtures from these
+b_split_03	pool	HU083.71	build mixtures from these
+b_split_03	score_leaky	HU012.01.PL4406	same controls as pool
+b_split_03	score_leaky	HU012.02.PL4504	same controls as pool
+b_split_03	score_leaky	HU012.03.PL4472	same controls as pool
+b_split_03	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_03	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_03	score_leaky	HU083.63	same controls as pool
+b_split_03	score_leaky	HU083.64	same controls as pool
+b_split_03	score_leaky	HU083.66	same controls as pool
+b_split_03	score_leaky	HU083.68	same controls as pool
+b_split_03	score_leaky	HU083.69	same controls as pool
+b_split_03	score_leaky	HU083.71	same controls as pool
+b_split_03	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_03	score_heldout	HU012.05.PL4473	disjoint from pool
+b_split_03	score_heldout	HU012.07.PL4412	disjoint from pool
+b_split_03	score_heldout	HU012.08.PL4420	disjoint from pool
+b_split_03	score_heldout	HU012.10.PL4489	disjoint from pool
+b_split_03	score_heldout	HU012.11.PL4512	disjoint from pool
+b_split_03	score_heldout	HU083.65	disjoint from pool
+b_split_03	score_heldout	HU083.67	disjoint from pool
+b_split_03	score_heldout	HU083.72	disjoint from pool
+b_split_03	score_heldout	HU083.73	disjoint from pool
+b_split_03	score_heldout	HU083.89	disjoint from pool
+b_split_04	pool	HU012.02.PL4504	build mixtures from these
+b_split_04	pool	HU012.04.PL4374	build mixtures from these
+b_split_04	pool	HU012.05.PL4473	build mixtures from these
+b_split_04	pool	HU012.08.PL4420	build mixtures from these
+b_split_04	pool	HU012.09.PL4430	build mixtures from these
+b_split_04	pool	HU012.10.PL4489	build mixtures from these
+b_split_04	pool	HU083.65	build mixtures from these
+b_split_04	pool	HU083.67	build mixtures from these
+b_split_04	pool	HU083.68	build mixtures from these
+b_split_04	pool	HU083.72	build mixtures from these
+b_split_04	pool	HU083.73	build mixtures from these
+b_split_04	score_leaky	HU012.02.PL4504	same controls as pool
+b_split_04	score_leaky	HU012.04.PL4374	same controls as pool
+b_split_04	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_04	score_leaky	HU012.08.PL4420	same controls as pool
+b_split_04	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_04	score_leaky	HU012.10.PL4489	same controls as pool
+b_split_04	score_leaky	HU083.65	same controls as pool
+b_split_04	score_leaky	HU083.67	same controls as pool
+b_split_04	score_leaky	HU083.68	same controls as pool
+b_split_04	score_leaky	HU083.72	same controls as pool
+b_split_04	score_leaky	HU083.73	same controls as pool
+b_split_04	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_04	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_04	score_heldout	HU012.06.PL4376	disjoint from pool
+b_split_04	score_heldout	HU012.07.PL4412	disjoint from pool
+b_split_04	score_heldout	HU012.11.PL4512	disjoint from pool
+b_split_04	score_heldout	HU083.63	disjoint from pool
+b_split_04	score_heldout	HU083.64	disjoint from pool
+b_split_04	score_heldout	HU083.66	disjoint from pool
+b_split_04	score_heldout	HU083.69	disjoint from pool
+b_split_04	score_heldout	HU083.71	disjoint from pool
+b_split_04	score_heldout	HU083.89	disjoint from pool
+b_split_05	pool	HU012.02.PL4504	build mixtures from these
+b_split_05	pool	HU012.03.PL4472	build mixtures from these
+b_split_05	pool	HU012.05.PL4473	build mixtures from these
+b_split_05	pool	HU012.09.PL4430	build mixtures from these
+b_split_05	pool	HU012.11.PL4512	build mixtures from these
+b_split_05	pool	HU083.64	build mixtures from these
+b_split_05	pool	HU083.66	build mixtures from these
+b_split_05	pool	HU083.67	build mixtures from these
+b_split_05	pool	HU083.69	build mixtures from these
+b_split_05	pool	HU083.71	build mixtures from these
+b_split_05	pool	HU083.72	build mixtures from these
+b_split_05	score_leaky	HU012.02.PL4504	same controls as pool
+b_split_05	score_leaky	HU012.03.PL4472	same controls as pool
+b_split_05	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_05	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_05	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_05	score_leaky	HU083.64	same controls as pool
+b_split_05	score_leaky	HU083.66	same controls as pool
+b_split_05	score_leaky	HU083.67	same controls as pool
+b_split_05	score_leaky	HU083.69	same controls as pool
+b_split_05	score_leaky	HU083.71	same controls as pool
+b_split_05	score_leaky	HU083.72	same controls as pool
+b_split_05	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_05	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_05	score_heldout	HU012.06.PL4376	disjoint from pool
+b_split_05	score_heldout	HU012.07.PL4412	disjoint from pool
+b_split_05	score_heldout	HU012.08.PL4420	disjoint from pool
+b_split_05	score_heldout	HU012.10.PL4489	disjoint from pool
+b_split_05	score_heldout	HU083.63	disjoint from pool
+b_split_05	score_heldout	HU083.65	disjoint from pool
+b_split_05	score_heldout	HU083.68	disjoint from pool
+b_split_05	score_heldout	HU083.73	disjoint from pool
+b_split_05	score_heldout	HU083.89	disjoint from pool
+b_split_06	pool	HU012.03.PL4472	build mixtures from these
+b_split_06	pool	HU012.04.PL4374	build mixtures from these
+b_split_06	pool	HU012.06.PL4376	build mixtures from these
+b_split_06	pool	HU012.07.PL4412	build mixtures from these
+b_split_06	pool	HU012.09.PL4430	build mixtures from these
+b_split_06	pool	HU012.10.PL4489	build mixtures from these
+b_split_06	pool	HU083.63	build mixtures from these
+b_split_06	pool	HU083.66	build mixtures from these
+b_split_06	pool	HU083.68	build mixtures from these
+b_split_06	pool	HU083.73	build mixtures from these
+b_split_06	pool	HU083.89	build mixtures from these
+b_split_06	score_leaky	HU012.03.PL4472	same controls as pool
+b_split_06	score_leaky	HU012.04.PL4374	same controls as pool
+b_split_06	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_06	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_06	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_06	score_leaky	HU012.10.PL4489	same controls as pool
+b_split_06	score_leaky	HU083.63	same controls as pool
+b_split_06	score_leaky	HU083.66	same controls as pool
+b_split_06	score_leaky	HU083.68	same controls as pool
+b_split_06	score_leaky	HU083.73	same controls as pool
+b_split_06	score_leaky	HU083.89	same controls as pool
+b_split_06	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_06	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_06	score_heldout	HU012.05.PL4473	disjoint from pool
+b_split_06	score_heldout	HU012.08.PL4420	disjoint from pool
+b_split_06	score_heldout	HU012.11.PL4512	disjoint from pool
+b_split_06	score_heldout	HU083.64	disjoint from pool
+b_split_06	score_heldout	HU083.65	disjoint from pool
+b_split_06	score_heldout	HU083.67	disjoint from pool
+b_split_06	score_heldout	HU083.69	disjoint from pool
+b_split_06	score_heldout	HU083.71	disjoint from pool
+b_split_06	score_heldout	HU083.72	disjoint from pool
+b_split_07	pool	HU012.03.PL4472	build mixtures from these
+b_split_07	pool	HU012.05.PL4473	build mixtures from these
+b_split_07	pool	HU012.09.PL4430	build mixtures from these
+b_split_07	pool	HU012.10.PL4489	build mixtures from these
+b_split_07	pool	HU012.11.PL4512	build mixtures from these
+b_split_07	pool	HU083.63	build mixtures from these
+b_split_07	pool	HU083.65	build mixtures from these
+b_split_07	pool	HU083.68	build mixtures from these
+b_split_07	pool	HU083.71	build mixtures from these
+b_split_07	pool	HU083.73	build mixtures from these
+b_split_07	pool	HU083.89	build mixtures from these
+b_split_07	score_leaky	HU012.03.PL4472	same controls as pool
+b_split_07	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_07	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_07	score_leaky	HU012.10.PL4489	same controls as pool
+b_split_07	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_07	score_leaky	HU083.63	same controls as pool
+b_split_07	score_leaky	HU083.65	same controls as pool
+b_split_07	score_leaky	HU083.68	same controls as pool
+b_split_07	score_leaky	HU083.71	same controls as pool
+b_split_07	score_leaky	HU083.73	same controls as pool
+b_split_07	score_leaky	HU083.89	same controls as pool
+b_split_07	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_07	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_07	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_07	score_heldout	HU012.06.PL4376	disjoint from pool
+b_split_07	score_heldout	HU012.07.PL4412	disjoint from pool
+b_split_07	score_heldout	HU012.08.PL4420	disjoint from pool
+b_split_07	score_heldout	HU083.64	disjoint from pool
+b_split_07	score_heldout	HU083.66	disjoint from pool
+b_split_07	score_heldout	HU083.67	disjoint from pool
+b_split_07	score_heldout	HU083.69	disjoint from pool
+b_split_07	score_heldout	HU083.72	disjoint from pool
+b_split_08	pool	HU012.03.PL4472	build mixtures from these
+b_split_08	pool	HU012.04.PL4374	build mixtures from these
+b_split_08	pool	HU012.05.PL4473	build mixtures from these
+b_split_08	pool	HU012.06.PL4376	build mixtures from these
+b_split_08	pool	HU012.08.PL4420	build mixtures from these
+b_split_08	pool	HU012.09.PL4430	build mixtures from these
+b_split_08	pool	HU083.64	build mixtures from these
+b_split_08	pool	HU083.66	build mixtures from these
+b_split_08	pool	HU083.67	build mixtures from these
+b_split_08	pool	HU083.68	build mixtures from these
+b_split_08	pool	HU083.72	build mixtures from these
+b_split_08	score_leaky	HU012.03.PL4472	same controls as pool
+b_split_08	score_leaky	HU012.04.PL4374	same controls as pool
+b_split_08	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_08	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_08	score_leaky	HU012.08.PL4420	same controls as pool
+b_split_08	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_08	score_leaky	HU083.64	same controls as pool
+b_split_08	score_leaky	HU083.66	same controls as pool
+b_split_08	score_leaky	HU083.67	same controls as pool
+b_split_08	score_leaky	HU083.68	same controls as pool
+b_split_08	score_leaky	HU083.72	same controls as pool
+b_split_08	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_08	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_08	score_heldout	HU012.07.PL4412	disjoint from pool
+b_split_08	score_heldout	HU012.10.PL4489	disjoint from pool
+b_split_08	score_heldout	HU012.11.PL4512	disjoint from pool
+b_split_08	score_heldout	HU083.63	disjoint from pool
+b_split_08	score_heldout	HU083.65	disjoint from pool
+b_split_08	score_heldout	HU083.69	disjoint from pool
+b_split_08	score_heldout	HU083.71	disjoint from pool
+b_split_08	score_heldout	HU083.73	disjoint from pool
+b_split_08	score_heldout	HU083.89	disjoint from pool
+b_split_09	pool	HU012.04.PL4374	build mixtures from these
+b_split_09	pool	HU012.05.PL4473	build mixtures from these
+b_split_09	pool	HU012.07.PL4412	build mixtures from these
+b_split_09	pool	HU012.08.PL4420	build mixtures from these
+b_split_09	pool	HU012.09.PL4430	build mixtures from these
+b_split_09	pool	HU083.67	build mixtures from these
+b_split_09	pool	HU083.68	build mixtures from these
+b_split_09	pool	HU083.69	build mixtures from these
+b_split_09	pool	HU083.71	build mixtures from these
+b_split_09	pool	HU083.72	build mixtures from these
+b_split_09	pool	HU083.89	build mixtures from these
+b_split_09	score_leaky	HU012.04.PL4374	same controls as pool
+b_split_09	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_09	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_09	score_leaky	HU012.08.PL4420	same controls as pool
+b_split_09	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_09	score_leaky	HU083.67	same controls as pool
+b_split_09	score_leaky	HU083.68	same controls as pool
+b_split_09	score_leaky	HU083.69	same controls as pool
+b_split_09	score_leaky	HU083.71	same controls as pool
+b_split_09	score_leaky	HU083.72	same controls as pool
+b_split_09	score_leaky	HU083.89	same controls as pool
+b_split_09	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_09	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_09	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_09	score_heldout	HU012.06.PL4376	disjoint from pool
+b_split_09	score_heldout	HU012.10.PL4489	disjoint from pool
+b_split_09	score_heldout	HU012.11.PL4512	disjoint from pool
+b_split_09	score_heldout	HU083.63	disjoint from pool
+b_split_09	score_heldout	HU083.64	disjoint from pool
+b_split_09	score_heldout	HU083.65	disjoint from pool
+b_split_09	score_heldout	HU083.66	disjoint from pool
+b_split_09	score_heldout	HU083.73	disjoint from pool
+b_split_10	pool	HU012.05.PL4473	build mixtures from these
+b_split_10	pool	HU012.06.PL4376	build mixtures from these
+b_split_10	pool	HU012.07.PL4412	build mixtures from these
+b_split_10	pool	HU012.08.PL4420	build mixtures from these
+b_split_10	pool	HU012.09.PL4430	build mixtures from these
+b_split_10	pool	HU012.11.PL4512	build mixtures from these
+b_split_10	pool	HU083.64	build mixtures from these
+b_split_10	pool	HU083.67	build mixtures from these
+b_split_10	pool	HU083.69	build mixtures from these
+b_split_10	pool	HU083.71	build mixtures from these
+b_split_10	pool	HU083.73	build mixtures from these
+b_split_10	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_10	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_10	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_10	score_leaky	HU012.08.PL4420	same controls as pool
+b_split_10	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_10	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_10	score_leaky	HU083.64	same controls as pool
+b_split_10	score_leaky	HU083.67	same controls as pool
+b_split_10	score_leaky	HU083.69	same controls as pool
+b_split_10	score_leaky	HU083.71	same controls as pool
+b_split_10	score_leaky	HU083.73	same controls as pool
+b_split_10	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_10	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_10	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_10	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_10	score_heldout	HU012.10.PL4489	disjoint from pool
+b_split_10	score_heldout	HU083.63	disjoint from pool
+b_split_10	score_heldout	HU083.65	disjoint from pool
+b_split_10	score_heldout	HU083.66	disjoint from pool
+b_split_10	score_heldout	HU083.68	disjoint from pool
+b_split_10	score_heldout	HU083.72	disjoint from pool
+b_split_10	score_heldout	HU083.89	disjoint from pool
+b_split_11	pool	HU012.01.PL4406	build mixtures from these
+b_split_11	pool	HU012.04.PL4374	build mixtures from these
+b_split_11	pool	HU012.06.PL4376	build mixtures from these
+b_split_11	pool	HU012.08.PL4420	build mixtures from these
+b_split_11	pool	HU012.11.PL4512	build mixtures from these
+b_split_11	pool	HU083.63	build mixtures from these
+b_split_11	pool	HU083.67	build mixtures from these
+b_split_11	pool	HU083.69	build mixtures from these
+b_split_11	pool	HU083.71	build mixtures from these
+b_split_11	pool	HU083.72	build mixtures from these
+b_split_11	pool	HU083.89	build mixtures from these
+b_split_11	score_leaky	HU012.01.PL4406	same controls as pool
+b_split_11	score_leaky	HU012.04.PL4374	same controls as pool
+b_split_11	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_11	score_leaky	HU012.08.PL4420	same controls as pool
+b_split_11	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_11	score_leaky	HU083.63	same controls as pool
+b_split_11	score_leaky	HU083.67	same controls as pool
+b_split_11	score_leaky	HU083.69	same controls as pool
+b_split_11	score_leaky	HU083.71	same controls as pool
+b_split_11	score_leaky	HU083.72	same controls as pool
+b_split_11	score_leaky	HU083.89	same controls as pool
+b_split_11	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_11	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_11	score_heldout	HU012.05.PL4473	disjoint from pool
+b_split_11	score_heldout	HU012.07.PL4412	disjoint from pool
+b_split_11	score_heldout	HU012.09.PL4430	disjoint from pool
+b_split_11	score_heldout	HU012.10.PL4489	disjoint from pool
+b_split_11	score_heldout	HU083.64	disjoint from pool
+b_split_11	score_heldout	HU083.65	disjoint from pool
+b_split_11	score_heldout	HU083.66	disjoint from pool
+b_split_11	score_heldout	HU083.68	disjoint from pool
+b_split_11	score_heldout	HU083.73	disjoint from pool
+b_split_12	pool	HU012.02.PL4504	build mixtures from these
+b_split_12	pool	HU012.04.PL4374	build mixtures from these
+b_split_12	pool	HU012.05.PL4473	build mixtures from these
+b_split_12	pool	HU012.06.PL4376	build mixtures from these
+b_split_12	pool	HU012.08.PL4420	build mixtures from these
+b_split_12	pool	HU012.11.PL4512	build mixtures from these
+b_split_12	pool	HU083.63	build mixtures from these
+b_split_12	pool	HU083.64	build mixtures from these
+b_split_12	pool	HU083.66	build mixtures from these
+b_split_12	pool	HU083.67	build mixtures from these
+b_split_12	pool	HU083.71	build mixtures from these
+b_split_12	score_leaky	HU012.02.PL4504	same controls as pool
+b_split_12	score_leaky	HU012.04.PL4374	same controls as pool
+b_split_12	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_12	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_12	score_leaky	HU012.08.PL4420	same controls as pool
+b_split_12	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_12	score_leaky	HU083.63	same controls as pool
+b_split_12	score_leaky	HU083.64	same controls as pool
+b_split_12	score_leaky	HU083.66	same controls as pool
+b_split_12	score_leaky	HU083.67	same controls as pool
+b_split_12	score_leaky	HU083.71	same controls as pool
+b_split_12	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_12	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_12	score_heldout	HU012.07.PL4412	disjoint from pool
+b_split_12	score_heldout	HU012.09.PL4430	disjoint from pool
+b_split_12	score_heldout	HU012.10.PL4489	disjoint from pool
+b_split_12	score_heldout	HU083.65	disjoint from pool
+b_split_12	score_heldout	HU083.68	disjoint from pool
+b_split_12	score_heldout	HU083.69	disjoint from pool
+b_split_12	score_heldout	HU083.72	disjoint from pool
+b_split_12	score_heldout	HU083.73	disjoint from pool
+b_split_12	score_heldout	HU083.89	disjoint from pool
+b_split_13	pool	HU012.02.PL4504	build mixtures from these
+b_split_13	pool	HU012.03.PL4472	build mixtures from these
+b_split_13	pool	HU012.05.PL4473	build mixtures from these
+b_split_13	pool	HU012.08.PL4420	build mixtures from these
+b_split_13	pool	HU012.10.PL4489	build mixtures from these
+b_split_13	pool	HU083.63	build mixtures from these
+b_split_13	pool	HU083.64	build mixtures from these
+b_split_13	pool	HU083.65	build mixtures from these
+b_split_13	pool	HU083.69	build mixtures from these
+b_split_13	pool	HU083.72	build mixtures from these
+b_split_13	pool	HU083.89	build mixtures from these
+b_split_13	score_leaky	HU012.02.PL4504	same controls as pool
+b_split_13	score_leaky	HU012.03.PL4472	same controls as pool
+b_split_13	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_13	score_leaky	HU012.08.PL4420	same controls as pool
+b_split_13	score_leaky	HU012.10.PL4489	same controls as pool
+b_split_13	score_leaky	HU083.63	same controls as pool
+b_split_13	score_leaky	HU083.64	same controls as pool
+b_split_13	score_leaky	HU083.65	same controls as pool
+b_split_13	score_leaky	HU083.69	same controls as pool
+b_split_13	score_leaky	HU083.72	same controls as pool
+b_split_13	score_leaky	HU083.89	same controls as pool
+b_split_13	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_13	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_13	score_heldout	HU012.06.PL4376	disjoint from pool
+b_split_13	score_heldout	HU012.07.PL4412	disjoint from pool
+b_split_13	score_heldout	HU012.09.PL4430	disjoint from pool
+b_split_13	score_heldout	HU012.11.PL4512	disjoint from pool
+b_split_13	score_heldout	HU083.66	disjoint from pool
+b_split_13	score_heldout	HU083.67	disjoint from pool
+b_split_13	score_heldout	HU083.68	disjoint from pool
+b_split_13	score_heldout	HU083.71	disjoint from pool
+b_split_13	score_heldout	HU083.73	disjoint from pool
+b_split_14	pool	HU012.01.PL4406	build mixtures from these
+b_split_14	pool	HU012.02.PL4504	build mixtures from these
+b_split_14	pool	HU012.05.PL4473	build mixtures from these
+b_split_14	pool	HU012.06.PL4376	build mixtures from these
+b_split_14	pool	HU012.07.PL4412	build mixtures from these
+b_split_14	pool	HU012.11.PL4512	build mixtures from these
+b_split_14	pool	HU083.63	build mixtures from these
+b_split_14	pool	HU083.64	build mixtures from these
+b_split_14	pool	HU083.67	build mixtures from these
+b_split_14	pool	HU083.69	build mixtures from these
+b_split_14	pool	HU083.73	build mixtures from these
+b_split_14	score_leaky	HU012.01.PL4406	same controls as pool
+b_split_14	score_leaky	HU012.02.PL4504	same controls as pool
+b_split_14	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_14	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_14	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_14	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_14	score_leaky	HU083.63	same controls as pool
+b_split_14	score_leaky	HU083.64	same controls as pool
+b_split_14	score_leaky	HU083.67	same controls as pool
+b_split_14	score_leaky	HU083.69	same controls as pool
+b_split_14	score_leaky	HU083.73	same controls as pool
+b_split_14	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_14	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_14	score_heldout	HU012.08.PL4420	disjoint from pool
+b_split_14	score_heldout	HU012.09.PL4430	disjoint from pool
+b_split_14	score_heldout	HU012.10.PL4489	disjoint from pool
+b_split_14	score_heldout	HU083.65	disjoint from pool
+b_split_14	score_heldout	HU083.66	disjoint from pool
+b_split_14	score_heldout	HU083.68	disjoint from pool
+b_split_14	score_heldout	HU083.71	disjoint from pool
+b_split_14	score_heldout	HU083.72	disjoint from pool
+b_split_14	score_heldout	HU083.89	disjoint from pool
+b_split_15	pool	HU012.04.PL4374	build mixtures from these
+b_split_15	pool	HU012.05.PL4473	build mixtures from these
+b_split_15	pool	HU012.06.PL4376	build mixtures from these
+b_split_15	pool	HU012.07.PL4412	build mixtures from these
+b_split_15	pool	HU012.09.PL4430	build mixtures from these
+b_split_15	pool	HU083.63	build mixtures from these
+b_split_15	pool	HU083.65	build mixtures from these
+b_split_15	pool	HU083.66	build mixtures from these
+b_split_15	pool	HU083.67	build mixtures from these
+b_split_15	pool	HU083.68	build mixtures from these
+b_split_15	pool	HU083.72	build mixtures from these
+b_split_15	score_leaky	HU012.04.PL4374	same controls as pool
+b_split_15	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_15	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_15	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_15	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_15	score_leaky	HU083.63	same controls as pool
+b_split_15	score_leaky	HU083.65	same controls as pool
+b_split_15	score_leaky	HU083.66	same controls as pool
+b_split_15	score_leaky	HU083.67	same controls as pool
+b_split_15	score_leaky	HU083.68	same controls as pool
+b_split_15	score_leaky	HU083.72	same controls as pool
+b_split_15	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_15	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_15	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_15	score_heldout	HU012.08.PL4420	disjoint from pool
+b_split_15	score_heldout	HU012.10.PL4489	disjoint from pool
+b_split_15	score_heldout	HU012.11.PL4512	disjoint from pool
+b_split_15	score_heldout	HU083.64	disjoint from pool
+b_split_15	score_heldout	HU083.69	disjoint from pool
+b_split_15	score_heldout	HU083.71	disjoint from pool
+b_split_15	score_heldout	HU083.73	disjoint from pool
+b_split_15	score_heldout	HU083.89	disjoint from pool
+b_split_16	pool	HU012.04.PL4374	build mixtures from these
+b_split_16	pool	HU012.06.PL4376	build mixtures from these
+b_split_16	pool	HU012.07.PL4412	build mixtures from these
+b_split_16	pool	HU012.08.PL4420	build mixtures from these
+b_split_16	pool	HU012.10.PL4489	build mixtures from these
+b_split_16	pool	HU012.11.PL4512	build mixtures from these
+b_split_16	pool	HU083.64	build mixtures from these
+b_split_16	pool	HU083.65	build mixtures from these
+b_split_16	pool	HU083.69	build mixtures from these
+b_split_16	pool	HU083.71	build mixtures from these
+b_split_16	pool	HU083.73	build mixtures from these
+b_split_16	score_leaky	HU012.04.PL4374	same controls as pool
+b_split_16	score_leaky	HU012.06.PL4376	same controls as pool
+b_split_16	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_16	score_leaky	HU012.08.PL4420	same controls as pool
+b_split_16	score_leaky	HU012.10.PL4489	same controls as pool
+b_split_16	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_16	score_leaky	HU083.64	same controls as pool
+b_split_16	score_leaky	HU083.65	same controls as pool
+b_split_16	score_leaky	HU083.69	same controls as pool
+b_split_16	score_leaky	HU083.71	same controls as pool
+b_split_16	score_leaky	HU083.73	same controls as pool
+b_split_16	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_16	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_16	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_16	score_heldout	HU012.05.PL4473	disjoint from pool
+b_split_16	score_heldout	HU012.09.PL4430	disjoint from pool
+b_split_16	score_heldout	HU083.63	disjoint from pool
+b_split_16	score_heldout	HU083.66	disjoint from pool
+b_split_16	score_heldout	HU083.67	disjoint from pool
+b_split_16	score_heldout	HU083.68	disjoint from pool
+b_split_16	score_heldout	HU083.72	disjoint from pool
+b_split_16	score_heldout	HU083.89	disjoint from pool
+b_split_17	pool	HU012.01.PL4406	build mixtures from these
+b_split_17	pool	HU012.03.PL4472	build mixtures from these
+b_split_17	pool	HU012.05.PL4473	build mixtures from these
+b_split_17	pool	HU012.08.PL4420	build mixtures from these
+b_split_17	pool	HU012.10.PL4489	build mixtures from these
+b_split_17	pool	HU083.63	build mixtures from these
+b_split_17	pool	HU083.64	build mixtures from these
+b_split_17	pool	HU083.68	build mixtures from these
+b_split_17	pool	HU083.69	build mixtures from these
+b_split_17	pool	HU083.71	build mixtures from these
+b_split_17	pool	HU083.73	build mixtures from these
+b_split_17	score_leaky	HU012.01.PL4406	same controls as pool
+b_split_17	score_leaky	HU012.03.PL4472	same controls as pool
+b_split_17	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_17	score_leaky	HU012.08.PL4420	same controls as pool
+b_split_17	score_leaky	HU012.10.PL4489	same controls as pool
+b_split_17	score_leaky	HU083.63	same controls as pool
+b_split_17	score_leaky	HU083.64	same controls as pool
+b_split_17	score_leaky	HU083.68	same controls as pool
+b_split_17	score_leaky	HU083.69	same controls as pool
+b_split_17	score_leaky	HU083.71	same controls as pool
+b_split_17	score_leaky	HU083.73	same controls as pool
+b_split_17	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_17	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_17	score_heldout	HU012.06.PL4376	disjoint from pool
+b_split_17	score_heldout	HU012.07.PL4412	disjoint from pool
+b_split_17	score_heldout	HU012.09.PL4430	disjoint from pool
+b_split_17	score_heldout	HU012.11.PL4512	disjoint from pool
+b_split_17	score_heldout	HU083.65	disjoint from pool
+b_split_17	score_heldout	HU083.66	disjoint from pool
+b_split_17	score_heldout	HU083.67	disjoint from pool
+b_split_17	score_heldout	HU083.72	disjoint from pool
+b_split_17	score_heldout	HU083.89	disjoint from pool
+b_split_18	pool	HU012.01.PL4406	build mixtures from these
+b_split_18	pool	HU012.04.PL4374	build mixtures from these
+b_split_18	pool	HU012.07.PL4412	build mixtures from these
+b_split_18	pool	HU012.09.PL4430	build mixtures from these
+b_split_18	pool	HU012.10.PL4489	build mixtures from these
+b_split_18	pool	HU012.11.PL4512	build mixtures from these
+b_split_18	pool	HU083.63	build mixtures from these
+b_split_18	pool	HU083.64	build mixtures from these
+b_split_18	pool	HU083.69	build mixtures from these
+b_split_18	pool	HU083.73	build mixtures from these
+b_split_18	pool	HU083.89	build mixtures from these
+b_split_18	score_leaky	HU012.01.PL4406	same controls as pool
+b_split_18	score_leaky	HU012.04.PL4374	same controls as pool
+b_split_18	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_18	score_leaky	HU012.09.PL4430	same controls as pool
+b_split_18	score_leaky	HU012.10.PL4489	same controls as pool
+b_split_18	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_18	score_leaky	HU083.63	same controls as pool
+b_split_18	score_leaky	HU083.64	same controls as pool
+b_split_18	score_leaky	HU083.69	same controls as pool
+b_split_18	score_leaky	HU083.73	same controls as pool
+b_split_18	score_leaky	HU083.89	same controls as pool
+b_split_18	score_heldout	HU012.02.PL4504	disjoint from pool
+b_split_18	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_18	score_heldout	HU012.05.PL4473	disjoint from pool
+b_split_18	score_heldout	HU012.06.PL4376	disjoint from pool
+b_split_18	score_heldout	HU012.08.PL4420	disjoint from pool
+b_split_18	score_heldout	HU083.65	disjoint from pool
+b_split_18	score_heldout	HU083.66	disjoint from pool
+b_split_18	score_heldout	HU083.67	disjoint from pool
+b_split_18	score_heldout	HU083.68	disjoint from pool
+b_split_18	score_heldout	HU083.71	disjoint from pool
+b_split_18	score_heldout	HU083.72	disjoint from pool
+b_split_19	pool	HU012.02.PL4504	build mixtures from these
+b_split_19	pool	HU012.05.PL4473	build mixtures from these
+b_split_19	pool	HU012.07.PL4412	build mixtures from these
+b_split_19	pool	HU012.10.PL4489	build mixtures from these
+b_split_19	pool	HU012.11.PL4512	build mixtures from these
+b_split_19	pool	HU083.64	build mixtures from these
+b_split_19	pool	HU083.65	build mixtures from these
+b_split_19	pool	HU083.66	build mixtures from these
+b_split_19	pool	HU083.67	build mixtures from these
+b_split_19	pool	HU083.72	build mixtures from these
+b_split_19	pool	HU083.73	build mixtures from these
+b_split_19	score_leaky	HU012.02.PL4504	same controls as pool
+b_split_19	score_leaky	HU012.05.PL4473	same controls as pool
+b_split_19	score_leaky	HU012.07.PL4412	same controls as pool
+b_split_19	score_leaky	HU012.10.PL4489	same controls as pool
+b_split_19	score_leaky	HU012.11.PL4512	same controls as pool
+b_split_19	score_leaky	HU083.64	same controls as pool
+b_split_19	score_leaky	HU083.65	same controls as pool
+b_split_19	score_leaky	HU083.66	same controls as pool
+b_split_19	score_leaky	HU083.67	same controls as pool
+b_split_19	score_leaky	HU083.72	same controls as pool
+b_split_19	score_leaky	HU083.73	same controls as pool
+b_split_19	score_heldout	HU012.01.PL4406	disjoint from pool
+b_split_19	score_heldout	HU012.03.PL4472	disjoint from pool
+b_split_19	score_heldout	HU012.04.PL4374	disjoint from pool
+b_split_19	score_heldout	HU012.06.PL4376	disjoint from pool
+b_split_19	score_heldout	HU012.08.PL4420	disjoint from pool
+b_split_19	score_heldout	HU012.09.PL4430	disjoint from pool
+b_split_19	score_heldout	HU083.63	disjoint from pool
+b_split_19	score_heldout	HU083.68	disjoint from pool
+b_split_19	score_heldout	HU083.69	disjoint from pool
+b_split_19	score_heldout	HU083.71	disjoint from pool
+b_split_19	score_heldout	HU083.89	disjoint from pool
+c_batch_fwd	pool	HU012.01.PL4406	pool = HU012
+c_batch_fwd	pool	HU012.02.PL4504	pool = HU012
+c_batch_fwd	pool	HU012.03.PL4472	pool = HU012
+c_batch_fwd	pool	HU012.04.PL4374	pool = HU012
+c_batch_fwd	pool	HU012.05.PL4473	pool = HU012
+c_batch_fwd	pool	HU012.06.PL4376	pool = HU012
+c_batch_fwd	pool	HU012.07.PL4412	pool = HU012
+c_batch_fwd	pool	HU012.08.PL4420	pool = HU012
+c_batch_fwd	pool	HU012.09.PL4430	pool = HU012
+c_batch_fwd	pool	HU012.10.PL4489	pool = HU012
+c_batch_fwd	pool	HU012.11.PL4512	pool = HU012
+c_batch_fwd	score_heldout	HU083.63	score = HU083
+c_batch_fwd	score_heldout	HU083.64	score = HU083
+c_batch_fwd	score_heldout	HU083.65	score = HU083
+c_batch_fwd	score_heldout	HU083.66	score = HU083
+c_batch_fwd	score_heldout	HU083.67	score = HU083
+c_batch_fwd	score_heldout	HU083.68	score = HU083
+c_batch_fwd	score_heldout	HU083.69	score = HU083
+c_batch_fwd	score_heldout	HU083.71	score = HU083
+c_batch_fwd	score_heldout	HU083.72	score = HU083
+c_batch_fwd	score_heldout	HU083.73	score = HU083
+c_batch_fwd	score_heldout	HU083.89	score = HU083
+c_batch_rev	pool	HU083.63	pool = HU083
+c_batch_rev	pool	HU083.64	pool = HU083
+c_batch_rev	pool	HU083.65	pool = HU083
+c_batch_rev	pool	HU083.66	pool = HU083
+c_batch_rev	pool	HU083.67	pool = HU083
+c_batch_rev	pool	HU083.68	pool = HU083
+c_batch_rev	pool	HU083.69	pool = HU083
+c_batch_rev	pool	HU083.71	pool = HU083
+c_batch_rev	pool	HU083.72	pool = HU083
+c_batch_rev	pool	HU083.73	pool = HU083
+c_batch_rev	pool	HU083.89	pool = HU083
+c_batch_rev	score_heldout	HU012.01.PL4406	score = HU012
+c_batch_rev	score_heldout	HU012.02.PL4504	score = HU012
+c_batch_rev	score_heldout	HU012.03.PL4472	score = HU012
+c_batch_rev	score_heldout	HU012.04.PL4374	score = HU012
+c_batch_rev	score_heldout	HU012.05.PL4473	score = HU012
+c_batch_rev	score_heldout	HU012.06.PL4376	score = HU012
+c_batch_rev	score_heldout	HU012.07.PL4412	score = HU012
+c_batch_rev	score_heldout	HU012.08.PL4420	score = HU012
+c_batch_rev	score_heldout	HU012.09.PL4430	score = HU012
+c_batch_rev	score_heldout	HU012.10.PL4489	score = HU012
+c_batch_rev	score_heldout	HU012.11.PL4512	score = HU012

@@ -1,0 +1,13 @@
+[2026-10-19T21:08:18-04:00] conditions: b_split_00 b_split_01
+[2026-10-19T21:08:18-04:00] markers: max   methods: celfieish   nproc: 14
+[2026-10-19T21:08:18-04:00] 20 CRC samples
+[2026-10-19T21:08:18-04:00] === b_split_00  (pool of 11 controls)
+[2026-10-19T21:08:28-04:00]   pool lines: 35562624
+[2026-10-19T21:09:56-04:00]   mixtures: 100 / 100
+[2026-10-19T21:25:54-04:00]   estimate files for b_split_00: 200
+[2026-10-19T21:25:54-04:00] === b_split_01  (pool of 11 controls)
+[2026-10-19T21:26:04-04:00]   pool lines: 37710215
+[2026-10-19T21:27:30-04:00]   mixtures: 100 / 100
+[2026-10-19T21:43:10-04:00]   estimate files for b_split_01: 200
+[2026-10-19T21:43:10-04:00] DONE. estimates: 400
+Disk in use under /scratch/rm4973/mrd/data/mix_b: 2.5G

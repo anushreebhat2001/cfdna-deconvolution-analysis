@@ -1,0 +1,97 @@
+[2026-10-19T23:39:18-04:00] conditions: b_split_00 b_split_01 b_split_02 b_split_03 b_split_04 b_split_05 b_split_06 b_split_07 b_split_08 b_split_09 b_split_10 b_split_11 b_split_12 b_split_13 b_split_14 b_split_15 b_split_16 b_split_17 b_split_18 b_split_19 
+[2026-10-19T23:39:18-04:00] markers: max   methods: celfieish   nproc: 14
+[2026-10-19T23:39:18-04:00] 20 CRC samples
+[2026-10-19T23:39:18-04:00] b_split_00 already complete, skipping
+[2026-10-19T23:39:18-04:00] b_split_01 already complete, skipping
+[2026-10-19T23:39:18-04:00] === b_split_02  (pool of 11 controls)
+[2026-10-19T23:39:27-04:00]   pool lines: 32276877
+[2026-10-19T23:40:53-04:00]   mixtures: 100 / 100
+[2026-10-19T23:57:31-04:00]   estimate files for b_split_02: 200
+[2026-10-19T23:57:32-04:00]   deleted mixtures for b_split_02
+[2026-10-19T23:57:32-04:00] === b_split_03  (pool of 11 controls)
+[2026-10-19T23:57:43-04:00]   pool lines: 37594654
+[2026-10-19T23:59:11-04:00]   mixtures: 100 / 100
+[2026-10-20T00:15:24-04:00]   estimate files for b_split_03: 200
+[2026-10-20T00:15:25-04:00]   deleted mixtures for b_split_03
+[2026-10-20T00:15:25-04:00] === b_split_04  (pool of 11 controls)
+[2026-10-20T00:15:35-04:00]   pool lines: 33822077
+[2026-10-20T00:16:59-04:00]   mixtures: 100 / 100
+[2026-10-20T00:33:02-04:00]   estimate files for b_split_04: 200
+[2026-10-20T00:33:03-04:00]   deleted mixtures for b_split_04
+[2026-10-20T00:33:03-04:00] === b_split_05  (pool of 11 controls)
+[2026-10-20T00:33:12-04:00]   pool lines: 33560005
+[2026-10-20T00:34:35-04:00]   mixtures: 100 / 100
+[2026-10-20T00:51:03-04:00]   estimate files for b_split_05: 200
+[2026-10-20T00:51:04-04:00]   deleted mixtures for b_split_05
+[2026-10-20T00:51:04-04:00] === b_split_06  (pool of 11 controls)
+[2026-10-20T00:51:14-04:00]   pool lines: 36301754
+[2026-10-20T00:52:39-04:00]   mixtures: 100 / 100
+[2026-10-20T01:08:12-04:00]   estimate files for b_split_06: 200
+[2026-10-20T01:08:13-04:00]   deleted mixtures for b_split_06
+[2026-10-20T01:08:13-04:00] === b_split_07  (pool of 11 controls)
+[2026-10-20T01:08:23-04:00]   pool lines: 34885024
+[2026-10-20T01:09:48-04:00]   mixtures: 100 / 100
+[2026-10-20T01:26:08-04:00]   estimate files for b_split_07: 200
+[2026-10-20T01:26:08-04:00]   deleted mixtures for b_split_07
+[2026-10-20T01:26:09-04:00] === b_split_08  (pool of 11 controls)
+[2026-10-20T01:26:17-04:00]   pool lines: 33610636
+[2026-10-20T01:27:38-04:00]   mixtures: 100 / 100
+[2026-10-20T01:43:24-04:00]   estimate files for b_split_08: 200
+[2026-10-20T01:43:25-04:00]   deleted mixtures for b_split_08
+[2026-10-20T01:43:25-04:00] === b_split_09  (pool of 11 controls)
+[2026-10-20T01:43:36-04:00]   pool lines: 36459678
+[2026-10-20T01:45:01-04:00]   mixtures: 100 / 100
+[2026-10-20T02:02:12-04:00]   estimate files for b_split_09: 200
+[2026-10-20T02:02:13-04:00]   deleted mixtures for b_split_09
+[2026-10-20T02:02:13-04:00] === b_split_10  (pool of 11 controls)
+[2026-10-20T02:02:22-04:00]   pool lines: 33683827
+[2026-10-20T02:03:45-04:00]   mixtures: 100 / 100
+[2026-10-20T02:20:12-04:00]   estimate files for b_split_10: 200
+[2026-10-20T02:20:13-04:00]   deleted mixtures for b_split_10
+[2026-10-20T02:20:13-04:00] === b_split_11  (pool of 11 controls)
+[2026-10-20T02:20:23-04:00]   pool lines: 35758125
+[2026-10-20T02:21:48-04:00]   mixtures: 100 / 100
+[2026-10-20T02:39:14-04:00]   estimate files for b_split_11: 200
+[2026-10-20T02:39:15-04:00]   deleted mixtures for b_split_11
+[2026-10-20T02:39:15-04:00] === b_split_12  (pool of 11 controls)
+[2026-10-20T02:39:24-04:00]   pool lines: 33315465
+[2026-10-20T02:40:48-04:00]   mixtures: 100 / 100
+[2026-10-20T02:57:32-04:00]   estimate files for b_split_12: 200
+[2026-10-20T02:57:33-04:00]   deleted mixtures for b_split_12
+[2026-10-20T02:57:33-04:00] === b_split_13  (pool of 11 controls)
+[2026-10-20T02:57:42-04:00]   pool lines: 34063988
+[2026-10-20T02:59:06-04:00]   mixtures: 100 / 100
+[2026-10-20T03:15:07-04:00]   estimate files for b_split_13: 200
+[2026-10-20T03:15:08-04:00]   deleted mixtures for b_split_13
+[2026-10-20T03:15:08-04:00] === b_split_14  (pool of 11 controls)
+[2026-10-20T03:15:17-04:00]   pool lines: 34826773
+[2026-10-20T03:16:43-04:00]   mixtures: 100 / 100
+[2026-10-20T03:32:54-04:00]   estimate files for b_split_14: 200
+[2026-10-20T03:32:55-04:00]   deleted mixtures for b_split_14
+[2026-10-20T03:32:55-04:00] === b_split_15  (pool of 11 controls)
+[2026-10-20T03:33:05-04:00]   pool lines: 37151930
+[2026-10-20T03:34:32-04:00]   mixtures: 100 / 100
+[2026-10-20T03:51:16-04:00]   estimate files for b_split_15: 200
+[2026-10-20T03:51:17-04:00]   deleted mixtures for b_split_15
+[2026-10-20T03:51:17-04:00] === b_split_16  (pool of 11 controls)
+[2026-10-20T03:51:27-04:00]   pool lines: 35041752
+[2026-10-20T03:52:51-04:00]   mixtures: 100 / 100
+[2026-10-20T04:09:08-04:00]   estimate files for b_split_16: 200
+[2026-10-20T04:09:09-04:00]   deleted mixtures for b_split_16
+[2026-10-20T04:09:09-04:00] === b_split_17  (pool of 11 controls)
+[2026-10-20T04:09:19-04:00]   pool lines: 35584436
+[2026-10-20T04:10:43-04:00]   mixtures: 100 / 100
+[2026-10-20T04:27:11-04:00]   estimate files for b_split_17: 200
+[2026-10-20T04:27:12-04:00]   deleted mixtures for b_split_17
+[2026-10-20T04:27:12-04:00] === b_split_18  (pool of 11 controls)
+[2026-10-20T04:27:21-04:00]   pool lines: 33007617
+[2026-10-20T04:28:44-04:00]   mixtures: 100 / 100
+[2026-10-20T04:45:34-04:00]   estimate files for b_split_18: 200
+[2026-10-20T04:45:35-04:00]   deleted mixtures for b_split_18
+[2026-10-20T04:45:35-04:00] === b_split_19  (pool of 11 controls)
+[2026-10-20T04:45:43-04:00]   pool lines: 33868342
+[2026-10-20T04:47:05-04:00]   mixtures: 100 / 100
+[2026-10-20T05:04:17-04:00]   estimate files for b_split_19: 200
+[2026-10-20T05:04:18-04:00]   deleted mixtures for b_split_19
+[2026-10-20T05:04:18-04:00] DONE. estimates: 4000
+Disk in use under /scratch/rm4973/mrd/data/mix_b: 2.5G

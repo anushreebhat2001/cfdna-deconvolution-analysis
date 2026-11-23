@@ -1,0 +1,3 @@
+/scratch/mxf4642/code/epiread-tools/epiread_tools/epiparser.py:218: RuntimeWarning: invalid value encountered in true_divide
+  self.beta = self.meth/self.cov
+TIMING	celfieish@max@b_split_02__HU030abcd.03.PL3729__d25	128.5s	0.95GB	rc=0
