@@ -18,10 +18,14 @@ These inputs come from Q1 and must exist before anything here runs:
 
 | Path | What it is |
 | --- | --- |
+| `/scratch/mxf4642/code/project/meta/samples.tsv` | sample sheet, including the `in_healthy_pool` column |
+| `/scratch/mxf4642/code/project/meta/read_totals.tsv` | informative read counts per sample |
+| `/scratch/mxf4642/results/summary/all_estimates.tsv` | Q1's estimates, needed for the rescore control |
 | `/scratch/$USER/mrd/data/pat/` | the 42 project samples in pat format |
-| `/scratch/$USER/mrd/code/project/meta/samples.tsv` | sample sheet, including the `in_healthy_pool` column |
-| `/scratch/$USER/mrd/code/project/meta/read_totals.tsv` | informative read counts per sample |
-| `/scratch/$USER/mrd/results/summary/all_estimates.tsv` | Q1's estimates, needed for the rescore control |
+
+The first three live in Asgar's scratch, which is where Q1 produced them. That is fine for re-running
+now, but it is a dependency on one person's scratch space and will break when that space is purged —
+worth copying somewhere shared before this is archived.
 
 Layout used below:
 
@@ -39,10 +43,13 @@ Deterministic — re-running gives byte-identical output.
 
 ```bash
 cd /scratch/$USER/mrd/code
-python make_splits.py
+python3 make_splits.py \
+    --samples  /scratch/mxf4642/code/project/meta/samples.tsv \
+    --out      /scratch/$USER/mrd/data/splits.tsv \
+    --pool-dir /scratch/$USER/mrd/data/pools
 ```
 
-Writes `../data/splits.tsv` (1,324 rows) and `../data/pools/<condition>.txt` (42 lists). Expected
+Writes `data/splits.tsv` (1,324 rows) and `data/pools/<condition>.txt` (42 lists). Expected
 console output: 22 controls (HU012 n=11, HU083 n=11), paper pool of 20, exclusions
 `['HU083.63', 'HU083.67']`, 2,200 mixtures planned.
 
