@@ -1,0 +1,61 @@
+== 1. CpG-number table from plain hg38
+chrY: ours 225912  authors 225912  OK
+chromosomes missing from fasta: []
+chromosomes with count mismatch: []
+ALL MATCH
+== 2. index the authors' CpG-number file (needed by --cpg_coordinates)
+== 3. convert two samples
+STATS HU012.01.PL4406.epibed.gz {'reads': 3066356, 'reads_with_calls': 1896465, 'calls': 4786949, 'off_cpg': 0, 'dup': 0}
+TIMING	convert_HU012.01.PL4406	98.1s	1.93GB	rc=0
+   HU012.01.PL4406: 1896465 pat lines
+chr1	7794	CCCC	1
+chr1	7872	CC.CC.CC.C	1
+chr1	7894	TC	1
+STATS HU030.01.PL3393.epibed.gz {'reads': 2518273, 'reads_with_calls': 1558873, 'calls': 3914521, 'off_cpg': 0, 'dup': 0}
+TIMING	convert_HU030.01.PL3393	88.7s	1.94GB	rc=0
+   HU030.01.PL3393: 1558873 pat lines
+chr1	7729	CC	1
+chr1	7899	T	1
+chr1	7922	CC	1
+== 4. CelFiE-ISH on U250 (31 cell types), with and without clipping
+/scratch/mxf4642/code/epiread-tools/epiread_tools/epiparser.py:218: RuntimeWarning: invalid value encountered in true_divide
+  self.beta = self.meth/self.cov
+TIMING	celfieish_noclip_HU012.01.PL4406	230.4s	0.38GB	rc=0
+RESULT	celfieish_noclip_HU012.01.PL4406.txt	epithelial=0.0250
+   Blood-Granul         0.3475
+   Blood-Mono+Macro     0.2918
+   Eryth-prog           0.1665
+   Neuron               0.0817
+   Blood-NK             0.0563
+   Endothel             0.0147
+/scratch/mxf4642/code/epiread-tools/epiread_tools/epiparser.py:218: RuntimeWarning: invalid value encountered in true_divide
+  self.beta = self.meth/self.cov
+TIMING	celfieish_clip_HU012.01.PL4406	223.1s	0.39GB	rc=0
+RESULT	celfieish_clip_HU012.01.PL4406.txt	epithelial=0.0250
+   Blood-Granul         0.3475
+   Blood-Mono+Macro     0.2918
+   Eryth-prog           0.1665
+   Neuron               0.0817
+   Blood-NK             0.0563
+   Endothel             0.0147
+/scratch/mxf4642/code/epiread-tools/epiread_tools/epiparser.py:218: RuntimeWarning: invalid value encountered in true_divide
+  self.beta = self.meth/self.cov
+TIMING	celfieish_noclip_HU030.01.PL3393	122.5s	0.38GB	rc=0
+RESULT	celfieish_noclip_HU030.01.PL3393.txt	epithelial=0.1696
+   Eryth-prog           0.4660
+   Blood-Granul         0.1418
+   Small-Int-Ep         0.0832
+   Neuron               0.0628
+   Liver-Hep            0.0587
+   Blood-B              0.0445
+/scratch/mxf4642/code/epiread-tools/epiread_tools/epiparser.py:218: RuntimeWarning: invalid value encountered in true_divide
+  self.beta = self.meth/self.cov
+TIMING	celfieish_clip_HU030.01.PL3393	113.8s	0.38GB	rc=0
+RESULT	celfieish_clip_HU030.01.PL3393.txt	epithelial=0.1696
+   Eryth-prog           0.4660
+   Blood-Granul         0.1418
+   Small-Int-Ep         0.0832
+   Neuron               0.0628
+   Liver-Hep            0.0587
+   Blood-B              0.0445
+DONE

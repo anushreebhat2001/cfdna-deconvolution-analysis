@@ -1,0 +1,35 @@
+-rw-r--r--. 1 mxf4642 mxf4642 906M Sep  1  2021 hg38.analysisSet.fa.gz
+authors' file: 25 chromosomes, 29401795 CpGs
+chr1: ours 2375159  authors 2375159  OK
+chr2: ours 2192670  authors 2192670  OK
+chr3: ours 1673293  authors 1673293  OK
+chr4: ours 1503429  authors 1503429  OK
+chr5: ours 1523709  authors 1566535  MISMATCH
+chr6: ours 1511189  authors 1511189  OK
+chr7: ours 1622825  authors 1622825  OK
+chr8: ours 1338200  authors 1338200  OK
+chr9: ours 1255728  authors 1255728  OK
+chr10: ours 1388978  authors 1388978  OK
+chr11: ours 1333114  authors 1333114  OK
+chr12: ours 1315968  authors 1315968  OK
+chr13: ours 842469  authors 842469  OK
+chr14: ours 862428  authors 895881  MISMATCH
+chr15: ours 906026  authors 906026  OK
+chr16: ours 1150891  authors 1150891  OK
+chr17: ours 1248328  authors 1248328  OK
+chr18: ours 756014  authors 756014  OK
+chr19: ours 1056665  authors 1105620  MISMATCH
+chr20: ours 773477  authors 773477  OK
+chr21: ours 428846  authors 462299  MISMATCH
+chr22: ours 600892  authors 634646  MISMATCH
+chrX: ours 1322709  authors 1322709  OK
+chrY: ours 169449  authors 225912  MISMATCH
+chrM: ours 435  authors 435  OK
+chromosomes missing from fasta: []
+chromosomes with count mismatch: ['chr5', 'chr14', 'chr19', 'chr21', 'chr22', 'chrY']
+NOT ALL MATCH
+total 1.1G
+-rw-r--r--. 1 mxf4642 mxf4642 906M Sep  1  2021 hg38.analysisSet.fa.gz
+-rw-r--r--. 1 mxf4642 mxf4642 168M Oct  8 22:25 hg38_cpg_index.bed.gz
+-rw-r--r--. 1 mxf4642 mxf4642 1.4M Oct  8 22:25 hg38_cpg_index.bed.gz.tbi
+DONE

@@ -1,0 +1,184 @@
+== 1. count reads in marker regions for each Loyfer reference sample
+reference samples counted: 185 / 185
+== 2. build UXM and CelFEER references
+/scratch/mxf4642/code/project/aggregate_ref.py:17: RuntimeWarning: Mean of empty slice
+  U[:, j] = np.nanmean(np.vstack(fr), axis=0)
+atlas groups missing from csv: set() | csv groups not in atlas: set()
+  Blood-B              samples= 5  median UXM-eligible reads/region=137
+  Eryth-prog           samples= 3  median UXM-eligible reads/region=120
+  Gastric-Ep           samples=11  median UXM-eligible reads/region=363
+  Breast-Luminal-Ep    samples= 3  median UXM-eligible reads/region=89
+  Pancreas-Alpha       samples= 3  median UXM-eligible reads/region=91
+  Ovary-Ep             samples= 1  median UXM-eligible reads/region=20
+  Small-Int-Ep         samples= 5  median UXM-eligible reads/region=162
+  Lung-Ep-Alveo        samples= 4  median UXM-eligible reads/region=156
+  Adipocytes           samples= 3  median UXM-eligible reads/region=100
+  Breast-Basal-Ep      samples= 4  median UXM-eligible reads/region=103
+  Prostate-Ep          samples= 4  median UXM-eligible reads/region=133
+  Oligodend            samples= 4  median UXM-eligible reads/region=116
+  Pancreas-Duct        samples= 4  median UXM-eligible reads/region=108
+  Head-Neck-Ep         samples=13  median UXM-eligible reads/region=401
+  Endothel             samples=19  median UXM-eligible reads/region=623
+  Neuron               samples=10  median UXM-eligible reads/region=303
+  Blood-T              samples=22  median UXM-eligible reads/region=620
+  Blood-NK             samples= 3  median UXM-eligible reads/region=89
+  Blood-Granul         samples= 3  median UXM-eligible reads/region=108
+  Blood-Mono+Macro     samples=11  median UXM-eligible reads/region=382
+  Liver-Hep            samples= 6  median UXM-eligible reads/region=217
+  Pancreas-Acinar      samples= 4  median UXM-eligible reads/region=135
+  Bladder-Ep           samples= 5  median UXM-eligible reads/region=149
+  Thyroid-Ep           samples= 3  median UXM-eligible reads/region=91
+  Kidney-Ep            samples= 8  median UXM-eligible reads/region=269
+  Pancreas-Delta       samples= 3  median UXM-eligible reads/region=80
+  Heart-Cardio         samples= 4  median UXM-eligible reads/region=126
+  Colon-Ep             samples= 8  median UXM-eligible reads/region=236
+  Lung-Ep-Bron         samples= 3  median UXM-eligible reads/region=126
+  Pancreas-Beta        samples= 3  median UXM-eligible reads/region=80
+  Fallopian-Ep         samples= 3  median UXM-eligible reads/region=96
+regions: 7344 | usable for UXM: 6816 | usable for CelFEER: 7290
+== 3. count reads in marker regions for our 42 samples + 100 mixtures
+feature files: 142 / 142
+== 4. UXM and CelFEER runs
+estimates: uxm 142/142  celfeer 142/142
+== 5. summary of all methods
+=== 1. 42 ORIGINAL SAMPLES: CRC vs controls (95% CI = bootstrap over patients and controls)
+  celfeer           u250  AUROC=0.950 [0.890-0.992]  RMSE=0.126  R2=0.497  control median=0.1531
+  celfie            max   AUROC=0.960 [0.843-1.000]  RMSE=0.066  R2=0.887  control median=0.0000
+  celfie            u250  AUROC=0.850 [0.624-0.952]  RMSE=0.094  R2=0.725  control median=0.1467
+  celfieish-clip    max   AUROC=1.000 [1.000-1.000]  RMSE=0.069  R2=0.862  control median=0.0135
+  celfieish-clip    u250  AUROC=0.989 [0.964-1.000]  RMSE=0.098  R2=0.712  control median=0.0300
+  celfieish-noclip  max   AUROC=1.000 [1.000-1.000]  RMSE=0.077  R2=0.865  control median=0.0274
+  celfieish-noclip  u250  AUROC=0.991 [0.964-1.000]  RMSE=0.132  R2=0.748  control median=0.1855
+  uxm               u250  AUROC=0.952 [0.855-1.000]  RMSE=0.195  R2=0.436  control median=0.2259
+
+=== 2. LIMIT OF DETECTION per bin (AUROC [95% CI], #patients in bin)  paper: 1.7-3.0% 0.85-0.95; 3.1-4.3% 0.97-0.99
+  celfeer | u250
+     0.0-0.5%: 0.56 [0.41-0.82] (3p)
+     0.5-1.1%: 0.84 [0.66-0.95] (4p)
+     1.2-1.7%: 0.84 [0.48-0.98] (5p)
+     1.7-3.0%: 0.78 [0.62-0.93] (3p)
+     3.1-4.3%: 0.70 [0.44-0.85] (5p)
+     4.4-6.7%: 0.81 [0.72-1.00] (4p)
+     6.9-11.9%: 0.91 [0.85-1.00] (4p)
+     12.5-17.4%: 0.94 [0.69-1.00] (5p)
+     17.7-28.0%: 0.99 [0.97-1.00] (4p)
+     31.0-55.1%: 0.98 [0.96-1.00] (4p)
+  celfie | max
+     0.0-0.5%: 0.86 [0.76-1.00] (3p)
+     0.5-1.1%: 0.89 [0.75-0.98] (4p)
+     1.2-1.7%: 0.97 [0.95-1.00] (5p)
+     1.7-3.0%: 0.91 [0.73-1.00] (3p)
+     3.1-4.3%: 1.00 [1.00-1.00] (5p)
+     4.4-6.7%: 1.00 [1.00-1.00] (4p)
+     6.9-11.9%: 1.00 [1.00-1.00] (4p)
+     12.5-17.4%: 1.00 [1.00-1.00] (5p)
+     17.7-28.0%: 1.00 [1.00-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  celfie | u250
+     0.0-0.5%: 0.42 [0.18-0.54] (3p)
+     0.5-1.1%: 0.67 [0.45-0.95] (4p)
+     1.2-1.7%: 0.72 [0.21-0.88] (5p)
+     1.7-3.0%: 0.75 [0.45-0.93] (3p)
+     3.1-4.3%: 0.72 [0.55-0.96] (5p)
+     4.4-6.7%: 0.90 [0.83-1.00] (4p)
+     6.9-11.9%: 0.87 [0.78-1.00] (4p)
+     12.5-17.4%: 0.94 [0.71-1.00] (5p)
+     17.7-28.0%: 0.97 [0.73-1.00] (4p)
+     31.0-55.1%: 1.00 [0.99-1.00] (4p)
+  celfieish-clip | max
+     0.0-0.5%: 0.77 [0.64-1.00] (3p)
+     0.5-1.1%: 0.91 [0.81-0.97] (4p)
+     1.2-1.7%: 0.98 [0.97-1.00] (5p)
+     1.7-3.0%: 1.00 [1.00-1.00] (3p)
+     3.1-4.3%: 1.00 [1.00-1.00] (5p)
+     4.4-6.7%: 1.00 [1.00-1.00] (4p)
+     6.9-11.9%: 1.00 [1.00-1.00] (4p)
+     12.5-17.4%: 1.00 [1.00-1.00] (5p)
+     17.7-28.0%: 1.00 [1.00-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  celfieish-clip | u250
+     0.0-0.5%: 0.56 [0.33-0.73] (3p)
+     0.5-1.1%: 0.77 [0.65-1.00] (4p)
+     1.2-1.7%: 0.81 [0.41-0.95] (5p)
+     1.7-3.0%: 0.79 [0.66-0.93] (3p)
+     3.1-4.3%: 0.81 [0.71-0.98] (5p)
+     4.4-6.7%: 0.91 [0.83-1.00] (4p)
+     6.9-11.9%: 0.98 [0.93-1.00] (4p)
+     12.5-17.4%: 0.99 [0.96-1.00] (5p)
+     17.7-28.0%: 1.00 [0.99-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  celfieish-noclip | max
+     0.0-0.5%: 0.77 [0.65-1.00] (3p)
+     0.5-1.1%: 0.91 [0.84-0.97] (4p)
+     1.2-1.7%: 0.99 [0.98-1.00] (5p)
+     1.7-3.0%: 1.00 [1.00-1.00] (3p)
+     3.1-4.3%: 1.00 [1.00-1.00] (5p)
+     4.4-6.7%: 1.00 [1.00-1.00] (4p)
+     6.9-11.9%: 1.00 [1.00-1.00] (4p)
+     12.5-17.4%: 1.00 [1.00-1.00] (5p)
+     17.7-28.0%: 1.00 [1.00-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  celfieish-noclip | u250
+     0.0-0.5%: 0.59 [0.42-0.76] (3p)
+     0.5-1.1%: 0.71 [0.60-0.84] (4p)
+     1.2-1.7%: 0.79 [0.26-0.93] (5p)
+     1.7-3.0%: 0.69 [0.55-0.86] (3p)
+     3.1-4.3%: 0.71 [0.50-0.94] (5p)
+     4.4-6.7%: 0.94 [0.88-1.00] (4p)
+     6.9-11.9%: 1.00 [0.98-1.00] (4p)
+     12.5-17.4%: 1.00 [0.96-1.00] (5p)
+     17.7-28.0%: 1.00 [1.00-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  uxm | u250
+     0.0-0.5%: 0.52 [0.14-0.77] (3p)
+     0.5-1.1%: 0.66 [0.48-0.87] (4p)
+     1.2-1.7%: 0.67 [0.30-0.81] (5p)
+     1.7-3.0%: 0.68 [0.35-0.86] (3p)
+     3.1-4.3%: 0.57 [0.25-0.75] (5p)
+     4.4-6.7%: 0.77 [0.67-1.00] (4p)
+     6.9-11.9%: 0.84 [0.70-1.00] (4p)
+     12.5-17.4%: 0.97 [0.85-1.00] (5p)
+     17.7-28.0%: 1.00 [0.95-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+
+=== 3. DILUTION DIAGONAL RMSE (median over 20 CRC samples)  A=normalized, C=raw scale [paper best 0.034]
+  celfeer           u250  A=0.555  C=0.185  (n=20)
+  celfie            max   A=0.058  C=0.017  (n=19)
+  celfie            u250  A=0.458  C=0.158  (n=20)
+  celfieish-clip    max   A=0.101  C=0.029  (n=20)
+  celfieish-clip    u250  A=0.260  C=0.067  (n=20)
+  celfieish-noclip  max   A=0.113  C=0.034  (n=20)
+  celfieish-noclip  u250  A=0.451  C=0.187  (n=20)
+  uxm               u250  A=0.546  C=0.265  (n=20)
+
+=== 4. COVERAGE: controls' epithelial estimate vs sequencing depth
+  celfeer           u250  spearman(depth, epi)=-0.30 (p=0.170)  median HU012=0.1584 HU083=0.1266
+  celfie            max   spearman(depth, epi)=-0.01 (p=0.963)  median HU012=0.0000 HU083=0.0000
+  celfie            u250  spearman(depth, epi)=+0.00 (p=0.990)  median HU012=0.1217 HU083=0.1479
+  celfieish-clip    max   spearman(depth, epi)=-0.21 (p=0.347)  median HU012=0.0147 HU083=0.0117
+  celfieish-clip    u250  spearman(depth, epi)=-0.76 (p=0.000)  median HU012=0.0460 HU083=0.0227
+  celfieish-noclip  max   spearman(depth, epi)=-0.06 (p=0.801)  median HU012=0.0286 HU083=0.0267
+  celfieish-noclip  u250  spearman(depth, epi)=-0.70 (p=0.000)  median HU012=0.2156 HU083=0.1707
+  uxm               u250  spearman(depth, epi)=-0.50 (p=0.017)  median HU012=0.2856 HU083=0.1923
+
+=== 5. RUNTIME per run
+                  n  median_min  max_min  max_gb  failures
+step                                                      
+celfeer@u250    142        2.21     3.58    0.23         0
+celfie@max      142        3.06    13.63    0.91         0
+celfie@u250     142       14.83    20.43    0.41         0
+celfieish@max   101        2.05     3.14    0.95         0
+celfieish@u250  100        2.75     8.94    0.39         0
+convert          40        1.75     2.50    1.94         0
+m4:max_clip      42        2.12     5.81    0.91         0
+m4:max_noclip    42        2.08     5.66    0.91         0
+m4:u250_clip     42        2.88    12.95    0.39         0
+m4:u250_noclip   42        2.92    12.85    0.39         0
+mix              20        0.32     0.41    0.85         0
+refcount        185        0.18     0.31    0.04         0
+uxm@u250        142        0.15     0.19    0.40         0
+
+=== 6. MARKER CpGs PER READ (U250 regions, reads with >=1 call in a region), share of reads
+  control  1:30.4%  2:21.9%  3:15.6%  >=4:32.1%  (reads=136010)
+  crc      1:31.2%  2:22.0%  3:15.9%  >=4:31.0%  (reads=59992)
+DONE

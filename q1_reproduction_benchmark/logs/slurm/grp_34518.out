@@ -1,0 +1,54 @@
+beta rows: 29401795 | max atlas CpG: 27851713
+beta files read: 185 / 185
+
+== Blood-Granul:  R2=0.958  members(w>0.5)=['Blood-Granul']  exact COV match=0.831  beta corr=0.999
+     Blood-Granul         w=0.945
+
+== Blood-Mono+Macro:  R2=0.958  members(w>0.5)=['Blood-Mono+Macro']  exact COV match=0.729  beta corr=0.999
+     Blood-Mono+Macro     w=0.926
+     Eryth-prog           w=0.128
+
+== Endothel:  R2=0.947  members(w>0.5)=['Endothel']  exact COV match=0.003  beta corr=0.997
+     Endothel             w=0.689
+     Eryth-prog           w=0.299
+     Lung-Ep-Bron         w=0.076
+     Lung-Ep-Alveo        w=0.067
+
+== Epithelial:  R2=0.954  members(w>0.5)=['Breast-Basal-Ep', 'Breast-Luminal-Ep', 'Colon-Ep', 'Eryth-prog', 'Fallopian-Ep', 'Gastric-Ep', 'Head-Neck-Ep', 'Kidney-Ep', 'Lung-Ep-Alveo', 'Lung-Ep-Bron', 'Prostate-Ep', 'Small-Int-Ep', 'Thyroid-Ep']  exact COV match=0.003  beta corr=0.996
+     Lung-Ep-Bron         w=1.592
+     Lung-Ep-Alveo        w=1.504
+     Gastric-Ep           w=1.177
+     Eryth-prog           w=1.165
+     Thyroid-Ep           w=1.157
+     Colon-Ep             w=0.919
+     Fallopian-Ep         w=0.877
+     Breast-Basal-Ep      w=0.840
+     Head-Neck-Ep         w=0.797
+     Breast-Luminal-Ep    w=0.736
+     Small-Int-Ep         w=0.640
+     Kidney-Ep            w=0.626
+     Prostate-Ep          w=0.594
+     Bladder-Ep           w=0.330
+     Liver-Hep            w=0.304
+     Neuron               w=0.186
+     Oligodend            w=0.073
+     Pancreas-Acinar      w=0.055
+
+== Eryth-prog:  R2=0.963  members(w>0.5)=['Eryth-prog']  exact COV match=0.818  beta corr=0.998
+     Eryth-prog           w=0.991
+
+== Liver-Hep:  R2=0.951  members(w>0.5)=['Liver-Hep']  exact COV match=0.005  beta corr=0.998
+     Liver-Hep            w=0.821
+     Eryth-prog           w=0.063
+
+== Lymphocytes:  R2=0.956  members(w>0.5)=['Blood-B', 'Blood-T']  exact COV match=0.624  beta corr=0.999
+     Blood-T              w=0.913
+     Blood-B              w=0.786
+     Eryth-prog           w=0.251
+     Lung-Ep-Alveo        w=0.149
+
+== Megakaryocytes:  R2=0.282  members(w>0.5)=['Adipocytes']  exact COV match=0.009  beta corr=0.499
+     Adipocytes           w=0.651
+     Pancreas-Acinar      w=0.096
+
+wrote /scratch/mxf4642/results/m7/max_groups_check.tsv

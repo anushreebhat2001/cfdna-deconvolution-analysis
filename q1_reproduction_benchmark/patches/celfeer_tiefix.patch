@@ -1,0 +1,19 @@
+--- /scratch/mxf4642/code/CelFEER/scripts/celfeer.py	2026-10-07 05:26:56.955877788 +0000
++++ /scratch/mxf4642/code/CelFEER/scripts/celfeer_tiefix.py	2026-11-16 23:19:25.208964418 +0000
+@@ -6,6 +6,7 @@
+ import numpy as np
+ import pandas as pd
+ from scipy.special import gammaln
++_max_by_ll = lambda *a: max(*a, key=lambda t: t[0])  # tie-fix: pick restart by log-likelihood only
+ 
+ np.seterr(divide="ignore", invalid="ignore")
+ 
+@@ -332,7 +333,7 @@
+         )
+         random_restarts.append((ll, alpha, beta))
+ 
+-    ll_max, alpha_max, beta_max = max(
++    ll_max, alpha_max, beta_max = _max_by_ll(
+         random_restarts
+     )  # pick best random restart per replicate
+ 

@@ -1,0 +1,793 @@
+== 1. grouping files
+Epithelial          75
+Lymphocytes         27
+Endothel            19
+Blood-Mono+Macro    11
+Liver-Hep            6
+Eryth-prog           3
+Blood-Granul         3
+Megakaryocytes       3
+== 2. count reads in max-marker regions for the Loyfer reference samples
+max-marker reference samples counted: 144 / 144
+== 3. synthetic independent-site reads: Megakaryocytes (max markers) and Blood-Granul (U250 calibration)
+atlas CpGs with Blood-Granul coverage: 58763  mean beta=0.898
+synthetic reads written: 7639407 (template reads 7639407)  calls drawn: 1952326  fraction methylated: 0.897
+atlas CpGs with Blood-Granul coverage: 58763  mean beta=0.898
+synthetic reads written: 11801358 (template reads 11801358)  calls drawn: 3003927  fraction methylated: 0.895
+atlas CpGs with Blood-Granul coverage: 58763  mean beta=0.898
+synthetic reads written: 10505833 (template reads 10505833)  calls drawn: 2777429  fraction methylated: 0.897
+atlas CpGs with Megakaryocytes coverage: 157967  mean beta=0.592
+synthetic reads written: 20872797 (template reads 20872797)  calls drawn: 5199108  fraction methylated: 0.594
+atlas CpGs with Megakaryocytes coverage: 157967  mean beta=0.592
+synthetic reads written: 32430027 (template reads 32430027)  calls drawn: 8295668  fraction methylated: 0.584
+atlas CpGs with Megakaryocytes coverage: 157967  mean beta=0.592
+synthetic reads written: 28842240 (template reads 28842240)  calls drawn: 7471356  fraction methylated: 0.590
+synthetic reference samples: MK 3/3  Granul 3/3
+== 4. build references
+/scratch/mxf4642/code/project/aggregate_ref.py:18: RuntimeWarning: Mean of empty slice
+  U[:, j] = np.nanmean(np.vstack(fr), axis=0)
+atlas groups missing from csv: set() | csv groups not in atlas: set()
+  Blood-Granul         samples= 3  median UXM-eligible reads/region=85
+  Blood-Mono+Macro     samples=11  median UXM-eligible reads/region=299
+  Endothel             samples=19  median UXM-eligible reads/region=486
+  Epithelial           samples=75  median UXM-eligible reads/region=1852
+  Eryth-prog           samples= 3  median UXM-eligible reads/region=95
+  Liver-Hep            samples= 6  median UXM-eligible reads/region=167
+  Lymphocytes          samples=27  median UXM-eligible reads/region=581
+  Megakaryocytes       samples= 3  median UXM-eligible reads/region=82
+regions: 21616 | usable for UXM: 19513 | usable for CelFEER: 20900
+/scratch/mxf4642/code/project/aggregate_ref.py:18: RuntimeWarning: Mean of empty slice
+  U[:, j] = np.nanmean(np.vstack(fr), axis=0)
+atlas groups missing from csv: set() | csv groups not in atlas: set()
+  Blood-B              samples= 5  median UXM-eligible reads/region=137
+  Eryth-prog           samples= 3  median UXM-eligible reads/region=120
+  Gastric-Ep           samples=11  median UXM-eligible reads/region=363
+  Breast-Luminal-Ep    samples= 3  median UXM-eligible reads/region=89
+  Pancreas-Alpha       samples= 3  median UXM-eligible reads/region=91
+  Ovary-Ep             samples= 1  median UXM-eligible reads/region=20
+  Small-Int-Ep         samples= 5  median UXM-eligible reads/region=162
+  Lung-Ep-Alveo        samples= 4  median UXM-eligible reads/region=156
+  Adipocytes           samples= 3  median UXM-eligible reads/region=100
+  Breast-Basal-Ep      samples= 4  median UXM-eligible reads/region=103
+  Prostate-Ep          samples= 4  median UXM-eligible reads/region=133
+  Oligodend            samples= 4  median UXM-eligible reads/region=116
+  Pancreas-Duct        samples= 4  median UXM-eligible reads/region=108
+  Head-Neck-Ep         samples=13  median UXM-eligible reads/region=401
+  Endothel             samples=19  median UXM-eligible reads/region=623
+  Neuron               samples=10  median UXM-eligible reads/region=303
+  Blood-T              samples=22  median UXM-eligible reads/region=620
+  Blood-NK             samples= 3  median UXM-eligible reads/region=89
+  Blood-Granul         samples= 3  median UXM-eligible reads/region=108
+  Blood-Mono+Macro     samples=11  median UXM-eligible reads/region=382
+  Liver-Hep            samples= 6  median UXM-eligible reads/region=217
+  Pancreas-Acinar      samples= 4  median UXM-eligible reads/region=135
+  Bladder-Ep           samples= 5  median UXM-eligible reads/region=149
+  Thyroid-Ep           samples= 3  median UXM-eligible reads/region=91
+  Kidney-Ep            samples= 8  median UXM-eligible reads/region=269
+  Pancreas-Delta       samples= 3  median UXM-eligible reads/region=80
+  Heart-Cardio         samples= 4  median UXM-eligible reads/region=126
+  Colon-Ep             samples= 8  median UXM-eligible reads/region=236
+  Lung-Ep-Bron         samples= 3  median UXM-eligible reads/region=126
+  Pancreas-Beta        samples= 3  median UXM-eligible reads/region=80
+  Fallopian-Ep         samples= 3  median UXM-eligible reads/region=96
+regions: 7344 | usable for UXM: 6815 | usable for CelFEER: 7289
+== 5. count reads in max-marker regions for our 42 samples + 100 mixtures
+feature files: 142 / 142
+== 6. UXM and CelFEER: max markers (synthetic MK) and U250 calibration
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU083.64/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU017.02.PL5761/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU017.02.PL5761__d12.5/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU017.02.PL5761__d6.25/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU023.01.PL2504__d3.125/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU023.04.PL3881__d25/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU025.14.PL2876__d12.5/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU023.04.PL3881__d3.125/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU025.14.PL2876__d50/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU025.15.PL4098__d12.5/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU025.15.PL4098__d3.125/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU025.15.PL4098__d6.25/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030.01.PL3393__d6.25/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030.09.PL4937__d12.5/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.02.PL3478__d25/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.02.PL3478__d50/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.03.PL3729__d3.125/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.03.PL3729__d12.5/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.04.PL3838__d50/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.05.PL4004__d25/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.06.PL4449__d3.125/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.08.PL4809__d12.5/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.11.PL4972__d3.125/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.12.PL4360__d6.25/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/max/HU030abcd.11.PL4972__d25/1_tissue_proportions.txt'
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/celfeer_to_line.py", line 4, in <module>
+    df = pd.read_csv(tp, sep="\t", index_col=0)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mxf4642/results/m7/celfeer_tmp/u250cal/HU012.03.PL4472/1_tissue_proportions.txt'
+estimates max: uxm 142/142  celfeer 117/142
+estimates u250cal: uxm 142/142  celfeer 141/142
+== 7. summary of all methods
+NOTE: uxm/celfeer 'max'     = 7 groups from real Loyfer reads + Megakaryocytes from SYNTHETIC independent-site reads
+      uxm/celfeer 'u250cal' = U250 with the Blood-Granul reference rebuilt from synthetic independent-site reads (calibration)
+
+=== 1. 42 ORIGINAL SAMPLES: CRC vs controls (95% CI = bootstrap over patients and controls)
+  celfeer max: incomplete (19 crc, 21 ctl)
+  celfeer           u250    AUROC=0.950 [0.874-0.992]  RMSE=0.126  R2=0.497  control median=0.1531
+  celfeer u250cal: incomplete (20 crc, 21 ctl)
+  celfie            max     AUROC=0.960 [0.839-1.000]  RMSE=0.066  R2=0.887  control median=0.0000
+  celfie            u250    AUROC=0.850 [0.630-0.949]  RMSE=0.094  R2=0.725  control median=0.1467
+  celfieish-clip    max     AUROC=1.000 [1.000-1.000]  RMSE=0.069  R2=0.862  control median=0.0135
+  celfieish-clip    u250    AUROC=0.989 [0.959-1.000]  RMSE=0.098  R2=0.712  control median=0.0300
+  celfieish-noclip  max     AUROC=1.000 [1.000-1.000]  RMSE=0.077  R2=0.865  control median=0.0274
+  celfieish-noclip  u250    AUROC=0.991 [0.968-1.000]  RMSE=0.132  R2=0.748  control median=0.1855
+  uxm               max     AUROC=0.959 [0.835-1.000]  RMSE=0.115  R2=0.856  control median=0.0010
+  uxm               u250    AUROC=0.952 [0.864-1.000]  RMSE=0.195  R2=0.436  control median=0.2259
+  uxm               u250cal AUROC=0.952 [0.860-1.000]  RMSE=0.191  R2=0.441  control median=0.2217
+
+=== 2. LIMIT OF DETECTION per bin (AUROC [95% CI], #patients in bin)  paper: 1.7-3.0% 0.85-0.95; 3.1-4.3% 0.97-0.99
+  celfeer | u250   floor (AUROC>=0.95): sustained=17.7-28.0%  first crossing=17.7-28.0%
+     0.0-0.5%: 0.56 [0.42-0.81] (3p)
+     0.5-1.1%: 0.84 [0.68-0.95] (4p)
+     1.2-1.7%: 0.84 [0.55-0.97] (5p)
+     1.7-3.0%: 0.78 [0.61-1.00] (3p)
+     3.1-4.3%: 0.70 [0.47-0.87] (5p)
+     4.4-6.7%: 0.81 [0.72-1.00] (4p)
+     6.9-11.9%: 0.91 [0.85-1.00] (4p)
+     12.5-17.4%: 0.94 [0.70-1.00] (5p)
+     17.7-28.0%: 0.99 [0.97-1.00] (4p)
+     31.0-55.1%: 0.98 [0.96-1.00] (4p)
+  celfie | max   floor (AUROC>=0.95): sustained=3.1-4.3%  first crossing=1.2-1.7%
+     0.0-0.5%: 0.86 [0.76-1.00] (3p)
+     0.5-1.1%: 0.89 [0.75-0.99] (4p)
+     1.2-1.7%: 0.97 [0.95-1.00] (5p)
+     1.7-3.0%: 0.91 [0.74-1.00] (3p)
+     3.1-4.3%: 1.00 [1.00-1.00] (5p)
+     4.4-6.7%: 1.00 [1.00-1.00] (4p)
+     6.9-11.9%: 1.00 [1.00-1.00] (4p)
+     12.5-17.4%: 1.00 [1.00-1.00] (5p)
+     17.7-28.0%: 1.00 [1.00-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  celfie | u250   floor (AUROC>=0.95): sustained=17.7-28.0%  first crossing=17.7-28.0%
+     0.0-0.5%: 0.42 [0.18-0.53] (3p)
+     0.5-1.1%: 0.67 [0.44-0.93] (4p)
+     1.2-1.7%: 0.72 [0.23-0.87] (5p)
+     1.7-3.0%: 0.75 [0.50-0.93] (3p)
+     3.1-4.3%: 0.72 [0.55-0.96] (5p)
+     4.4-6.7%: 0.90 [0.83-1.00] (4p)
+     6.9-11.9%: 0.87 [0.78-1.00] (4p)
+     12.5-17.4%: 0.94 [0.67-1.00] (5p)
+     17.7-28.0%: 0.97 [0.75-1.00] (4p)
+     31.0-55.1%: 1.00 [0.99-1.00] (4p)
+  celfieish-clip | max   floor (AUROC>=0.95): sustained=1.2-1.7%  first crossing=1.2-1.7%
+     0.0-0.5%: 0.77 [0.64-1.00] (3p)
+     0.5-1.1%: 0.91 [0.81-0.97] (4p)
+     1.2-1.7%: 0.98 [0.97-1.00] (5p)
+     1.7-3.0%: 1.00 [1.00-1.00] (3p)
+     3.1-4.3%: 1.00 [1.00-1.00] (5p)
+     4.4-6.7%: 1.00 [1.00-1.00] (4p)
+     6.9-11.9%: 1.00 [1.00-1.00] (4p)
+     12.5-17.4%: 1.00 [1.00-1.00] (5p)
+     17.7-28.0%: 1.00 [1.00-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  celfieish-clip | u250   floor (AUROC>=0.95): sustained=6.9-11.9%  first crossing=6.9-11.9%
+     0.0-0.5%: 0.56 [0.31-0.72] (3p)
+     0.5-1.1%: 0.77 [0.64-1.00] (4p)
+     1.2-1.7%: 0.81 [0.43-0.94] (5p)
+     1.7-3.0%: 0.79 [0.67-0.92] (3p)
+     3.1-4.3%: 0.81 [0.72-0.98] (5p)
+     4.4-6.7%: 0.91 [0.82-1.00] (4p)
+     6.9-11.9%: 0.98 [0.93-1.00] (4p)
+     12.5-17.4%: 0.99 [0.96-1.00] (5p)
+     17.7-28.0%: 1.00 [0.99-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  celfieish-noclip | max   floor (AUROC>=0.95): sustained=1.2-1.7%  first crossing=1.2-1.7%
+     0.0-0.5%: 0.77 [0.64-1.00] (3p)
+     0.5-1.1%: 0.91 [0.82-0.97] (4p)
+     1.2-1.7%: 0.99 [0.98-1.00] (5p)
+     1.7-3.0%: 1.00 [1.00-1.00] (3p)
+     3.1-4.3%: 1.00 [1.00-1.00] (5p)
+     4.4-6.7%: 1.00 [1.00-1.00] (4p)
+     6.9-11.9%: 1.00 [1.00-1.00] (4p)
+     12.5-17.4%: 1.00 [1.00-1.00] (5p)
+     17.7-28.0%: 1.00 [1.00-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  celfieish-noclip | u250   floor (AUROC>=0.95): sustained=6.9-11.9%  first crossing=6.9-11.9%
+     0.0-0.5%: 0.59 [0.42-0.77] (3p)
+     0.5-1.1%: 0.71 [0.59-0.84] (4p)
+     1.2-1.7%: 0.79 [0.29-0.93] (5p)
+     1.7-3.0%: 0.69 [0.55-0.84] (3p)
+     3.1-4.3%: 0.71 [0.48-0.93] (5p)
+     4.4-6.7%: 0.94 [0.88-1.00] (4p)
+     6.9-11.9%: 1.00 [0.99-1.00] (4p)
+     12.5-17.4%: 1.00 [0.97-1.00] (5p)
+     17.7-28.0%: 1.00 [1.00-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  uxm | max   floor (AUROC>=0.95): sustained=3.1-4.3%  first crossing=3.1-4.3%
+     0.0-0.5%: 0.60 [0.47-0.76] (3p)
+     0.5-1.1%: 0.73 [0.62-0.90] (4p)
+     1.2-1.7%: 0.94 [0.86-1.00] (5p)
+     1.7-3.0%: 0.83 [0.73-0.90] (3p)
+     3.1-4.3%: 0.99 [0.97-1.00] (5p)
+     4.4-6.7%: 1.00 [0.99-1.00] (4p)
+     6.9-11.9%: 1.00 [1.00-1.00] (4p)
+     12.5-17.4%: 1.00 [1.00-1.00] (5p)
+     17.7-28.0%: 1.00 [1.00-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  uxm | u250   floor (AUROC>=0.95): sustained=12.5-17.4%  first crossing=12.5-17.4%
+     0.0-0.5%: 0.52 [0.18-0.77] (3p)
+     0.5-1.1%: 0.66 [0.47-0.89] (4p)
+     1.2-1.7%: 0.67 [0.30-0.80] (5p)
+     1.7-3.0%: 0.68 [0.33-0.86] (3p)
+     3.1-4.3%: 0.57 [0.27-0.77] (5p)
+     4.4-6.7%: 0.77 [0.68-1.00] (4p)
+     6.9-11.9%: 0.84 [0.71-1.00] (4p)
+     12.5-17.4%: 0.97 [0.86-1.00] (5p)
+     17.7-28.0%: 1.00 [0.95-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+  uxm | u250cal   floor (AUROC>=0.95): sustained=12.5-17.4%  first crossing=12.5-17.4%
+     0.0-0.5%: 0.51 [0.18-0.74] (3p)
+     0.5-1.1%: 0.67 [0.49-0.89] (4p)
+     1.2-1.7%: 0.67 [0.30-0.81] (5p)
+     1.7-3.0%: 0.69 [0.35-0.87] (3p)
+     3.1-4.3%: 0.58 [0.26-0.74] (5p)
+     4.4-6.7%: 0.76 [0.66-1.00] (4p)
+     6.9-11.9%: 0.84 [0.70-1.00] (4p)
+     12.5-17.4%: 0.98 [0.84-1.00] (5p)
+     17.7-28.0%: 1.00 [1.00-1.00] (4p)
+     31.0-55.1%: 1.00 [1.00-1.00] (4p)
+
+=== 2b. DETECTION FLOOR SUMMARY (AUROC >= 0.95; sustained = headline, first crossing = secondary)
+  celfeer           u250    sustained=17.7-28.0%    first crossing=17.7-28.0%
+  celfie            max     sustained=3.1-4.3%      first crossing=1.2-1.7%   <- differ
+  celfie            u250    sustained=17.7-28.0%    first crossing=17.7-28.0%
+  celfieish-clip    max     sustained=1.2-1.7%      first crossing=1.2-1.7%
+  celfieish-clip    u250    sustained=6.9-11.9%     first crossing=6.9-11.9%
+  celfieish-noclip  max     sustained=1.2-1.7%      first crossing=1.2-1.7%
+  celfieish-noclip  u250    sustained=6.9-11.9%     first crossing=6.9-11.9%
+  uxm               max     sustained=3.1-4.3%      first crossing=3.1-4.3%
+  uxm               u250    sustained=12.5-17.4%    first crossing=12.5-17.4%
+  uxm               u250cal sustained=12.5-17.4%    first crossing=12.5-17.4%
+
+=== 3. DILUTION DIAGONAL RMSE (median over 20 CRC samples)  A=normalized, C=raw scale [paper best 0.034]
+  celfeer           max     A=0.094  C=0.029  (n=19)
+  celfeer           u250    A=0.555  C=0.185  (n=20)
+  celfeer           u250cal A=0.583  C=0.192  (n=20)
+  celfie            max     A=0.058  C=0.017  (n=19)
+  celfie            u250    A=0.458  C=0.158  (n=20)
+  celfieish-clip    max     A=0.101  C=0.029  (n=20)
+  celfieish-clip    u250    A=0.260  C=0.067  (n=20)
+  celfieish-noclip  max     A=0.113  C=0.034  (n=20)
+  celfieish-noclip  u250    A=0.451  C=0.187  (n=20)
+  uxm               max     A=0.050  C=0.020  (n=19)
+  uxm               u250    A=0.546  C=0.265  (n=20)
+  uxm               u250cal A=0.543  C=0.260  (n=20)
+
+=== 4. COVERAGE: controls' epithelial estimate vs sequencing depth
+  celfeer           u250    spearman(depth, epi)=-0.30 (p=0.170)  median HU012=0.1584 HU083=0.1266
+  celfie            max     spearman(depth, epi)=-0.01 (p=0.963)  median HU012=0.0000 HU083=0.0000
+  celfie            u250    spearman(depth, epi)=+0.00 (p=0.990)  median HU012=0.1217 HU083=0.1479
+  celfieish-clip    max     spearman(depth, epi)=-0.21 (p=0.347)  median HU012=0.0147 HU083=0.0117
+  celfieish-clip    u250    spearman(depth, epi)=-0.76 (p=0.000)  median HU012=0.0460 HU083=0.0227
+  celfieish-noclip  max     spearman(depth, epi)=-0.06 (p=0.801)  median HU012=0.0286 HU083=0.0267
+  celfieish-noclip  u250    spearman(depth, epi)=-0.70 (p=0.000)  median HU012=0.2156 HU083=0.1707
+  uxm               max     spearman(depth, epi)=+0.20 (p=0.365)  median HU012=0.0000 HU083=0.0050
+  uxm               u250    spearman(depth, epi)=-0.50 (p=0.017)  median HU012=0.2856 HU083=0.1923
+  uxm               u250cal spearman(depth, epi)=-0.52 (p=0.014)  median HU012=0.2800 HU083=0.1944
+
+=== 5. RUNTIME per run
+                   n  median_min  max_min  max_gb  failures
+step                                                       
+celfeer@max      142        1.17     1.66    0.20        25
+celfeer@u250     142        2.21     3.58    0.23         0
+celfeer@u250cal  142        3.14     4.92    0.23         1
+celfie@max       142        3.06    13.63    0.91         0
+celfie@u250      142       14.83    20.43    0.41         0
+celfieish@max    101        2.05     3.14    0.95         0
+celfieish@u250   100        2.75     8.94    0.39         0
+convert           40        1.75     2.50    1.94         0
+m4:max_clip       42        2.12     5.81    0.91         0
+m4:max_noclip     42        2.08     5.66    0.91         0
+m4:u250_clip      42        2.88    12.95    0.39         0
+m4:u250_noclip    42        2.92    12.85    0.39         0
+mix               20        0.32     0.41    0.85         0
+refcount         185        0.18     0.31    0.04         0
+refcountmax      144        0.53     0.90    0.04         0
+synth              6        1.01     1.87    0.09         0
+uxm@max          142        0.38     0.46    0.91         0
+uxm@u250         142        0.15     0.19    0.40         0
+uxm@u250cal      142        0.16     0.18    0.39         0
+
+=== 6. MARKER CpGs PER READ (U250 regions, reads with >=1 call in a region), share of reads
+  control  1:30.4%  2:21.9%  3:15.6%  >=4:32.1%  (reads=136010)
+  crc      1:31.2%  2:22.0%  3:15.9%  >=4:31.0%  (reads=59992)
+DONE

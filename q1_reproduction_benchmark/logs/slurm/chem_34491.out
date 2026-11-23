@@ -1,0 +1,27 @@
+127 epiBED files, 200000 reads each, 16 workers
+
+SERIES SUMMARY (medians over files)
+group	series	n_files	del_bases/kb	del_events/kb	ins_bases/kb	frac_meth	mean_span_bp
+control	HU012	11	nan	nan	nan	NA	0.0
+control	HU083	11	nan	nan	nan	NA	0.0
+crc	HU017	2	nan	nan	nan	NA	0.0
+crc	HU023	4	nan	nan	nan	NA	0.0
+crc	HU025	2	nan	nan	nan	NA	0.0
+crc	HU030	2	nan	nan	nan	NA	0.0
+crc	HU030abcd	10	nan	nan	nan	NA	0.0
+other	HU017	1	nan	nan	nan	NA	0.0
+other	HU017and19	2	nan	nan	nan	NA	0.0
+other	HU019	1	nan	nan	nan	NA	0.0
+other	HU020	2	nan	nan	nan	NA	0.0
+other	HU025	1	nan	nan	nan	NA	0.0
+other	HU026	4	nan	nan	nan	NA	0.0
+other	HU042	13	nan	nan	nan	NA	0.0
+other	HU053a	1	nan	nan	nan	NA	0.0
+other	HU058	7	nan	nan	nan	NA	0.0
+other	HU062a	6	nan	nan	nan	NA	0.0
+other	HU069	17	nan	nan	nan	NA	0.0
+other	HU070	13	nan	nan	nan	NA	0.0
+other	HU070andHU062a	1	nan	nan	nan	NA	0.0
+other	HU073	16	nan	nan	nan	NA	0.0
+
+wrote /scratch/mxf4642/results/chem/chem_check.tsv

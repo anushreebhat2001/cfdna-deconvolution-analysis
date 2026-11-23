@@ -1,0 +1,46 @@
+== converting
+pat files: 42
+== offset check
+HU012.01.PL4406.pat.gz  shift -1: n=10939  r=0.086  meth% where blood<0.3: 62.5  where blood>0.7: 86.6
+HU012.01.PL4406.pat.gz  shift +0: n=10905  r=0.128  meth% where blood<0.3: 33.3  where blood>0.7: 87.3
+HU012.01.PL4406.pat.gz  shift +1: n=10817  r=0.088  meth% where blood<0.3: 85.7  where blood>0.7: 86.1
+HU083.64.pat.gz  shift -1: n=19112  r=0.087  meth% where blood<0.3: 83.3  where blood>0.7: 91.3
+HU083.64.pat.gz  shift +0: n=19186  r=0.116  meth% where blood<0.3: 44.4  where blood>0.7: 92.0
+HU083.64.pat.gz  shift +1: n=19018  r=0.087  meth% where blood<0.3: 75.0  where blood>0.7: 91.5
+== deconvolution
+estimates: 168 / 168
+Traceback (most recent call last):
+  File "/scratch/mxf4642/code/project/collect_m4.py", line 1, in <module>
+    import glob, os, numpy as np, pandas as pd
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/__init__.py", line 50, in <module>
+    from pandas.core.api import (
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/core/api.py", line 29, in <module>
+    from pandas.core.arrays import Categorical
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/core/arrays/__init__.py", line 6, in <module>
+    from pandas.core.arrays.boolean import BooleanArray
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/core/arrays/boolean.py", line 36, in <module>
+    from pandas.core.arrays.masked import (
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/core/arrays/masked.py", line 46, in <module>
+    from pandas.core import (
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/core/nanops.py", line 60, in <module>
+    bn = import_optional_dependency("bottleneck", errors="warn")
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/pandas/compat/_optional.py", line 115, in import_optional_dependency
+    module = importlib.import_module(name)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/bottleneck/__init__.py", line 1, in <module>
+    from bottleneck.benchmark.bench import bench
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/bottleneck/benchmark/bench.py", line 3, in <module>
+    from .autotimeit import autotimeit
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/site-packages/bottleneck/benchmark/autotimeit.py", line 1, in <module>
+    import timeit
+  File "/scratch/mxf4642/code/project/timeit.py", line 3, in <module>
+    rc = subprocess.call(sys.argv[2:])
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/ext3/miniforge3/envs/mrd/lib/python3.9/subprocess.py", line 1691, in _execute_child
+    executable = args[0]
+IndexError: list index out of range
+DONE

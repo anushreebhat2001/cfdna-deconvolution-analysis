@@ -1,0 +1,45 @@
+== 1. read totals (all reads vs reads with CpG calls)
+sample	n_reads	n_pat
+HU012.01.PL4406	3066356	1896465
+HU012.02.PL4504	4504709	2749200
+== 2. healthy pool (20 controls, as in the paper)
+pool lines: 62398791   controls in pool: 20
+== 3. mixtures
+mixtures: 100 / 100
+== 4. wrapper check (compare with the earlier run of HU030.01, max markers)
+RESULT	celfieish-clip@max@CHECK_HU030.01.PL3393.txt	epithelial=0.3246
+RESULT	max_clip_HU030.01.PL3393.txt	epithelial=0.3246
+== 5. deconvolution runs
+estimate files: 686  (expected 400 celfie-ish + 284 celfie + 2 check)
+
+=== DILUTION DIAGONAL: median over CRC samples of RMSE(epi_mix/epi_undiluted vs dilution)  [paper: CelFiE-ISH clip, max markers = 0.034 best]
+  celfie            max   n=19  median RMSE=0.058
+  celfie            u250  n=20  median RMSE=0.458
+  celfieish-clip    max   n=20  median RMSE=0.101
+  celfieish-clip    u250  n=20  median RMSE=0.260
+  celfieish-noclip  max   n=20  median RMSE=0.113
+  celfieish-noclip  u250  n=20  median RMSE=0.451
+
+=== LIMIT OF DETECTION: 120 virtual CRC samples in 10 equal bins vs 22 controls (AUROC)
+    paper (CelFiE-ISH/CelFEER): 1.7-3.0% -> 0.85-0.95 ; 3.1-4.3% -> 0.97-0.99 ; >4.3% -> >0.99
+            celfie|max  celfie|u250  celfieish-clip|max  celfieish-clip|u250  celfieish-noclip|max  celfieish-noclip|u250
+0.0-0.5%         0.858        0.417               0.769                0.557                 0.773                  0.587
+0.5-1.1%         0.892        0.674               0.909                0.769                 0.913                  0.712
+1.2-1.7%         0.973        0.716               0.985                0.814                 0.992                  0.792
+1.7-3.0%         0.907        0.750               1.000                0.792                 1.000                  0.693
+3.1-4.3%         1.000        0.716               1.000                0.811                 1.000                  0.712
+4.4-6.7%         1.000        0.898               1.000                0.905                 1.000                  0.936
+6.9-11.9%        1.000        0.871               1.000                0.981                 1.000                  0.996
+12.5-17.4%       1.000        0.936               1.000                0.992                 1.000                  0.996
+17.7-28.0%       1.000        0.970               1.000                0.996                 1.000                  1.000
+31.0-55.1%       1.000        0.996               1.000                1.000                 1.000                  1.000
+
+=== RUNTIME per run
+                  n  median_s   max_s  max_gb  failures
+step                                                   
+celfie@max      142     183.8   817.8     0.9         0
+celfie@u250     142     889.6  1225.9     0.4         0
+celfieish@max   101     122.8   188.3     1.0         0
+celfieish@u250  100     165.2   536.6     0.4         0
+mix              20      19.0    24.6     0.8         0
+DONE

@@ -1,0 +1,8 @@
+== 1. per-CpG counts at atlas CpGs (input for original celfie.py)
+site files u250: 142 / 142
+site files max: 142 / 142
+examples:
+HU012.01.PL4406.pat.gz	atlas_CpGs=162396	covered=26801	calls=30664	frac_meth=0.581
+HU030.01.PL3393.pat.gz	atlas_CpGs=162396	covered=23056	calls=26501	frac_meth=0.581
+HU012.01.PL4406.pat.gz	atlas_CpGs=59011	covered=9645	calls=10905	frac_meth=0.867
+DONE
