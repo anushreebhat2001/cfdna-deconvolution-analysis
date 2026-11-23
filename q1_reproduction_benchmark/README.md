@@ -93,6 +93,7 @@ In the lowest bins the paper's curve stays below all of ours, which the publishe
 | `results/all_timings.tsv` | Runtime and memory per run |
 | `results/m4_summary.txt` | First full CelFiE-ISH run on the 42 samples |
 | `results/figures/` | fig1–fig4 (`plot_part_a.py`), fig5 (marker count vs paper), method comparison table |
+| `results/chem/` | HU012 chemistry check: per-sample error profile (`chem_check.tsv`) and the SRA run records (`runinfo.csv`, `es.xml`, `sra_full.xml`) |
 | `results/reference_groups/` | Grouping files for max markers and the U250 calibration |
 | `logs/slurm/` | Slurm job outputs |
 | `patches/` | CelFEER fix |
