@@ -1,0 +1,12 @@
+step 7 ended 00:39; starting stage 2
+t9_breast_dil:       40 fits,        0 failed,        0 empty
+t8_no_megak:       44 fits,        0 failed,        0 empty
+t7_off:       92 fits,        0 failed,        0 empty
+t7_on:       92 fits,        0 failed,        0 empty
+t10_clumped_1:       44 fits,        0 failed,        0 empty
+t10_clumped_3:       44 fits,        0 failed,        0 empty
+t10_scattered_1:       44 fits,        0 failed,        0 empty
+t10_scattered_3:       44 fits,        0 failed,        0 empty
+t10_symmetric_5:       44 fits,        0 failed,        0 empty
+t10_symmetric_10:       44 fits,        0 failed,        0 empty
+stage 2 ended 04:49

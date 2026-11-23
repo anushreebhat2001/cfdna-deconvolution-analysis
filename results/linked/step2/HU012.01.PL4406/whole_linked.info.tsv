@@ -1,0 +1,17 @@
+rho	0.192880
+rho_fitted	yes
+iterations	3045
+converged	yes
+strings	3594
+strings_2plus_beads	2513
+loglik_celfie_ish	-3690.3170
+loglik_linked	-3647.8500
+celfie_ish_refit_iterations	2104
+refit_max_diff_to_stored_unclipped	0.0000
+refit_max_diff_to_stored_clipped	0.0000
+all_off_2plus_seen	116
+all_off_2plus_expected_celfie_ish	65.97
+all_off_2plus_expected_linked	120.10
+all_on_2plus_seen	1791
+all_on_2plus_expected_celfie_ish	1714.43
+all_on_2plus_expected_linked	1776.29

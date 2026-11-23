@@ -1,0 +1,14 @@
+start 02:12
+step 2 done 02:18
+step_scripts/step3/run_step3.sh: line 13: 27810 Done                    bash step_scripts/common/inputs.sh
+     27811 Broken pipe: 13         | while read f; do
+    b="results/step3/$(basename "$f" .pat)"; echo "$f $b/b1_whole u250 --bucket 1"; for k in 2 3 4+;
+    do
+        echo "$f $b/b${k}_whole u250 --bucket $k"; echo "$f $b/b${k}_cut u250 --bucket $k --size 1";
+    done;
+done
+     27812 Terminated: 15          | xargs -P "$NP" -L 1 bash step_scripts/common/run_one.sh
+ls: results/step3/*/*.ish_clipped.txt: No such file or directory
+step 3 finished:        0 fits,        0 failed
+step_scripts/common/run_one.sh: line 22: 27848 Terminated: 15          ./env/bin/python -I step_scripts/step0/cut_strings.py "$src" "$REGIONS" "$out.pat" "$@"
+step_scripts/common/run_one.sh: line 23: results/step3/HU012.01.PL4406/b2_whole.pat: No such file or directory

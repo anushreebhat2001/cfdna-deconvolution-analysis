@@ -1,0 +1,40 @@
+A  modified atlases
+A u250_plus_off: 31 original types unchanged at 59011 CpGs: pass 
+A u250_plus_off: added column is 5/100 at every CpG: pass (header ['Off-everywhere_METH', 'Off-everywhere_COV'])
+A u250_plus_on: 31 original types unchanged at 59011 CpGs: pass 
+A u250_plus_on: added column is 95/100 at every CpG: pass (header ['On-everywhere_METH', 'On-everywhere_COV'])
+A max_minus_megak: the 7 other types unchanged, megakaryocyte column gone: pass (types left: ['Blood-Granul', 'Blood-Mono+Macro', 'Endothel', 'Epithelial', 'Eryth-prog', 'Liver-Hep', 'Lymphocytes'])
+
+B  the 46 files of T7
+B whole strings cut again equal the fitted ones: pass (46 of 46)
+B single beads cut again equal the fitted ones: pass (46 of 46)
+B whole and single hold the same beads: pass (46 of 46)
+
+C  breast dilutions
+C same 20 pooled controls as the cancer dilutions: pass 
+level	breast: read share from sample	breast: string share from sample (range)	breast: strings per file (range)	cancer dilutions: string share (range)	cancer dilutions: strings per file (range)
+50%	0.5000	0.534-0.597	4986-17996	0.466-0.557	5559-19260
+25%	0.2500	0.279-0.332	4634-16995	0.229-0.292	5523-18065
+12.5%	0.1250	0.146-0.172	4423-16713	0.112-0.151	5527-17529
+6.25%	0.0625	0.073-0.094	4421-16538	0.056-0.076	5446-17271
+3.125%	0.0312	0.034-0.044	4318-16386	0.028-0.037	5430-17101
+
+D  simulation
+D condition 'none' reproduces the stored D1 files: pass (22 of 22)
+condition	strings	beads	strings whose values changed	beads on->off	beads off->on	all-off strings among 2+ bead strings
+D none: places, counts and bead positions unchanged: pass 
+none	136010	413784	0 (0.00%)	0 (0.00%)	0 (0.00%)	2.40%
+D clumped_1: places, counts and bead positions unchanged: pass 
+clumped_1	136010	413784	1311 (0.96%)	3687 (0.89%)	0 (0.00%)	3.36%
+D clumped_3: places, counts and bead positions unchanged: pass 
+clumped_3	136010	413784	3953 (2.91%)	11280 (2.73%)	0 (0.00%)	5.35%
+D scattered_1: places, counts and bead positions unchanged: pass 
+scattered_1	136010	413784	3579 (2.63%)	3634 (0.88%)	0 (0.00%)	2.46%
+D scattered_3: places, counts and bead positions unchanged: pass 
+scattered_3	136010	413784	10371 (7.63%)	10872 (2.63%)	0 (0.00%)	2.64%
+D symmetric_5: places, counts and bead positions unchanged: pass 
+symmetric_5	136010	413784	18821 (13.84%)	18273 (4.42%)	2276 (0.55%)	2.44%
+D symmetric_10: places, counts and bead positions unchanged: pass 
+symmetric_10	136010	413784	34800 (25.59%)	36662 (8.86%)	4576 (1.11%)	2.65%
+
+ALL CHECKS PASSED

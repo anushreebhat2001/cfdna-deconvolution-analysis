@@ -1,0 +1,62 @@
+EXPLORATORY: checks of the linked model's code (step_scripts/linked/check_model.py)
+
+control HU012: results/step2/HU012.01.PL4406
+  1  rho = 0 against stored CelFiE-ISH: largest difference 0.0000 (unclipped), 0.0000 (clipped) percent points, 2104 EM rounds  PASS
+  2  single-bead file with rho fixed at 0.3 and 0.9: largest difference to stored 0.0000, strings with 2+ beads 0  PASS
+  3  linked fit: rho 0.1929, 3045 EM rounds, converged yes; largest drop of the likelihood between rounds 0.00e+00; log-likelihood CelFiE-ISH -3690.317, linked -3647.850 (+42.467)  PASS
+  4  six other starts: largest change of any cell-type share 0.0003 percent points, of rho 0.00000  PASS
+  5  likelihood over fixed rho (0 to 0.95 in steps of 0.05): highest at 0.20, fitted rho 0.1929, fitted likelihood minus best on the grid +0.0424, one peak yes  PASS
+
+control HU083: results/step2/HU083.63
+  1  rho = 0 against stored CelFiE-ISH: largest difference 0.0000 (unclipped), 0.0000 (clipped) percent points, 2612 EM rounds  PASS
+  2  single-bead file with rho fixed at 0.3 and 0.9: largest difference to stored 0.0000, strings with 2+ beads 0  PASS
+  3  linked fit: rho 0.3363, 2843 EM rounds, converged yes; largest drop of the likelihood between rounds 0.00e+00; log-likelihood CelFiE-ISH -6978.807, linked -6795.237 (+183.570)  PASS
+  4  six other starts: largest change of any cell-type share 0.0013 percent points, of rho 0.00000  PASS
+  5  likelihood over fixed rho (0 to 0.95 in steps of 0.05): highest at 0.35, fitted rho 0.3363, fitted likelihood minus best on the grid +0.3069, one peak yes  PASS
+
+cancer, highest tumor share: results/step2/HU017.01.PL5832
+  1  rho = 0 against stored CelFiE-ISH: largest difference 0.0000 (unclipped), 0.0000 (clipped) percent points, 1398 EM rounds  PASS
+  2  single-bead file with rho fixed at 0.3 and 0.9: largest difference to stored 0.0000, strings with 2+ beads 0  PASS
+  3  linked fit: rho 0.2233, 3848 EM rounds, converged yes; largest drop of the likelihood between rounds 0.00e+00; log-likelihood CelFiE-ISH -1844.843, linked -1813.767 (+31.076)  PASS
+  4  six other starts: largest change of any cell-type share 0.0000 percent points, of rho 0.00000  PASS
+  5  likelihood over fixed rho (0 to 0.95 in steps of 0.05): highest at 0.20, fitted rho 0.2233, fitted likelihood minus best on the grid +0.2461, one peak yes  PASS
+
+cancer, lowest tumor share: results/step2/HU023.04.PL3881
+  1  rho = 0 against stored CelFiE-ISH: largest difference 0.0000 (unclipped), 0.0000 (clipped) percent points, 908 EM rounds  PASS
+  2  single-bead file with rho fixed at 0.3 and 0.9: largest difference to stored 0.0000, strings with 2+ beads 0  PASS
+  3  linked fit: rho 0.3029, 3012 EM rounds, converged yes; largest drop of the likelihood between rounds 0.00e+00; log-likelihood CelFiE-ISH -5785.133, linked -5619.056 (+166.077)  PASS
+  4  six other starts: largest change of any cell-type share 0.0003 percent points, of rho 0.00000  PASS
+  5  likelihood over fixed rho (0 to 0.95 in steps of 0.05): highest at 0.30, fitted rho 0.3029, fitted likelihood minus best on the grid +0.0113, one peak yes  PASS
+
+3.125% dilution: results/step2/HU017.01.PL5832__d3.125
+  1  rho = 0 against stored CelFiE-ISH: largest difference 0.0000 (unclipped), 0.0000 (clipped) percent points, 1866 EM rounds  PASS
+  2  single-bead file with rho fixed at 0.3 and 0.9: largest difference to stored 0.0000, strings with 2+ beads 0  PASS
+  3  linked fit: rho 0.2542, 5958 EM rounds, converged yes; largest drop of the likelihood between rounds 0.00e+00; log-likelihood CelFiE-ISH -1208.804, linked -1193.095 (+15.709)  PASS
+  4  six other starts: largest change of any cell-type share 0.0043 percent points, of rho 0.00001  PASS
+  5  likelihood over fixed rho (0 to 0.95 in steps of 0.05): highest at 0.25, fitted rho 0.2542, fitted likelihood minus best on the grid +0.0045, one peak yes  PASS
+
+D1 simulated control: results/d1/HU012.01.PL4406
+  1  rho = 0 against stored CelFiE-ISH: largest difference 0.0000 (unclipped), 0.0000 (clipped) percent points, 3672 EM rounds  PASS
+  2  single-bead file with rho fixed at 0.3 and 0.9: largest difference to stored 0.0000, strings with 2+ beads 0  PASS
+  3  linked fit: rho 0.0000, 3729 EM rounds, converged yes; largest drop of the likelihood between rounds 0.00e+00; log-likelihood CelFiE-ISH -3194.816, linked -3194.816 (+0.000)  PASS
+  4  six other starts: largest change of any cell-type share 0.0045 percent points, of rho 0.00000  PASS
+  5  likelihood over fixed rho (0 to 0.95 in steps of 0.05): highest at 0.00, fitted rho 0.0000, fitted likelihood minus best on the grid +0.0000, one peak yes  PASS
+
+  6  made-up data from the linked model, string places of HU012.01.PL4406, 20 files per row.
+     epithelial share = sum of the 16 epithelial types; the truth is the tumor share (all Colon-Ep).
+true rho	true tumor share	fitted rho mean	fitted rho sd	linked whole: epithelial mean	abs error	CelFiE-ISH whole: epithelial mean	abs error	CelFiE-ISH single: epithelial mean	abs error
+0.0	0.0	0.000	0.000	0.0330	0.0330	0.0330	0.0330	0.0536	0.0536
+0.0	0.02	0.001	0.004	0.0473	0.0292	0.0477	0.0296	0.0756	0.0556
+0.0	0.1	0.000	0.000	0.1185	0.0263	0.1185	0.0263	0.1399	0.0441
+0.1	0.0	0.089	0.021	0.0419	0.0419	0.0709	0.0709	0.0581	0.0581
+0.1	0.02	0.092	0.030	0.0647	0.0447	0.0999	0.0799	0.0810	0.0614
+0.1	0.1	0.081	0.026	0.1411	0.0442	0.1639	0.0656	0.1565	0.0616
+0.3	0.0	0.302	0.028	0.0522	0.0522	0.1566	0.1566	0.0875	0.0875
+0.3	0.02	0.296	0.024	0.0582	0.0400	0.1647	0.1447	0.0825	0.0625
+0.3	0.1	0.294	0.017	0.1526	0.0527	0.2229	0.1229	0.1840	0.0840
+0.6	0.0	0.593	0.029	0.0624	0.0624	0.2241	0.2241	0.0914	0.0914
+0.6	0.02	0.600	0.020	0.0841	0.0641	0.2391	0.2191	0.1234	0.1034
+0.6	0.1	0.597	0.020	0.1538	0.0633	0.2734	0.1734	0.1679	0.0767
+     fitted rho within 3 standard errors (or 0.01) of the true rho in every row, all fits converged: FAIL
+
+SOME CHECK FAILED

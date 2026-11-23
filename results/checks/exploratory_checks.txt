@@ -1,0 +1,272 @@
+EXPLORATORY CHECKS (chosen after seeing the planned results)
+
+
+E1: batch alone (healthy HU012 against healthy HU083) next to cancer against controls, undiluted
+score	comparison	clip	healthy_vs_healthy_A	healthy_vs_healthy_B	gain	ci_lo	ci_hi	cancer_vs_controls_A	cancer_vs_controls_B	gain
+epithelial	A1_all_strings	unclipped	0.926	0.430	+0.496	+0.281	+0.711	0.991	0.857	+0.134
+epithelial	A1_all_strings	clipped	0.934	0.496	+0.438	+0.215	+0.678	0.989	0.895	+0.093
+epithelial	A2_2plus_strings	unclipped	0.975	0.455	+0.521	+0.273	+0.769	0.982	0.848	+0.134
+epithelial	A2_2plus_strings	clipped	0.983	0.488	+0.496	+0.264	+0.744	0.980	0.884	+0.095
+epithelial	A3_ladder_whole_vs_single	unclipped	0.917	0.579	+0.339	+0.066	+0.612	0.986	0.836	+0.150
+epithelial	A3_ladder_whole_vs_single	clipped	0.876	0.430	+0.446	+0.223	+0.661	0.989	0.873	+0.116
+epithelial	A3_ladder_3bead_vs_single	unclipped	0.967	0.579	+0.388	+0.157	+0.628	0.984	0.836	+0.148
+epithelial	A3_ladder_3bead_vs_single	clipped	0.893	0.430	+0.463	+0.240	+0.686	0.959	0.873	+0.086
+epithelial	A3_ladder_2bead_vs_single	unclipped	0.967	0.579	+0.388	+0.182	+0.612	0.969	0.836	+0.133
+epithelial	A3_ladder_2bead_vs_single	clipped	0.810	0.430	+0.380	+0.174	+0.595	0.943	0.873	+0.070
+epithelial	A4_bucket2	unclipped	0.669	0.620	+0.050	-0.083	+0.182	0.868	0.820	+0.048
+epithelial	A4_bucket2	clipped	0.826	0.694	+0.132	-0.041	+0.347	0.920	0.873	+0.048
+epithelial	A4_bucket3	unclipped	0.661	0.413	+0.248	+0.050	+0.471	0.925	0.852	+0.073
+epithelial	A4_bucket3	clipped	0.603	0.512	+0.091	-0.074	+0.281	0.919	0.859	+0.060
+epithelial	D1_simulated	unclipped	0.686	0.686	+0.000	-0.207	+0.215	0.970	0.941	+0.030
+epithelial	D1_simulated	clipped	0.686	0.752	-0.066	-0.306	+0.182	0.975	0.952	+0.023
+Colon-Ep	A1_all_strings	unclipped	0.355	0.248	+0.107	-0.099	+0.322	0.910	0.815	+0.095
+Colon-Ep	A1_all_strings	clipped	0.483	0.306	+0.178	-0.066	+0.413	0.920	0.816	+0.105
+Colon-Ep	A2_2plus_strings	unclipped	0.380	0.273	+0.107	-0.116	+0.339	0.899	0.789	+0.110
+Colon-Ep	A2_2plus_strings	clipped	0.521	0.306	+0.215	-0.033	+0.463	0.908	0.777	+0.131
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	0.413	0.252	+0.161	-0.099	+0.393	0.892	0.755	+0.138
+Colon-Ep	A3_ladder_whole_vs_single	clipped	0.496	0.273	+0.223	-0.050	+0.496	0.912	0.757	+0.156
+Colon-Ep	A3_ladder_3bead_vs_single	unclipped	0.426	0.252	+0.174	+0.008	+0.372	0.832	0.755	+0.077
+Colon-Ep	A3_ladder_3bead_vs_single	clipped	0.508	0.273	+0.236	+0.083	+0.430	0.842	0.757	+0.085
+Colon-Ep	A3_ladder_2bead_vs_single	unclipped	0.322	0.252	+0.070	-0.083	+0.215	0.812	0.755	+0.058
+Colon-Ep	A3_ladder_2bead_vs_single	clipped	0.397	0.273	+0.124	-0.037	+0.264	0.826	0.757	+0.069
+Colon-Ep	A4_bucket2	unclipped	0.545	0.446	+0.099	-0.070	+0.306	0.761	0.701	+0.060
+Colon-Ep	A4_bucket2	clipped	0.570	0.421	+0.149	-0.041	+0.351	0.767	0.714	+0.053
+Colon-Ep	A4_bucket3	unclipped	0.372	0.322	+0.050	-0.174	+0.256	0.768	0.682	+0.086
+Colon-Ep	A4_bucket3	clipped	0.397	0.397	+0.000	-0.203	+0.198	0.768	0.700	+0.068
+Colon-Ep	D1_simulated	unclipped	0.570	0.388	+0.182	-0.033	+0.405	0.969	0.963	+0.007
+Colon-Ep	D1_simulated	clipped	0.570	0.446	+0.124	-0.054	+0.310	0.969	0.967	+0.002
+
+
+E2: the two cancer samples with tumor share under 2%
+score	comparison	clip	sample	tumor_share	est_A	controls_below_A	est_B	controls_below_B
+epithelial	A1_all_strings	unclipped	HU023.03.PL3842	0.0182	0.2285	19 of 22	0.1052	3 of 22
+epithelial	A1_all_strings	unclipped	HU023.04.PL3881	0.0137	0.2753	22 of 22	0.1065	4 of 22
+epithelial	A1_all_strings	clipped	HU023.03.PL3842	0.0182	0.1144	22 of 22	0.0548	16 of 22
+epithelial	A1_all_strings	clipped	HU023.04.PL3881	0.0137	0.0540	20 of 22	0.0065	2 of 22
+epithelial	A3_ladder_whole_vs_single	unclipped	HU023.03.PL3842	0.0182	0.2465	16 of 22	0.1463	5 of 22
+epithelial	A3_ladder_whole_vs_single	unclipped	HU023.04.PL3881	0.0137	0.3305	22 of 22	0.1304	4 of 22
+epithelial	A3_ladder_whole_vs_single	clipped	HU023.03.PL3842	0.0182	0.1458	21 of 22	0.0837	11 of 22
+epithelial	A3_ladder_whole_vs_single	clipped	HU023.04.PL3881	0.0137	0.1358	21 of 22	0.0665	9 of 22
+Colon-Ep	A1_all_strings	unclipped	HU023.03.PL3842	0.0182	0.0000	0 of 22	0.0000	0 of 22
+Colon-Ep	A1_all_strings	unclipped	HU023.04.PL3881	0.0137	0.0208	18 of 22	0.0000	0 of 22
+Colon-Ep	A1_all_strings	clipped	HU023.03.PL3842	0.0182	0.0000	0 of 22	0.0000	0 of 22
+Colon-Ep	A1_all_strings	clipped	HU023.04.PL3881	0.0137	0.0032	19 of 22	0.0000	0 of 22
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	HU023.03.PL3842	0.0182	0.0000	0 of 22	0.0000	0 of 22
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	HU023.04.PL3881	0.0137	0.0368	18 of 22	0.0000	0 of 22
+Colon-Ep	A3_ladder_whole_vs_single	clipped	HU023.03.PL3842	0.0182	0.0000	0 of 22	0.0000	0 of 22
+Colon-Ep	A3_ladder_whole_vs_single	clipped	HU023.04.PL3881	0.0137	0.0166	21 of 22	0.0000	0 of 22
+
+undiluted AUROC with all 20 samples and without those two
+score	comparison	clip	controls_used	auroc_A_all20	auroc_B_all20	gain	auroc_A_without	auroc_B_without	gain
+epithelial	A1_all_strings	unclipped	all	0.991	0.857	+0.134	0.997	0.934	+0.063
+epithelial	A1_all_strings	unclipped	HU012	0.982	0.859	+0.123	0.995	0.934	+0.061
+epithelial	A1_all_strings	unclipped	HU083	1.000	0.855	+0.145	1.000	0.934	+0.066
+epithelial	A1_all_strings	clipped	all	0.989	0.895	+0.093	0.992	0.949	+0.043
+epithelial	A1_all_strings	clipped	HU012	0.977	0.886	+0.091	0.985	0.939	+0.045
+epithelial	A1_all_strings	clipped	HU083	1.000	0.905	+0.095	1.000	0.960	+0.040
+epithelial	A3_ladder_whole_vs_single	unclipped	all	0.986	0.836	+0.150	1.000	0.907	+0.093
+epithelial	A3_ladder_whole_vs_single	unclipped	HU012	0.973	0.832	+0.141	1.000	0.899	+0.101
+epithelial	A3_ladder_whole_vs_single	unclipped	HU083	1.000	0.841	+0.159	1.000	0.914	+0.086
+epithelial	A3_ladder_whole_vs_single	clipped	all	0.989	0.873	+0.116	0.992	0.919	+0.073
+epithelial	A3_ladder_whole_vs_single	clipped	HU012	0.977	0.886	+0.091	0.985	0.934	+0.051
+epithelial	A3_ladder_whole_vs_single	clipped	HU083	1.000	0.859	+0.141	1.000	0.904	+0.096
+Colon-Ep	A1_all_strings	unclipped	all	0.910	0.815	+0.095	0.962	0.888	+0.074
+Colon-Ep	A1_all_strings	unclipped	HU012	0.927	0.852	+0.075	0.975	0.922	+0.053
+Colon-Ep	A1_all_strings	unclipped	HU083	0.893	0.777	+0.116	0.949	0.854	+0.096
+Colon-Ep	A1_all_strings	clipped	all	0.920	0.816	+0.105	0.971	0.889	+0.082
+Colon-Ep	A1_all_strings	clipped	HU012	0.932	0.852	+0.080	0.980	0.922	+0.058
+Colon-Ep	A1_all_strings	clipped	HU083	0.909	0.780	+0.130	0.962	0.856	+0.106
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	all	0.892	0.755	+0.138	0.942	0.823	+0.119
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	HU012	0.916	0.795	+0.120	0.965	0.859	+0.106
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	HU083	0.868	0.714	+0.155	0.919	0.788	+0.131
+Colon-Ep	A3_ladder_whole_vs_single	clipped	all	0.912	0.757	+0.156	0.957	0.823	+0.134
+Colon-Ep	A3_ladder_whole_vs_single	clipped	HU012	0.916	0.795	+0.120	0.965	0.859	+0.106
+Colon-Ep	A3_ladder_whole_vs_single	clipped	HU083	0.909	0.718	+0.191	0.949	0.788	+0.162
+
+
+E3: one line per patient through the undiluted samples (estimate = intercept + slope x tumor share)
+score	comparison	clip	patient	batch	samples	tumor_share_range	slope_A	intercept_A	slope_B	intercept_B
+epithelial	A1_all_strings	unclipped	P1	HU030	12	0.082-0.533	0.51	0.230	0.74	0.091
+epithelial	A1_all_strings	unclipped	P2	HU023	4	0.014-0.347	0.63	0.246	1.04	0.100
+epithelial	A1_all_strings	unclipped	P3	HU025	2	0.157-0.469	0.53	0.213	1.06	-0.008
+epithelial	A1_all_strings	unclipped	P4	HU017	1	0.262-0.262	one sample, no line			
+epithelial	A1_all_strings	unclipped	P5	HU017	1	0.551-0.551	one sample, no line			
+epithelial	A1_all_strings	unclipped	all 20	-	20	0.014-0.551	0.44	0.258	0.69	0.123
+epithelial	A1_all_strings	unclipped	healthy median	all	22			0.185		0.153
+epithelial	A1_all_strings	unclipped	healthy median	HU012	11			0.216		0.129
+epithelial	A1_all_strings	unclipped	healthy median	HU083	11			0.171		0.154
+epithelial	A1_all_strings	clipped	P1	HU030	12	0.082-0.533	1.01	-0.028	0.98	-0.040
+epithelial	A1_all_strings	clipped	P2	HU023	4	0.014-0.347	1.07	0.060	1.27	0.025
+epithelial	A1_all_strings	clipped	P3	HU025	2	0.157-0.469	1.14	-0.106	1.29	-0.121
+epithelial	A1_all_strings	clipped	P4	HU017	1	0.262-0.262	one sample, no line			
+epithelial	A1_all_strings	clipped	P5	HU017	1	0.551-0.551	one sample, no line			
+epithelial	A1_all_strings	clipped	all 20	-	20	0.014-0.551	0.83	0.051	0.85	0.032
+epithelial	A1_all_strings	clipped	healthy median	all	22			0.030		0.015
+epithelial	A1_all_strings	clipped	healthy median	HU012	11			0.046		0.014
+epithelial	A1_all_strings	clipped	healthy median	HU083	11			0.023		0.016
+epithelial	A3_ladder_whole_vs_single	unclipped	P1	HU030	12	0.082-0.533	0.54	0.255	0.68	0.119
+epithelial	A3_ladder_whole_vs_single	unclipped	P2	HU023	4	0.014-0.347	0.65	0.295	0.99	0.152
+epithelial	A3_ladder_whole_vs_single	unclipped	P3	HU025	2	0.157-0.469	0.89	0.180	1.19	0.011
+epithelial	A3_ladder_whole_vs_single	unclipped	P4	HU017	1	0.262-0.262	one sample, no line			
+epithelial	A3_ladder_whole_vs_single	unclipped	P5	HU017	1	0.551-0.551	one sample, no line			
+epithelial	A3_ladder_whole_vs_single	unclipped	all 20	-	20	0.014-0.551	0.46	0.291	0.63	0.159
+epithelial	A3_ladder_whole_vs_single	unclipped	healthy median	all	22			0.197		0.177
+epithelial	A3_ladder_whole_vs_single	unclipped	healthy median	HU012	11			0.249		0.180
+epithelial	A3_ladder_whole_vs_single	unclipped	healthy median	HU083	11			0.171		0.168
+epithelial	A3_ladder_whole_vs_single	clipped	P1	HU030	12	0.082-0.533	0.93	0.062	0.88	0.006
+epithelial	A3_ladder_whole_vs_single	clipped	P2	HU023	4	0.014-0.347	1.09	0.145	1.22	0.088
+epithelial	A3_ladder_whole_vs_single	clipped	P3	HU025	2	0.157-0.469	1.48	-0.068	1.37	-0.058
+epithelial	A3_ladder_whole_vs_single	clipped	P4	HU017	1	0.262-0.262	one sample, no line			
+epithelial	A3_ladder_whole_vs_single	clipped	P5	HU017	1	0.551-0.551	one sample, no line			
+epithelial	A3_ladder_whole_vs_single	clipped	all 20	-	20	0.014-0.551	0.78	0.133	0.75	0.087
+epithelial	A3_ladder_whole_vs_single	clipped	healthy median	all	22			0.060		0.084
+epithelial	A3_ladder_whole_vs_single	clipped	healthy median	HU012	11			0.105		0.089
+epithelial	A3_ladder_whole_vs_single	clipped	healthy median	HU083	11			0.041		0.078
+Colon-Ep	A1_all_strings	unclipped	P1	HU030	12	0.082-0.533	0.24	-0.002	0.46	-0.034
+Colon-Ep	A1_all_strings	unclipped	P2	HU023	4	0.014-0.347	0.25	0.002	0.43	-0.021
+Colon-Ep	A1_all_strings	unclipped	P3	HU025	2	0.157-0.469	0.14	0.016	0.27	-0.006
+Colon-Ep	A1_all_strings	unclipped	P4	HU017	1	0.262-0.262	one sample, no line			
+Colon-Ep	A1_all_strings	unclipped	P5	HU017	1	0.551-0.551	one sample, no line			
+Colon-Ep	A1_all_strings	unclipped	all 20	-	20	0.014-0.551	0.19	0.016	0.35	0.002
+Colon-Ep	A1_all_strings	unclipped	healthy median	all	22			0.012		0.018
+Colon-Ep	A1_all_strings	unclipped	healthy median	HU012	11			0.010		0.008
+Colon-Ep	A1_all_strings	unclipped	healthy median	HU083	11			0.015		0.020
+Colon-Ep	A1_all_strings	clipped	P1	HU030	12	0.082-0.533	0.45	-0.036	0.56	-0.057
+Colon-Ep	A1_all_strings	clipped	P2	HU023	4	0.014-0.347	0.42	-0.018	0.50	-0.024
+Colon-Ep	A1_all_strings	clipped	P3	HU025	2	0.157-0.469	0.35	-0.039	0.39	-0.056
+Colon-Ep	A1_all_strings	clipped	P4	HU017	1	0.262-0.262	one sample, no line			
+Colon-Ep	A1_all_strings	clipped	P5	HU017	1	0.551-0.551	one sample, no line			
+Colon-Ep	A1_all_strings	clipped	all 20	-	20	0.014-0.551	0.35	-0.004	0.42	-0.006
+Colon-Ep	A1_all_strings	clipped	healthy median	all	22			0.001		0.001
+Colon-Ep	A1_all_strings	clipped	healthy median	HU012	11			0.001		0.000
+Colon-Ep	A1_all_strings	clipped	healthy median	HU083	11			0.001		0.001
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	P1	HU030	12	0.082-0.533	0.19	0.012	0.38	-0.009
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	P2	HU023	4	0.014-0.347	0.21	0.010	0.36	-0.017
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	P3	HU025	2	0.157-0.469	0.19	0.008	0.39	-0.054
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	P4	HU017	1	0.262-0.262	one sample, no line			
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	P5	HU017	1	0.551-0.551	one sample, no line			
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	all 20	-	20	0.014-0.551	0.17	0.019	0.33	0.001
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	healthy median	all	22			0.018		0.027
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	healthy median	HU012	11			0.013		0.004
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	healthy median	HU083	11			0.020		0.040
+Colon-Ep	A3_ladder_whole_vs_single	clipped	P1	HU030	12	0.082-0.533	0.33	-0.007	0.47	-0.031
+Colon-Ep	A3_ladder_whole_vs_single	clipped	P2	HU023	4	0.014-0.347	0.34	-0.008	0.43	-0.021
+Colon-Ep	A3_ladder_whole_vs_single	clipped	P3	HU025	2	0.157-0.469	0.40	-0.044	0.43	-0.068
+Colon-Ep	A3_ladder_whole_vs_single	clipped	P4	HU017	1	0.262-0.262	one sample, no line			
+Colon-Ep	A3_ladder_whole_vs_single	clipped	P5	HU017	1	0.551-0.551	one sample, no line			
+Colon-Ep	A3_ladder_whole_vs_single	clipped	all 20	-	20	0.014-0.551	0.29	0.002	0.38	-0.006
+Colon-Ep	A3_ladder_whole_vs_single	clipped	healthy median	all	22			0.002		0.002
+Colon-Ep	A3_ladder_whole_vs_single	clipped	healthy median	HU012	11			0.003		0.000
+Colon-Ep	A3_ladder_whole_vs_single	clipped	healthy median	HU083	11			0.002		0.005
+
+
+E4: tracking of each sample's dilution series (6 levels)
+A series whose estimate is the same at every level has no correlation; it is counted in flat_series and left out of the mean and median.
+score	comparison	clip	version	series_used	mean_corr	median_corr	series_with_corr_below_0.5	flat_series	median_slope
+epithelial	A1_all_strings	unclipped	A	all 20 (20)	0.886	0.915	1	0	0.69
+epithelial	A1_all_strings	unclipped	A	tumor share 5% up (18)	0.916	0.934	0	0	0.67
+epithelial	A1_all_strings	unclipped	B	all 20 (20)	0.571	0.905	5	0	0.58
+epithelial	A1_all_strings	unclipped	B	tumor share 5% up (18)	0.715	0.936	3	0	0.60
+epithelial	A1_all_strings	clipped	A	all 20 (20)	0.806	0.930	3	0	0.91
+epithelial	A1_all_strings	clipped	A	tumor share 5% up (18)	0.839	0.941	2	0	0.90
+epithelial	A1_all_strings	clipped	B	all 20 (20)	0.588	0.907	6	0	0.82
+epithelial	A1_all_strings	clipped	B	tumor share 5% up (18)	0.714	0.912	4	0	0.85
+epithelial	A3_ladder_whole_vs_single	unclipped	A	all 20 (20)	0.836	0.929	2	0	0.69
+epithelial	A3_ladder_whole_vs_single	unclipped	A	tumor share 5% up (18)	0.874	0.934	1	0	0.69
+epithelial	A3_ladder_whole_vs_single	unclipped	B	all 20 (20)	0.507	0.816	6	0	0.46
+epithelial	A3_ladder_whole_vs_single	unclipped	B	tumor share 5% up (18)	0.636	0.827	4	0	0.50
+epithelial	A3_ladder_whole_vs_single	clipped	A	all 20 (20)	0.747	0.919	4	0	0.96
+epithelial	A3_ladder_whole_vs_single	clipped	A	tumor share 5% up (18)	0.797	0.928	2	0	0.93
+epithelial	A3_ladder_whole_vs_single	clipped	B	all 20 (20)	0.560	0.795	5	0	0.61
+epithelial	A3_ladder_whole_vs_single	clipped	B	tumor share 5% up (18)	0.675	0.829	3	0	0.64
+epithelial	A3_ladder_3bead_vs_single	unclipped	A	all 20 (20)	0.796	0.886	2	0	0.67
+epithelial	A3_ladder_3bead_vs_single	unclipped	A	tumor share 5% up (18)	0.836	0.891	1	0	0.67
+epithelial	A3_ladder_3bead_vs_single	clipped	A	all 20 (20)	0.658	0.845	4	0	0.98
+epithelial	A3_ladder_3bead_vs_single	clipped	A	tumor share 5% up (18)	0.712	0.893	2	0	0.98
+epithelial	A3_ladder_2bead_vs_single	unclipped	A	all 20 (20)	0.707	0.856	2	0	0.60
+epithelial	A3_ladder_2bead_vs_single	unclipped	A	tumor share 5% up (18)	0.777	0.865	1	0	0.60
+epithelial	A3_ladder_2bead_vs_single	clipped	A	all 20 (20)	0.594	0.864	6	0	0.86
+epithelial	A3_ladder_2bead_vs_single	clipped	A	tumor share 5% up (18)	0.702	0.877	4	0	0.92
+Colon-Ep	A1_all_strings	unclipped	A	all 20 (20)	0.791	0.873	1	1	0.19
+Colon-Ep	A1_all_strings	unclipped	A	tumor share 5% up (18)	0.790	0.883	1	0	0.19
+Colon-Ep	A1_all_strings	unclipped	B	all 20 (20)	0.621	0.842	6	1	0.23
+Colon-Ep	A1_all_strings	unclipped	B	tumor share 5% up (18)	0.701	0.896	4	1	0.26
+Colon-Ep	A1_all_strings	clipped	A	all 20 (20)	0.844	0.903	1	1	0.31
+Colon-Ep	A1_all_strings	clipped	A	tumor share 5% up (18)	0.848	0.904	1	0	0.32
+Colon-Ep	A1_all_strings	clipped	B	all 20 (20)	0.582	0.794	4	2	0.28
+Colon-Ep	A1_all_strings	clipped	B	tumor share 5% up (18)	0.637	0.798	3	1	0.28
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	A	all 20 (20)	0.663	0.778	3	1	0.18
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	A	tumor share 5% up (18)	0.657	0.791	3	0	0.18
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	B	all 20 (20)	0.609	0.794	5	1	0.22
+Colon-Ep	A3_ladder_whole_vs_single	unclipped	B	tumor share 5% up (18)	0.679	0.803	3	1	0.22
+Colon-Ep	A3_ladder_whole_vs_single	clipped	A	all 20 (20)	0.665	0.841	4	1	0.29
+Colon-Ep	A3_ladder_whole_vs_single	clipped	A	tumor share 5% up (18)	0.678	0.848	3	0	0.29
+Colon-Ep	A3_ladder_whole_vs_single	clipped	B	all 20 (20)	0.613	0.767	4	2	0.29
+Colon-Ep	A3_ladder_whole_vs_single	clipped	B	tumor share 5% up (18)	0.635	0.793	3	1	0.29
+Colon-Ep	A3_ladder_3bead_vs_single	unclipped	A	all 20 (20)	0.671	0.790	4	1	0.14
+Colon-Ep	A3_ladder_3bead_vs_single	unclipped	A	tumor share 5% up (18)	0.664	0.796	4	0	0.14
+Colon-Ep	A3_ladder_3bead_vs_single	clipped	A	all 20 (20)	0.688	0.813	4	1	0.28
+Colon-Ep	A3_ladder_3bead_vs_single	clipped	A	tumor share 5% up (18)	0.701	0.815	3	0	0.28
+Colon-Ep	A3_ladder_2bead_vs_single	unclipped	A	all 20 (20)	0.573	0.728	5	0	0.15
+Colon-Ep	A3_ladder_2bead_vs_single	unclipped	A	tumor share 5% up (18)	0.644	0.764	4	0	0.15
+Colon-Ep	A3_ladder_2bead_vs_single	clipped	A	all 20 (20)	0.539	0.744	6	0	0.24
+Colon-Ep	A3_ladder_2bead_vs_single	clipped	A	tumor share 5% up (18)	0.614	0.751	4	0	0.24
+
+
+E5: look-alike recheck, real healthy controls against simulated ones
+batch	data	beads_in_strings	strings	share_all_off	seen_over_chance	bead_off_rate_in_these_strings
+HU012	real	1	7829	0.1488	1.11	0.1487
+HU012	real	2	5439	0.0517	1.79	0.1218
+HU012	real	3	3720	0.0288	2.26	0.1125
+HU012	real	4+	7267	0.0178	4.05	0.1030
+HU012	simulated	1	7829	0.0952	1.02	0.0953
+HU012	simulated	2	5439	0.0178	1.52	0.0947
+HU012	simulated	3	3720	0.0043	1.97	0.0835
+HU012	simulated	4+	7267	0.0007	0.62	0.0800
+HU083	real	1	14394	0.0932	1.11	0.0933
+HU083	real	2	10259	0.0265	2.38	0.0765
+HU083	real	3	7250	0.0130	6.42	0.0672
+HU083	real	4+	15172	0.0029	7.98	0.0467
+HU083	simulated	1	14394	0.0907	0.99	0.0906
+HU083	simulated	2	10259	0.0159	1.46	0.0924
+HU083	simulated	3	7250	0.0047	3.45	0.0896
+HU083	simulated	4+	15172	0.0007	9.99	0.0783
+
+batch	off_rate_all_beads_real	simulated	off_rate_beads_on_4+_strings_real	simulated	real_over_simulated	fold_more_all_off_4_bead_strings_that_rate_alone_predicts	fold_seen_(share_all_off_4+_real_over_simulated)
+HU012	0.1123	0.0845	0.1030	0.0800	1.29	2.7	25.4
+HU083	0.0587	0.0832	0.0467	0.0783	0.60	0.1	4.1
+
+
+E6: healthy baseline against the number of strings, 22 controls (A1, all strings)
+control	batch	strings	epithelial unclipped A	epithelial unclipped B	epithelial clipped A	epithelial clipped B	Colon-Ep unclipped A	Colon-Ep unclipped B	simulated unclipped A	simulated unclipped B
+HU012.08.PL4420	HU012	2727	0.2207	0.2138	0.0521	0.1362	0.0142	0.0000	0.0171	0.0430
+HU012.11.PL4512	HU012	2883	0.2155	0.1132	0.0476	0.0616	0.0072	0.0000	0.1069	0.0790
+HU012.09.PL4430	HU012	3098	0.2294	0.1718	0.1089	0.1087	0.0383	0.0221	0.0862	0.0882
+HU012.03.PL4472	HU012	3296	0.2309	0.1588	0.0573	0.0152	0.0053	0.0000	0.0290	0.0640
+HU012.01.PL4406	HU012	3594	0.1891	0.0655	0.0250	0.0047	0.0000	0.0304	0.0480	0.1020
+HU012.10.PL4489	HU012	3971	0.1888	0.1020	0.0512	0.0078	0.0081	0.0000	0.0111	0.0390
+HU012.05.PL4473	HU012	4300	0.1854	0.1139	0.0368	0.0139	0.0000	0.0000	0.0566	0.0593
+HU012.07.PL4412	HU012	4666	0.1889	0.1198	0.0257	0.0058	0.0105	0.0077	0.0185	0.0747
+HU012.04.PL4374	HU012	5116	0.2275	0.1557	0.0319	0.0131	0.0142	0.0157	0.0144	0.0204
+HU012.02.PL4504	HU012	5185	0.1788	0.1294	0.0392	0.0125	0.0183	0.0168	0.0197	0.0892
+HU012.06.PL4376	HU012	7456	0.2434	0.1862	0.0460	0.0611	0.0135	0.0183	0.0114	0.0222
+HU083.64	HU083	6224	0.1847	0.1815	0.0246	0.0513	0.0168	0.0194	0.0301	0.0499
+HU083.72	HU083	6848	0.1481	0.1363	0.0161	0.0655	0.0269	0.0201	0.0245	0.0581
+HU083.65	HU083	7401	0.1855	0.1265	0.0280	0.0086	0.0069	0.0228	0.0135	0.0193
+HU083.66	HU083	7700	0.1707	0.1543	0.0323	0.0310	0.0448	0.0401	0.0151	0.0384
+HU083.71	HU083	7739	0.0872	0.0856	0.0070	0.0072	0.0115	0.0073	0.0075	0.0453
+HU083.89	HU083	7978	0.1724	0.1517	0.0235	0.0155	0.0329	0.0433	0.0175	0.0083
+HU083.67	HU083	8125	0.1806	0.1640	0.0227	0.0420	0.0178	0.0357	0.0039	0.0491
+HU083.73	HU083	8441	0.1457	0.1596	0.0131	0.0134	0.0091	0.0190	0.0313	0.0565
+HU083.63	HU083	8911	0.1966	0.2012	0.0326	0.0833	0.0154	0.0324	0.0407	0.0799
+HU083.69	HU083	9983	0.1697	0.1621	0.0204	0.0111	0.0000	0.0000	0.0119	0.0520
+HU083.68	HU083	10368	0.1309	0.1062	0.0172	0.0066	0.0102	0.0000	0.0104	0.0442
+
+rank correlation of the estimate with the number of strings
+controls	epithelial unclipped A	epithelial unclipped B	epithelial clipped A	epithelial clipped B	Colon-Ep unclipped A	Colon-Ep unclipped B	simulated unclipped A	simulated unclipped B
+all (22)	-0.66	+0.12	-0.72	-0.18	+0.14	+0.32	-0.48	-0.31
+HU012 (11)	-0.16	-0.02	-0.55	-0.50	+0.10	+0.37	-0.49	-0.27
+HU083 (11)	-0.25	+0.09	-0.15	-0.35	-0.44	-0.35	-0.19	+0.15
+strings per file, controls: smallest 2727, median 6536, largest 10368
+strings per file, undiluted cancer samples: smallest 1446, median 2973, largest 5309
+strings per file, dilutions: smallest 1423, median 3042, largest 4965

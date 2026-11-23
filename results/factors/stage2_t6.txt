@@ -1,0 +1,49 @@
+EXPLORATORY factor tests: pan-epithelial readout and stage 2. Plan: step_scripts/factors/PLAN.md
+
+T6: pan-epithelial markers (step 7; 8 cell types, one of them megakaryocytes). The breast samples were not fitted on this atlas.
+median share per group
+type	healthy HU012 whole	healthy HU012 single	healthy HU083 whole	healthy HU083 single	cancer low6 whole	cancer low6 single	cancer 20%+ whole	cancer 20%+ single
+Blood-Granul	0.364	0.290	0.317	0.170	0.274	0.204	0.154	0.150
+Blood-Mono+Macro	0.064	0.152	0.039	0.160	0.055	0.134	0.021	0.009
+Endothel	0.052	0.027	0.045	0.033	0.073	0.070	0.043	0.000
+Epithelial	0.029	0.001	0.027	0.000	0.116	0.091	0.374	0.462
+Eryth-prog	0.075	0.077	0.005	0.000	0.088	0.112	0.126	0.189
+Liver-Hep	0.043	0.032	0.054	0.024	0.073	0.060	0.106	0.091
+Lymphocytes	0.054	0.014	0.098	0.073	0.065	0.028	0.068	0.029
+Megakaryocytes	0.305	0.392	0.336	0.437	0.234	0.311	0.084	0.036
+
+epithelial score, unclipped, undiluted samples
+positives	negatives	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+all20	all	1.000	0.953	+0.047	+0.000	+0.182	no
+all20	HU012	1.000	0.955	+0.045	+0.000	+0.174	no
+all20	HU083	1.000	0.952	+0.048	+0.000	+0.191	no
+low6	all	1.000	0.845	+0.155	+0.000	+0.311	no
+low6	HU012	1.000	0.848	+0.152	+0.000	+0.303	no
+low6	HU083	1.000	0.841	+0.159	+0.000	+0.318	no
+healthy_HU012	HU083	0.628	0.529	+0.099	-0.087	+0.289	no
+
+epithelial score, clipped, undiluted samples
+positives	negatives	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+all20	all	1.000	0.965	+0.035	+0.000	+0.136	no
+all20	HU012	1.000	0.964	+0.036	+0.000	+0.145	no
+all20	HU083	1.000	0.966	+0.034	+0.000	+0.141	no
+low6	all	1.000	0.883	+0.117	+0.000	+0.234	no
+low6	HU012	1.000	0.879	+0.121	+0.000	+0.234	no
+low6	HU083	1.000	0.886	+0.114	+0.000	+0.234	no
+healthy_HU012	HU083	0.702	0.595	+0.107	-0.083	+0.306	no
+
+for comparison, U250 epithelial score (16 types), unclipped
+positives	negatives	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+all20	all	0.991	0.857	+0.134	+0.044	+0.315	yes
+all20	HU012	0.982	0.859	+0.123	+0.029	+0.298	yes
+all20	HU083	1.000	0.855	+0.145	+0.040	+0.375	yes
+low6	all	0.970	0.530	+0.439	+0.273	+0.552	yes
+low6	HU012	0.939	0.545	+0.394	+0.205	+0.532	yes
+low6	HU083	1.000	0.515	+0.485	+0.273	+0.636	yes
+healthy_HU012	HU083	0.926	0.430	+0.496	+0.264	+0.719	yes
+
+one line per patient through the undiluted samples (epithelial score = intercept + slope x tumor share), unclipped
+patient	samples	whole slope	whole intercept	single slope	single intercept
+P1	12	0.84	0.020	1.15	-0.034
+P2	4	1.02	0.022	1.38	-0.030
+P3	2	0.56	0.082	0.83	0.050

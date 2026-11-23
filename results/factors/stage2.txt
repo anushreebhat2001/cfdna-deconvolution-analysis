@@ -1,0 +1,190 @@
+EXPLORATORY factor tests: pan-epithelial readout and stage 2. Plan: step_scripts/factors/PLAN.md
+
+
+
+T7: U250 atlas with one added column. 'off' = methylated 5% of the time at every CpG; 'on' = 95% (control arm).
+
+--- original atlas
+median share per group, unclipped
+score	healthy HU012 whole	healthy HU012 single	healthy HU083 whole	healthy HU083 single	breast4 whole	breast4 single	cancer low6 whole	cancer low6 single	cancer 20%+ whole	cancer 20%+ single
+epithelial16	0.216	0.129	0.171	0.154	0.251	0.133	0.286	0.134	0.461	0.443
+gut3	0.038	0.017	0.045	0.047	0.069	0.042	0.059	0.031	0.205	0.271
+nongut13	0.176	0.113	0.120	0.102	0.179	0.083	0.215	0.097	0.239	0.163
+placebo7	0.100	0.084	0.070	0.040	0.102	0.087	0.132	0.140	0.100	0.043
+epithelial score (16 types), unclipped, undiluted samples
+positives	negatives	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+all20	all	0.991	0.857	+0.134	+0.044	+0.315	yes
+all20	HU012	0.982	0.859	+0.123	+0.029	+0.298	yes
+all20	HU083	1.000	0.855	+0.145	+0.040	+0.375	yes
+low6	all	0.970	0.530	+0.439	+0.273	+0.552	yes
+low6	HU012	0.939	0.545	+0.394	+0.205	+0.532	yes
+low6	HU083	1.000	0.515	+0.485	+0.273	+0.636	yes
+breast4	all	0.955	0.500	+0.455	+0.091	+0.773	yes
+breast4	HU012	0.909	0.591	+0.318	-0.091	+0.727	no
+breast4	HU083	1.000	0.409	+0.591	+0.227	+0.909	yes
+healthy_HU012	HU083	0.926	0.430	+0.496	+0.273	+0.719	yes
+epithelial score (16 types), clipped, undiluted samples
+positives	negatives	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+all20	all	0.989	0.895	+0.093	+0.008	+0.223	yes
+all20	HU012	0.977	0.886	+0.091	+0.000	+0.220	no
+all20	HU083	1.000	0.905	+0.095	+0.000	+0.252	no
+low6	all	0.962	0.667	+0.295	+0.091	+0.403	yes
+low6	HU012	0.924	0.652	+0.273	+0.068	+0.429	yes
+low6	HU083	1.000	0.682	+0.318	+0.091	+0.442	yes
+breast4	all	0.886	0.580	+0.307	+0.080	+0.568	yes
+breast4	HU012	0.773	0.545	+0.227	+0.000	+0.500	no
+breast4	HU083	1.000	0.614	+0.386	+0.068	+0.727	yes
+healthy_HU012	HU083	0.934	0.496	+0.438	+0.223	+0.678	yes
+
+--- plus off column
+median share per group, unclipped
+score	healthy HU012 whole	healthy HU012 single	healthy HU083 whole	healthy HU083 single	breast4 whole	breast4 single	cancer low6 whole	cancer low6 single	cancer 20%+ whole	cancer 20%+ single
+epithelial16	0.154	0.115	0.154	0.154	0.159	0.124	0.202	0.147	0.512	0.567
+gut3	0.025	0.016	0.038	0.047	0.066	0.052	0.046	0.037	0.310	0.414
+nongut13	0.127	0.097	0.106	0.102	0.100	0.072	0.150	0.083	0.170	0.153
+placebo7	0.093	0.069	0.057	0.040	0.078	0.065	0.100	0.107	0.034	0.016
+added column	0.029	0.022	0.005	0.000	0.039	0.034	0.050	0.051	0.090	0.106
+epithelial score (16 types), unclipped, undiluted samples
+positives	negatives	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+all20	all	0.968	0.859	+0.109	+0.008	+0.258	yes
+all20	HU012	0.973	0.868	+0.105	+0.000	+0.248	no
+all20	HU083	0.964	0.850	+0.114	+0.000	+0.290	no
+low6	all	0.894	0.530	+0.364	+0.136	+0.483	yes
+low6	HU012	0.909	0.561	+0.348	+0.091	+0.485	yes
+low6	HU083	0.879	0.500	+0.379	+0.182	+0.533	yes
+breast4	all	0.557	0.398	+0.159	-0.227	+0.580	no
+breast4	HU012	0.545	0.545	+0.000	-0.409	+0.455	no
+breast4	HU083	0.568	0.250	+0.318	-0.069	+0.750	no
+healthy_HU012	HU083	0.504	0.347	+0.157	-0.017	+0.364	no
+epithelial score (16 types), clipped, undiluted samples
+positives	negatives	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+all20	all	0.936	0.884	+0.052	+0.000	+0.132	no
+all20	HU012	0.914	0.882	+0.032	+0.000	+0.107	no
+all20	HU083	0.959	0.886	+0.073	+0.000	+0.182	no
+low6	all	0.788	0.614	+0.174	+0.045	+0.264	yes
+low6	HU012	0.712	0.606	+0.106	-0.015	+0.227	no
+low6	HU083	0.864	0.621	+0.242	+0.000	+0.364	no
+breast4	all	0.682	0.682	+0.000	-0.364	+0.307	no
+breast4	HU012	0.545	0.682	-0.136	-0.500	+0.159	no
+breast4	HU083	0.818	0.682	+0.136	-0.318	+0.523	no
+healthy_HU012	HU083	0.793	0.421	+0.372	+0.140	+0.612	yes
+
+--- plus on column
+median share per group, unclipped
+score	healthy HU012 whole	healthy HU012 single	healthy HU083 whole	healthy HU083 single	breast4 whole	breast4 single	cancer low6 whole	cancer low6 single	cancer 20%+ whole	cancer 20%+ single
+epithelial16	0.216	0.129	0.080	0.024	0.251	0.133	0.286	0.134	0.461	0.443
+gut3	0.038	0.017	0.018	0.011	0.069	0.038	0.059	0.031	0.205	0.271
+nongut13	0.176	0.113	0.061	0.012	0.179	0.074	0.215	0.097	0.239	0.163
+placebo7	0.100	0.084	0.036	0.008	0.101	0.082	0.132	0.140	0.100	0.043
+added column	0.000	0.000	0.371	0.468	0.000	0.000	0.000	0.000	0.000	0.000
+epithelial score (16 types), unclipped, undiluted samples
+positives	negatives	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+all20	all	0.991	0.936	+0.055	+0.012	+0.140	yes
+all20	HU012	0.982	0.873	+0.109	+0.026	+0.265	yes
+all20	HU083	1.000	1.000	+0.000	+0.000	+0.000	no
+low6	all	0.970	0.795	+0.174	+0.065	+0.284	yes
+low6	HU012	0.939	0.591	+0.348	+0.182	+0.500	yes
+low6	HU083	1.000	1.000	+0.000	+0.000	+0.000	no
+breast4	all	0.955	0.750	+0.205	-0.023	+0.477	no
+breast4	HU012	0.909	0.500	+0.409	-0.069	+0.841	no
+breast4	HU083	1.000	1.000	+0.000	+0.000	+0.000	no
+healthy_HU012	HU083	1.000	0.992	+0.008	+0.000	+0.050	no
+epithelial score (16 types), clipped, undiluted samples
+positives	negatives	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+all20	all	0.989	0.943	+0.045	+0.000	+0.118	no
+all20	HU012	0.977	0.886	+0.091	+0.000	+0.220	no
+all20	HU083	1.000	1.000	+0.000	+0.000	+0.000	no
+low6	all	0.962	0.826	+0.136	+0.026	+0.240	yes
+low6	HU012	0.924	0.652	+0.273	+0.068	+0.429	yes
+low6	HU083	1.000	1.000	+0.000	+0.000	+0.000	no
+breast4	all	0.886	0.761	+0.125	+0.000	+0.284	no
+breast4	HU012	0.773	0.523	+0.250	+0.000	+0.523	no
+breast4	HU083	1.000	1.000	+0.000	+0.000	+0.000	no
+healthy_HU012	HU083	1.000	1.000	+0.000	+0.000	+0.000	no
+
+where the added column's share came from: change of the median share against the original atlas (points of 100), unclipped
+arm	group	version	added column	epithelial16	placebo7	all other types
+off	healthy HU012	whole	2.9	-6.2	-0.7	+4.8
+off	healthy HU012	single	2.2	-1.4	-1.5	+0.6
+off	healthy HU083	whole	0.5	-1.7	-1.2	+1.9
+off	healthy HU083	single	0.0	+0.0	-0.0	+0.0
+off	breast4	whole	3.9	-9.1	-2.4	+8.4
+off	breast4	single	3.4	-0.9	-2.2	+1.4
+off	cancer low6	whole	5.0	-8.4	-3.2	+8.1
+off	cancer low6	single	5.1	+1.2	-3.3	-1.1
+off	cancer 20%+	whole	9.0	+5.1	-6.6	-9.9
+off	cancer 20%+	single	10.6	+12.4	-2.7	-20.6
+on	healthy HU012	whole	0.0	+0.0	+0.0	-0.0
+on	healthy HU012	single	0.0	+0.0	+0.0	+0.0
+on	healthy HU083	whole	37.1	-9.1	-3.3	-23.7
+on	healthy HU083	single	46.8	-13.0	-3.2	-30.8
+on	breast4	whole	0.0	-0.0	-0.1	-0.0
+on	breast4	single	0.0	+0.0	-0.6	-1.9
+on	cancer low6	whole	0.0	+0.0	-0.0	+0.0
+on	cancer low6	single	0.0	-0.0	+0.0	+0.0
+on	cancer 20%+	whole	0.0	+0.0	-0.0	+0.0
+on	cancer 20%+	single	0.0	+0.0	+0.0	+0.0
+
+
+T8: the 22 controls on the pan-epithelial atlas, with and without its megakaryocyte column (unclipped)
+type	atlas	healthy HU012 whole	healthy HU012 single	healthy HU083 whole	healthy HU083 single
+Blood-Granul	with megakaryocytes	0.364	0.290	0.317	0.170
+Blood-Granul	without	0.434	0.368	0.403	0.276
+Blood-Mono+Macro	with megakaryocytes	0.064	0.152	0.039	0.160
+Blood-Mono+Macro	without	0.135	0.243	0.135	0.285
+Endothel	with megakaryocytes	0.052	0.027	0.045	0.033
+Endothel	without	0.090	0.082	0.103	0.123
+Epithelial	with megakaryocytes	0.029	0.001	0.027	0.000
+Epithelial	without	0.027	0.000	0.021	0.000
+Eryth-prog	with megakaryocytes	0.075	0.077	0.005	0.000
+Eryth-prog	without	0.156	0.199	0.078	0.081
+Liver-Hep	with megakaryocytes	0.043	0.032	0.054	0.024
+Liver-Hep	without	0.041	0.014	0.049	0.006
+Lymphocytes	with megakaryocytes	0.054	0.014	0.098	0.073
+Lymphocytes	without	0.094	0.068	0.165	0.183
+Megakaryocytes	with megakaryocytes	0.305	0.392	0.336	0.437
+healthy HU012 against HU083 on the epithelial score, with megakaryocytes: whole 0.628, single 0.529
+healthy HU012 against HU083 on the epithelial score, without: whole 0.727, single 0.475
+
+
+T9: the four breast samples diluted into pooled healthy strings (U250, epithelial score, unclipped)
+A demonstration, not a discriminating test: these samples carry 0-3% tumor by copy number, so a falling series is
+what a dilution series looks like when the thing being diluted is the run, not tumor.
+sample	version	undiluted	x=0.5	x=0.25	x=0.125	x=0.0625	x=0.03125	slope over the 5 levels	correlation with dilution (6 points)
+HU017.04.PL4596	whole	0.226	0.174	0.215	0.152	0.178	0.199	-0.005	+0.54
+HU017.04.PL4596	single	0.192	0.201	0.182	0.151	0.160	0.160	+0.099	+0.77
+HU017and19.05.PL4434	whole	0.255	0.228	0.215	0.231	0.256	0.252	-0.058	+0.13
+HU017and19.05.PL4434	single	0.139	0.188	0.173	0.196	0.229	0.235	-0.099	-0.88
+HU017and19.06.PL4518	whole	0.246	0.233	0.178	0.133	0.184	0.160	+0.152	+0.85
+HU017and19.06.PL4518	single	0.126	0.123	0.091	0.051	0.112	0.092	+0.067	+0.61
+HU025.13.PL4704	whole	0.259	0.262	0.206	0.220	0.198	0.225	+0.097	+0.79
+HU025.13.PL4704	single	0.125	0.161	0.136	0.159	0.160	0.208	-0.060	-0.67
+HU023.03.PL3842 (colorectal, tumor share under 2%, from step 2)	whole	0.228	0.203	0.247	0.197	0.207	0.211	+0.008	+0.33
+HU023.03.PL3842 (colorectal, tumor share under 2%, from step 2)	single	0.105	0.147	0.196	0.175	0.194	0.190	-0.085	-0.95
+HU023.04.PL3881 (colorectal, tumor share under 2%, from step 2)	whole	0.275	0.245	0.151	0.192	0.145	0.168	+0.166	+0.89
+HU023.04.PL3881 (colorectal, tumor share under 2%, from step 2)	single	0.106	0.145	0.117	0.177	0.108	0.179	-0.031	-0.50
+
+
+T10: simulated healthy controls (true epithelial share 0) with one switch on. Epithelial score = false signal.
+
+unclipped
+condition	median whole	median single	mean whole minus single	ci_lo	ci_hi	moved	HU012-shaped files: whole	single	HU083-shaped files: whole	single
+none (D1 as stored)	0.018	0.051	-0.025	-0.035	-0.016	yes	0.020	0.064	0.015	0.049
+scattered_1	0.020	0.062	-0.032	-0.041	-0.021	yes	0.027	0.067	0.017	0.062
+clumped_1	0.097	0.075	+0.021	+0.009	+0.032	yes	0.094	0.099	0.098	0.067
+scattered_3	0.025	0.069	-0.040	-0.050	-0.031	yes	0.031	0.068	0.019	0.069
+clumped_3	0.168	0.089	+0.077	+0.065	+0.089	yes	0.161	0.097	0.178	0.079
+symmetric_5	0.031	0.087	-0.056	-0.066	-0.047	yes	0.045	0.098	0.026	0.086
+symmetric_10	0.042	0.110	-0.070	-0.081	-0.058	yes	0.045	0.113	0.039	0.106
+
+clipped
+condition	median whole	median single	mean whole minus single	ci_lo	ci_hi	moved	HU012-shaped files: whole	single	HU083-shaped files: whole	single
+none (D1 as stored)	0.001	0.003	-0.001	-0.007	+0.007	no	0.001	0.004	0.001	0.002
+scattered_1	0.001	0.003	-0.001	-0.002	+0.001	no	0.001	0.004	0.001	0.003
+clumped_1	0.008	0.004	+0.002	-0.003	+0.006	no	0.009	0.008	0.008	0.003
+scattered_3	0.001	0.004	-0.002	-0.003	-0.001	yes	0.001	0.004	0.001	0.004
+clumped_3	0.024	0.007	+0.004	-0.008	+0.015	no	0.021	0.008	0.025	0.006
+symmetric_5	0.002	0.007	-0.001	-0.004	+0.002	no	0.003	0.007	0.001	0.006
+symmetric_10	0.003	0.011	-0.012	-0.022	-0.005	yes	0.003	0.013	0.003	0.009
+
+for comparison, the real controls (unclipped): median whole 0.185, single 0.153, mean whole minus single +0.041

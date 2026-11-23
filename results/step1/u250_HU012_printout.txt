@@ -1,0 +1,11 @@
+[u250_HU012] 11 healthy controls, 8 cancer samples with tumor share >= 0.4
+[u250_HU012] strings that could not be predicted (no other healthy call in the place): {'healthy': 198, 'cancer_high_tumor': 91}
+group	beads	strings	all_off_seen	share_seen	all_off_expected	ratio	ratio_ci_lo	ratio_ci_hi	all_off_expected_marker_rate	ratio_marker_rate
+healthy	1	7829	1165	0.1488	1051.0	1.11	1.04	1.19	970.3	1.20
+healthy	2	5439	281	0.0517	157.4	1.79	1.48	2.11	146.8	1.91
+healthy	3	3720	107	0.0288	47.3	2.26	1.80	2.84	38.6	2.77
+healthy	4+	7267	129	0.0178	31.8	4.05	2.89	6.47	32.3	3.99
+cancer_high_tumor	1	3113	838	0.2692	414.1	2.02	1.81	2.20	376.0	2.23
+cancer_high_tumor	2	1962	317	0.1616	54.6	5.80	4.89	7.15	57.4	5.53
+cancer_high_tumor	3	1389	162	0.1166	14.9	10.85	7.10	18.23	13.0	12.45
+cancer_high_tumor	4+	2570	225	0.0875	14.0	16.05	10.76	30.31	13.5	16.63

@@ -1,0 +1,56 @@
+
+== HU012.01.PL4406
+A same beads     : PASS   (3594 strings, 10905 beads; cut file has 10905 lines)
+B 1-bead bucket  : PASS   (1081 one-bead strings, files identical: True)
+C strings (ISH unclipped): PASS   (largest difference 0.0000 percentage points)
+C strings (ISH clipped)  : PASS   (largest difference 0.0000 percentage points)
+D CelFiE whole vs cut    : PASS   (largest difference 0.0060 percentage points)
+epithelial share (%):
+  CelFiE-ISH unclipped, whole:  18.91
+  CelFiE-ISH unclipped, cut  :   6.55
+  CelFiE-ISH clipped, whole  :   2.50
+  CelFiE-ISH clipped, cut    :   0.47
+  CelFiE, whole              :   6.19
+  CelFiE, cut                :   6.18
+
+== HU030.09.PL4937
+A same beads     : PASS   (2023 strings, 5883 beads; cut file has 5883 lines)
+B 1-bead bucket  : PASS   (668 one-bead strings, files identical: True)
+C strings (ISH unclipped): PASS   (largest difference 0.0000 percentage points)
+C strings (ISH clipped)  : PASS   (largest difference 0.0000 percentage points)
+D CelFiE whole vs cut    : PASS   (largest difference 0.0020 percentage points)
+epithelial share (%):
+  CelFiE-ISH unclipped, whole:  46.24
+  CelFiE-ISH unclipped, cut  :  43.77
+  CelFiE-ISH clipped, whole  :  41.73
+  CelFiE-ISH clipped, cut    :  40.99
+  CelFiE, whole              :  43.11
+  CelFiE, cut                :  43.11
+
+== HU030.09.PL4937__d3.125
+A same beads     : PASS   (2141 strings, 6484 beads; cut file has 6484 lines)
+B 1-bead bucket  : PASS   (651 one-bead strings, files identical: True)
+C strings (ISH unclipped): PASS   (largest difference 0.0000 percentage points)
+C strings (ISH clipped)  : PASS   (largest difference 0.0000 percentage points)
+D CelFiE whole vs cut    : PASS   (largest difference 0.0010 percentage points)
+epithelial share (%):
+  CelFiE-ISH unclipped, whole:  29.19
+  CelFiE-ISH unclipped, cut  :  27.01
+  CelFiE-ISH clipped, whole  :  10.20
+  CelFiE-ISH clipped, cut    :  10.74
+  CelFiE, whole              :  26.66
+  CelFiE, cut                :  26.66
+
+== HU083.68
+A same beads     : PASS   (10368 strings, 31096 beads; cut file has 31096 lines)
+B 1-bead bucket  : PASS   (3216 one-bead strings, files identical: True)
+C strings (ISH unclipped): FAIL   (largest difference 0.0371 percentage points)
+C strings (ISH clipped)  : FAIL   (largest difference 0.0517 percentage points)
+D CelFiE whole vs cut    : PASS   (largest difference 0.0000 percentage points)
+epithelial share (%):
+  CelFiE-ISH unclipped, whole:  13.09
+  CelFiE-ISH unclipped, cut  :  10.62
+  CelFiE-ISH clipped, whole  :   1.72
+  CelFiE-ISH clipped, cut    :   0.66
+  CelFiE, whole              :  10.11
+  CelFiE, cut                :  10.11

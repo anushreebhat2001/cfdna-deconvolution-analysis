@@ -1,0 +1,14 @@
+results/scores/A1_all_strings_summary.tsv
+results/scores/A2_2plus_strings_summary.tsv
+results/scores/A3_ladder_2bead_vs_single_summary.tsv
+results/scores/A3_ladder_3bead_vs_single_summary.tsv
+results/scores/A3_ladder_whole_vs_single_summary.tsv
+results/scores/A4_bucket1_whole_only_summary.tsv
+results/scores/A4_bucket2_summary.tsv
+results/scores/A4_bucket3_summary.tsv
+results/scores/A5_matched_bucket2_summary.tsv
+results/scores/A5_matched_bucket3_summary.tsv
+results/scores/A5_matched_bucket4+_summary.tsv
+results/scores/B3_background_HU012_summary.tsv
+results/scores/B3_background_HU083_summary.tsv
+results/scores/D1_simulated_summary.tsv

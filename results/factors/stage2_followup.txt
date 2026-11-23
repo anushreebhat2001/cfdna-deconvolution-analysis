@@ -1,0 +1,37 @@
+EXPLORATORY follow-up to stage 2, not in PLAN.md (made after seeing results/factors/stage2.txt)
+
+1. raw calls per group: median over samples (min-max)
+group	samples	share of beads called methylated	all-on share of 2+ bead strings	all-off share of 2+ bead strings
+healthy HU012	11	0.867 (0.849-0.877)	0.721 (0.707-0.744)	0.047 (0.044-0.053)
+healthy HU083	11	0.928 (0.911-0.934)	0.817 (0.789-0.840)	0.023 (0.019-0.030)
+breast4	4	0.854 (0.841-0.876)	0.714 (0.697-0.745)	0.054 (0.049-0.063)
+cancer low6	6	0.842 (0.809-0.857)	0.701 (0.644-0.726)	0.064 (0.057-0.081)
+cancer 20%+	14	0.782 (0.734-0.822)	0.606 (0.541-0.659)	0.096 (0.069-0.131)
+
+2. T7 with the off column: epithelial score (16 types) per sample, and how many of the 22 controls it is above
+
+unclipped; controls min/median/max: whole 0.083/0.154/0.193, single 0.058/0.143/0.219
+sample	patient	tumor share	whole	single	controls below, whole	controls below, single	off column whole	off column single
+HU017.04.PL4596	breast	0-0.03	0.148	0.143	7	11	0.025	0.035
+HU017and19.05.PL4434	breast	0-0.03	0.171	0.130	17	9	0.036	0.032
+HU017and19.06.PL4518	breast	0-0.03	0.194	0.114	22	7	0.041	0.053
+HU025.13.PL4704	breast	0-0.03	0.122	0.118	3	8	0.045	0.007
+HU023.04.PL3881	P2	0.014	0.179	0.079	18	1	0.052	0.039
+HU023.03.PL3842	P2	0.018	0.169	0.094	15	4	0.043	0.021
+HU030abcd.02.PL3478	P1	0.082	0.182	0.082	19	1	0.048	0.056
+HU030abcd.04.PL3838	P1	0.125	0.261	0.258	22	22	0.046	0.047
+HU025.14.PL2876	P3	0.157	0.221	0.199	22	20	0.071	0.080
+HU023.02.PL2552	P2	0.174	0.307	0.334	22	22	0.072	0.089
+
+clipped; controls min/median/max: whole 0.006/0.029/0.134, single 0.003/0.014/0.143
+sample	patient	tumor share	whole	single	controls below, whole	controls below, single	off column whole	off column single
+HU017.04.PL4596	breast	0-0.03	0.022	0.064	7	18	0.030	0.037
+HU017and19.05.PL4434	breast	0-0.03	0.062	0.076	20	19	0.048	0.038
+HU017and19.06.PL4518	breast	0-0.03	0.082	0.058	21	18	0.055	0.061
+HU025.13.PL4704	breast	0-0.03	0.032	0.009	12	5	0.054	0.007
+HU023.04.PL3881	P2	0.014	0.019	0.004	6	1	0.074	0.043
+HU023.03.PL3842	P2	0.018	0.108	0.028	21	13	0.055	0.024
+HU030abcd.02.PL3478	P1	0.082	0.035	0.007	12	5	0.076	0.062
+HU030abcd.04.PL3838	P1	0.125	0.147	0.108	22	20	0.060	0.061
+HU025.14.PL2876	P3	0.157	0.103	0.095	21	20	0.096	0.096
+HU023.02.PL2552	P2	0.174	0.231	0.299	22	22	0.097	0.095

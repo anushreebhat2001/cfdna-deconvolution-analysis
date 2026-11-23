@@ -1,0 +1,580 @@
+EXPLORATORY factor tests, stage 1 (no fits). Plan and outcomes fixed in advance: step_scripts/factors/PLAN.md
+
+T1: the same fits scored with four sets of cell types
+positives: all20 = the 20 undiluted cancer samples; low6 = those with tumor share under 20%;
+breast4 = the four breast samples from the cancer flow cells (all strings only);
+healthy_HU012 = the HU012 controls counted as positives against the HU083 controls.
+comparison	clip	score	positives	negatives	n_pos	n_neg	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+A1_all_strings	unclipped	epithelial16	all20	all	20	22	0.991	0.857	+0.134	+0.044	+0.315	yes
+A1_all_strings	unclipped	epithelial16	all20	HU012	20	11	0.982	0.859	+0.123	+0.029	+0.298	yes
+A1_all_strings	unclipped	epithelial16	all20	HU083	20	11	1.000	0.855	+0.145	+0.040	+0.375	yes
+A1_all_strings	unclipped	epithelial16	low6	all	6	22	0.970	0.530	+0.439	+0.273	+0.552	yes
+A1_all_strings	unclipped	epithelial16	low6	HU012	6	11	0.939	0.545	+0.394	+0.205	+0.532	yes
+A1_all_strings	unclipped	epithelial16	low6	HU083	6	11	1.000	0.515	+0.485	+0.273	+0.636	yes
+A1_all_strings	unclipped	epithelial16	breast4	all	4	22	0.955	0.500	+0.455	+0.091	+0.773	yes
+A1_all_strings	unclipped	epithelial16	breast4	HU012	4	11	0.909	0.591	+0.318	-0.091	+0.727	no
+A1_all_strings	unclipped	epithelial16	breast4	HU083	4	11	1.000	0.409	+0.591	+0.227	+0.909	yes
+A1_all_strings	unclipped	epithelial16	healthy_HU012	HU083	11	11	0.926	0.430	+0.496	+0.273	+0.719	yes
+A1_all_strings	unclipped	gut3	all20	all	20	22	0.932	0.852	+0.080	+0.004	+0.136	yes
+A1_all_strings	unclipped	gut3	all20	HU012	20	11	0.936	0.914	+0.023	-0.061	+0.074	no
+A1_all_strings	unclipped	gut3	all20	HU083	20	11	0.927	0.791	+0.136	+0.054	+0.250	yes
+A1_all_strings	unclipped	gut3	low6	all	6	22	0.773	0.515	+0.258	+0.055	+0.545	yes
+A1_all_strings	unclipped	gut3	low6	HU012	6	11	0.788	0.712	+0.076	-0.121	+0.364	no
+A1_all_strings	unclipped	gut3	low6	HU083	6	11	0.758	0.318	+0.439	+0.152	+0.773	yes
+A1_all_strings	unclipped	gut3	breast4	all	4	22	0.830	0.534	+0.295	+0.091	+0.500	yes
+A1_all_strings	unclipped	gut3	breast4	HU012	4	11	0.864	0.705	+0.159	-0.045	+0.409	no
+A1_all_strings	unclipped	gut3	breast4	HU083	4	11	0.795	0.364	+0.432	+0.182	+0.682	yes
+A1_all_strings	unclipped	gut3	healthy_HU012	HU083	11	11	0.380	0.140	+0.240	+0.058	+0.438	yes
+A1_all_strings	unclipped	nongut13	all20	all	20	22	0.984	0.782	+0.202	+0.032	+0.364	yes
+A1_all_strings	unclipped	nongut13	all20	HU012	20	11	0.968	0.714	+0.255	+0.000	+0.455	no
+A1_all_strings	unclipped	nongut13	all20	HU083	20	11	1.000	0.850	+0.150	+0.026	+0.309	yes
+A1_all_strings	unclipped	nongut13	low6	all	6	22	0.985	0.545	+0.439	+0.261	+0.591	yes
+A1_all_strings	unclipped	nongut13	low6	HU012	6	11	0.970	0.455	+0.515	+0.273	+0.697	yes
+A1_all_strings	unclipped	nongut13	low6	HU083	6	11	1.000	0.636	+0.364	+0.159	+0.545	yes
+A1_all_strings	unclipped	nongut13	breast4	all	4	22	0.807	0.398	+0.409	+0.023	+0.727	yes
+A1_all_strings	unclipped	nongut13	breast4	HU012	4	11	0.614	0.295	+0.318	-0.136	+0.727	no
+A1_all_strings	unclipped	nongut13	breast4	HU083	4	11	1.000	0.500	+0.500	+0.136	+0.886	yes
+A1_all_strings	unclipped	nongut13	healthy_HU012	HU083	11	11	0.950	0.711	+0.240	+0.058	+0.463	yes
+A1_all_strings	unclipped	placebo7	all20	all	20	22	0.720	0.509	+0.211	+0.101	+0.333	yes
+A1_all_strings	unclipped	placebo7	all20	HU012	20	11	0.514	0.345	+0.168	-0.007	+0.364	no
+A1_all_strings	unclipped	placebo7	all20	HU083	20	11	0.927	0.673	+0.255	+0.131	+0.414	yes
+A1_all_strings	unclipped	placebo7	low6	all	6	22	0.780	0.788	-0.008	-0.136	+0.106	no
+A1_all_strings	unclipped	placebo7	low6	HU012	6	11	0.621	0.636	-0.015	-0.227	+0.159	no
+A1_all_strings	unclipped	placebo7	low6	HU083	6	11	0.939	0.939	+0.000	-0.136	+0.104	no
+A1_all_strings	unclipped	placebo7	breast4	all	4	22	0.705	0.705	+0.000	-0.091	+0.125	no
+A1_all_strings	unclipped	placebo7	breast4	HU012	4	11	0.477	0.477	+0.000	-0.136	+0.136	no
+A1_all_strings	unclipped	placebo7	breast4	HU083	4	11	0.932	0.932	+0.000	-0.136	+0.182	no
+A1_all_strings	unclipped	placebo7	healthy_HU012	HU083	11	11	0.917	0.901	+0.017	-0.132	+0.174	no
+A1_all_strings	clipped	epithelial16	all20	all	20	22	0.989	0.895	+0.093	+0.008	+0.223	yes
+A1_all_strings	clipped	epithelial16	all20	HU012	20	11	0.977	0.886	+0.091	+0.000	+0.220	no
+A1_all_strings	clipped	epithelial16	all20	HU083	20	11	1.000	0.905	+0.095	+0.000	+0.252	no
+A1_all_strings	clipped	epithelial16	low6	all	6	22	0.962	0.667	+0.295	+0.091	+0.403	yes
+A1_all_strings	clipped	epithelial16	low6	HU012	6	11	0.924	0.652	+0.273	+0.068	+0.429	yes
+A1_all_strings	clipped	epithelial16	low6	HU083	6	11	1.000	0.682	+0.318	+0.091	+0.442	yes
+A1_all_strings	clipped	epithelial16	breast4	all	4	22	0.886	0.580	+0.307	+0.080	+0.568	yes
+A1_all_strings	clipped	epithelial16	breast4	HU012	4	11	0.773	0.545	+0.227	+0.000	+0.500	no
+A1_all_strings	clipped	epithelial16	breast4	HU083	4	11	1.000	0.614	+0.386	+0.068	+0.727	yes
+A1_all_strings	clipped	epithelial16	healthy_HU012	HU083	11	11	0.934	0.496	+0.438	+0.223	+0.678	yes
+A1_all_strings	clipped	gut3	all20	all	20	22	0.941	0.868	+0.073	+0.006	+0.118	yes
+A1_all_strings	clipped	gut3	all20	HU012	20	11	0.945	0.918	+0.027	-0.057	+0.069	no
+A1_all_strings	clipped	gut3	all20	HU083	20	11	0.936	0.818	+0.118	+0.030	+0.205	yes
+A1_all_strings	clipped	gut3	low6	all	6	22	0.803	0.561	+0.242	+0.040	+0.545	yes
+A1_all_strings	clipped	gut3	low6	HU012	6	11	0.818	0.727	+0.091	-0.104	+0.364	no
+A1_all_strings	clipped	gut3	low6	HU083	6	11	0.788	0.394	+0.394	+0.121	+0.745	yes
+A1_all_strings	clipped	gut3	breast4	all	4	22	0.909	0.625	+0.284	+0.023	+0.591	yes
+A1_all_strings	clipped	gut3	breast4	HU012	4	11	0.955	0.773	+0.182	+0.000	+0.477	no
+A1_all_strings	clipped	gut3	breast4	HU083	4	11	0.864	0.477	+0.386	+0.045	+0.751	yes
+A1_all_strings	clipped	gut3	healthy_HU012	HU083	11	11	0.496	0.149	+0.347	+0.132	+0.570	yes
+A1_all_strings	clipped	nongut13	all20	all	20	22	0.959	0.830	+0.130	-0.013	+0.237	no
+A1_all_strings	clipped	nongut13	all20	HU012	20	11	0.918	0.791	+0.127	-0.030	+0.280	no
+A1_all_strings	clipped	nongut13	all20	HU083	20	11	1.000	0.868	+0.132	+0.000	+0.242	no
+A1_all_strings	clipped	nongut13	low6	all	6	22	0.917	0.674	+0.242	-0.023	+0.364	no
+A1_all_strings	clipped	nongut13	low6	HU012	6	11	0.833	0.606	+0.227	-0.091	+0.403	no
+A1_all_strings	clipped	nongut13	low6	HU083	6	11	1.000	0.742	+0.258	+0.000	+0.398	no
+A1_all_strings	clipped	nongut13	breast4	all	4	22	0.739	0.432	+0.307	+0.080	+0.545	yes
+A1_all_strings	clipped	nongut13	breast4	HU012	4	11	0.477	0.341	+0.136	-0.045	+0.341	no
+A1_all_strings	clipped	nongut13	breast4	HU083	4	11	1.000	0.523	+0.477	+0.114	+0.841	yes
+A1_all_strings	clipped	nongut13	healthy_HU012	HU083	11	11	1.000	0.587	+0.413	+0.174	+0.686	yes
+A1_all_strings	clipped	placebo7	all20	all	20	22	0.789	0.575	+0.214	+0.108	+0.341	yes
+A1_all_strings	clipped	placebo7	all20	HU012	20	11	0.614	0.400	+0.214	+0.014	+0.412	yes
+A1_all_strings	clipped	placebo7	all20	HU083	20	11	0.964	0.750	+0.214	+0.104	+0.375	yes
+A1_all_strings	clipped	placebo7	low6	all	6	22	0.795	0.826	-0.030	-0.218	+0.091	no
+A1_all_strings	clipped	placebo7	low6	HU012	6	11	0.636	0.682	-0.045	-0.364	+0.152	no
+A1_all_strings	clipped	placebo7	low6	HU083	6	11	0.955	0.970	-0.015	-0.136	+0.078	no
+A1_all_strings	clipped	placebo7	breast4	all	4	22	0.750	0.852	-0.102	-0.295	+0.068	no
+A1_all_strings	clipped	placebo7	breast4	HU012	4	11	0.591	0.705	-0.114	-0.409	+0.136	no
+A1_all_strings	clipped	placebo7	breast4	HU083	4	11	0.909	1.000	-0.091	-0.273	+0.000	no
+A1_all_strings	clipped	placebo7	healthy_HU012	HU083	11	11	0.901	0.917	-0.017	-0.182	+0.140	no
+A2_2plus_strings	unclipped	epithelial16	all20	all	20	22	0.982	0.848	+0.134	+0.048	+0.312	yes
+A2_2plus_strings	unclipped	epithelial16	all20	HU012	20	11	0.964	0.855	+0.109	+0.027	+0.273	yes
+A2_2plus_strings	unclipped	epithelial16	all20	HU083	20	11	1.000	0.841	+0.159	+0.057	+0.386	yes
+A2_2plus_strings	unclipped	epithelial16	low6	all	6	22	0.939	0.508	+0.432	+0.309	+0.545	yes
+A2_2plus_strings	unclipped	epithelial16	low6	HU012	6	11	0.879	0.530	+0.348	+0.182	+0.494	yes
+A2_2plus_strings	unclipped	epithelial16	low6	HU083	6	11	1.000	0.485	+0.515	+0.364	+0.675	yes
+A2_2plus_strings	unclipped	epithelial16	healthy_HU012	HU083	11	11	0.975	0.455	+0.521	+0.281	+0.769	yes
+A2_2plus_strings	unclipped	gut3	all20	all	20	22	0.934	0.861	+0.073	-0.017	+0.155	no
+A2_2plus_strings	unclipped	gut3	all20	HU012	20	11	0.941	0.923	+0.018	-0.098	+0.082	no
+A2_2plus_strings	unclipped	gut3	all20	HU083	20	11	0.927	0.800	+0.127	+0.000	+0.246	no
+A2_2plus_strings	unclipped	gut3	low6	all	6	22	0.780	0.561	+0.220	-0.028	+0.557	no
+A2_2plus_strings	unclipped	gut3	low6	HU012	6	11	0.803	0.742	+0.061	-0.169	+0.432	no
+A2_2plus_strings	unclipped	gut3	low6	HU083	6	11	0.758	0.379	+0.379	+0.061	+0.795	yes
+A2_2plus_strings	unclipped	gut3	healthy_HU012	HU083	11	11	0.421	0.149	+0.273	+0.074	+0.479	yes
+A2_2plus_strings	unclipped	nongut13	all20	all	20	22	0.982	0.766	+0.216	+0.053	+0.364	yes
+A2_2plus_strings	unclipped	nongut13	all20	HU012	20	11	0.964	0.686	+0.277	+0.045	+0.478	yes
+A2_2plus_strings	unclipped	nongut13	all20	HU083	20	11	1.000	0.845	+0.155	+0.027	+0.295	yes
+A2_2plus_strings	unclipped	nongut13	low6	all	6	22	0.955	0.523	+0.432	+0.282	+0.576	yes
+A2_2plus_strings	unclipped	nongut13	low6	HU012	6	11	0.909	0.424	+0.485	+0.227	+0.701	yes
+A2_2plus_strings	unclipped	nongut13	low6	HU083	6	11	1.000	0.621	+0.379	+0.182	+0.532	yes
+A2_2plus_strings	unclipped	nongut13	healthy_HU012	HU083	11	11	0.983	0.736	+0.248	+0.066	+0.479	yes
+A2_2plus_strings	unclipped	placebo7	all20	all	20	22	0.786	0.541	+0.245	+0.144	+0.354	yes
+A2_2plus_strings	unclipped	placebo7	all20	HU012	20	11	0.600	0.355	+0.245	+0.076	+0.451	yes
+A2_2plus_strings	unclipped	placebo7	all20	HU083	20	11	0.973	0.727	+0.245	+0.098	+0.361	yes
+A2_2plus_strings	unclipped	placebo7	low6	all	6	22	0.826	0.780	+0.045	-0.109	+0.149	no
+A2_2plus_strings	unclipped	placebo7	low6	HU012	6	11	0.682	0.621	+0.061	-0.182	+0.212	no
+A2_2plus_strings	unclipped	placebo7	low6	HU083	6	11	0.970	0.939	+0.030	-0.109	+0.130	no
+A2_2plus_strings	unclipped	placebo7	healthy_HU012	HU083	11	11	0.917	0.917	+0.000	-0.157	+0.140	no
+A2_2plus_strings	clipped	epithelial16	all20	all	20	22	0.980	0.884	+0.095	+0.000	+0.287	no
+A2_2plus_strings	clipped	epithelial16	all20	HU012	20	11	0.959	0.891	+0.068	-0.027	+0.273	no
+A2_2plus_strings	clipped	epithelial16	all20	HU083	20	11	1.000	0.877	+0.123	+0.013	+0.339	yes
+A2_2plus_strings	clipped	epithelial16	low6	all	6	22	0.932	0.644	+0.288	-0.011	+0.481	no
+A2_2plus_strings	clipped	epithelial16	low6	HU012	6	11	0.864	0.667	+0.197	-0.182	+0.455	no
+A2_2plus_strings	clipped	epithelial16	low6	HU083	6	11	1.000	0.621	+0.379	+0.091	+0.571	yes
+A2_2plus_strings	clipped	epithelial16	healthy_HU012	HU083	11	11	0.983	0.488	+0.496	+0.264	+0.744	yes
+A2_2plus_strings	clipped	gut3	all20	all	20	22	0.934	0.870	+0.064	-0.025	+0.156	no
+A2_2plus_strings	clipped	gut3	all20	HU012	20	11	0.941	0.918	+0.023	-0.099	+0.101	no
+A2_2plus_strings	clipped	gut3	all20	HU083	20	11	0.927	0.823	+0.105	+0.000	+0.234	no
+A2_2plus_strings	clipped	gut3	low6	all	6	22	0.780	0.568	+0.212	-0.030	+0.557	no
+A2_2plus_strings	clipped	gut3	low6	HU012	6	11	0.803	0.727	+0.076	-0.182	+0.500	no
+A2_2plus_strings	clipped	gut3	low6	HU083	6	11	0.758	0.409	+0.348	+0.061	+0.727	yes
+A2_2plus_strings	clipped	gut3	healthy_HU012	HU083	11	11	0.521	0.165	+0.355	+0.083	+0.603	yes
+A2_2plus_strings	clipped	nongut13	all20	all	20	22	0.964	0.805	+0.159	+0.023	+0.322	yes
+A2_2plus_strings	clipped	nongut13	all20	HU012	20	11	0.927	0.782	+0.145	+0.000	+0.364	no
+A2_2plus_strings	clipped	nongut13	all20	HU083	20	11	1.000	0.827	+0.173	+0.015	+0.343	yes
+A2_2plus_strings	clipped	nongut13	low6	all	6	22	0.909	0.629	+0.280	+0.000	+0.473	no
+A2_2plus_strings	clipped	nongut13	low6	HU012	6	11	0.818	0.591	+0.227	-0.182	+0.489	no
+A2_2plus_strings	clipped	nongut13	low6	HU083	6	11	1.000	0.667	+0.333	+0.091	+0.557	yes
+A2_2plus_strings	clipped	nongut13	healthy_HU012	HU083	11	11	1.000	0.587	+0.413	+0.174	+0.686	yes
+A2_2plus_strings	clipped	placebo7	all20	all	20	22	0.820	0.602	+0.218	+0.117	+0.342	yes
+A2_2plus_strings	clipped	placebo7	all20	HU012	20	11	0.641	0.414	+0.227	+0.048	+0.420	yes
+A2_2plus_strings	clipped	placebo7	all20	HU083	20	11	1.000	0.791	+0.209	+0.087	+0.347	yes
+A2_2plus_strings	clipped	placebo7	low6	all	6	22	0.856	0.841	+0.015	-0.205	+0.169	no
+A2_2plus_strings	clipped	placebo7	low6	HU012	6	11	0.712	0.712	+0.000	-0.382	+0.273	no
+A2_2plus_strings	clipped	placebo7	low6	HU083	6	11	1.000	0.970	+0.030	+0.000	+0.091	no
+A2_2plus_strings	clipped	placebo7	healthy_HU012	HU083	11	11	0.934	0.934	+0.000	-0.124	+0.116	no
+A3_4plus_whole_vs_single	unclipped	epithelial16	all20	all	20	22	0.986	0.836	+0.150	+0.038	+0.285	yes
+A3_4plus_whole_vs_single	unclipped	epithelial16	all20	HU012	20	11	0.973	0.832	+0.141	+0.026	+0.247	yes
+A3_4plus_whole_vs_single	unclipped	epithelial16	all20	HU083	20	11	1.000	0.841	+0.159	+0.015	+0.351	yes
+A3_4plus_whole_vs_single	unclipped	epithelial16	low6	all	6	22	0.955	0.561	+0.394	+0.227	+0.509	yes
+A3_4plus_whole_vs_single	unclipped	epithelial16	low6	HU012	6	11	0.909	0.561	+0.348	+0.152	+0.523	yes
+A3_4plus_whole_vs_single	unclipped	epithelial16	low6	HU083	6	11	1.000	0.561	+0.439	+0.182	+0.606	yes
+A3_4plus_whole_vs_single	unclipped	epithelial16	healthy_HU012	HU083	11	11	0.917	0.579	+0.339	+0.066	+0.603	yes
+A3_4plus_whole_vs_single	unclipped	gut3	all20	all	20	22	0.920	0.855	+0.066	-0.045	+0.156	no
+A3_4plus_whole_vs_single	unclipped	gut3	all20	HU012	20	11	0.927	0.918	+0.009	-0.132	+0.102	no
+A3_4plus_whole_vs_single	unclipped	gut3	all20	HU083	20	11	0.914	0.791	+0.123	+0.000	+0.234	no
+A3_4plus_whole_vs_single	unclipped	gut3	low6	all	6	22	0.750	0.598	+0.152	-0.076	+0.534	no
+A3_4plus_whole_vs_single	unclipped	gut3	low6	HU012	6	11	0.788	0.758	+0.030	-0.234	+0.436	no
+A3_4plus_whole_vs_single	unclipped	gut3	low6	HU083	6	11	0.712	0.439	+0.273	+0.039	+0.682	yes
+A3_4plus_whole_vs_single	unclipped	gut3	healthy_HU012	HU083	11	11	0.372	0.215	+0.157	-0.058	+0.380	no
+A3_4plus_whole_vs_single	unclipped	nongut13	all20	all	20	22	0.968	0.752	+0.216	+0.006	+0.378	yes
+A3_4plus_whole_vs_single	unclipped	nongut13	all20	HU012	20	11	0.936	0.655	+0.282	+0.000	+0.455	no
+A3_4plus_whole_vs_single	unclipped	nongut13	all20	HU083	20	11	1.000	0.850	+0.150	+0.000	+0.331	no
+A3_4plus_whole_vs_single	unclipped	nongut13	low6	all	6	22	0.939	0.561	+0.379	+0.102	+0.526	yes
+A3_4plus_whole_vs_single	unclipped	nongut13	low6	HU012	6	11	0.879	0.500	+0.379	+0.091	+0.557	yes
+A3_4plus_whole_vs_single	unclipped	nongut13	low6	HU083	6	11	1.000	0.621	+0.379	+0.000	+0.571	no
+A3_4plus_whole_vs_single	unclipped	nongut13	healthy_HU012	HU083	11	11	0.950	0.843	+0.107	-0.025	+0.306	no
+A3_4plus_whole_vs_single	unclipped	placebo7	all20	all	20	22	0.759	0.614	+0.145	+0.049	+0.247	yes
+A3_4plus_whole_vs_single	unclipped	placebo7	all20	HU012	20	11	0.541	0.409	+0.132	+0.024	+0.284	yes
+A3_4plus_whole_vs_single	unclipped	placebo7	all20	HU083	20	11	0.977	0.818	+0.159	+0.000	+0.286	no
+A3_4plus_whole_vs_single	unclipped	placebo7	low6	all	6	22	0.826	0.795	+0.030	-0.068	+0.182	no
+A3_4plus_whole_vs_single	unclipped	placebo7	low6	HU012	6	11	0.682	0.636	+0.045	-0.136	+0.364	no
+A3_4plus_whole_vs_single	unclipped	placebo7	low6	HU083	6	11	0.970	0.955	+0.015	-0.052	+0.102	no
+A3_4plus_whole_vs_single	unclipped	placebo7	healthy_HU012	HU083	11	11	0.917	0.876	+0.041	-0.050	+0.165	no
+A3_4plus_whole_vs_single	clipped	epithelial16	all20	all	20	22	0.989	0.873	+0.116	-0.008	+0.220	no
+A3_4plus_whole_vs_single	clipped	epithelial16	all20	HU012	20	11	0.977	0.886	+0.091	-0.030	+0.212	no
+A3_4plus_whole_vs_single	clipped	epithelial16	all20	HU083	20	11	1.000	0.859	+0.141	+0.000	+0.257	no
+A3_4plus_whole_vs_single	clipped	epithelial16	low6	all	6	22	0.962	0.705	+0.258	+0.000	+0.422	no
+A3_4plus_whole_vs_single	clipped	epithelial16	low6	HU012	6	11	0.924	0.727	+0.197	-0.091	+0.409	no
+A3_4plus_whole_vs_single	clipped	epithelial16	low6	HU083	6	11	1.000	0.682	+0.318	+0.091	+0.511	yes
+A3_4plus_whole_vs_single	clipped	epithelial16	healthy_HU012	HU083	11	11	0.876	0.430	+0.446	+0.231	+0.661	yes
+A3_4plus_whole_vs_single	clipped	gut3	all20	all	20	22	0.930	0.870	+0.059	-0.097	+0.182	no
+A3_4plus_whole_vs_single	clipped	gut3	all20	HU012	20	11	0.923	0.905	+0.018	-0.116	+0.130	no
+A3_4plus_whole_vs_single	clipped	gut3	all20	HU083	20	11	0.936	0.836	+0.100	-0.102	+0.239	no
+A3_4plus_whole_vs_single	clipped	gut3	low6	all	6	22	0.773	0.644	+0.129	-0.167	+0.614	no
+A3_4plus_whole_vs_single	clipped	gut3	low6	HU012	6	11	0.758	0.727	+0.030	-0.212	+0.455	no
+A3_4plus_whole_vs_single	clipped	gut3	low6	HU083	6	11	0.788	0.561	+0.227	-0.182	+0.818	no
+A3_4plus_whole_vs_single	clipped	gut3	healthy_HU012	HU083	11	11	0.405	0.248	+0.157	-0.058	+0.355	no
+A3_4plus_whole_vs_single	clipped	nongut13	all20	all	20	22	0.968	0.798	+0.170	+0.000	+0.289	no
+A3_4plus_whole_vs_single	clipped	nongut13	all20	HU012	20	11	0.955	0.800	+0.155	+0.000	+0.314	no
+A3_4plus_whole_vs_single	clipped	nongut13	all20	HU083	20	11	0.982	0.795	+0.186	+0.000	+0.314	no
+A3_4plus_whole_vs_single	clipped	nongut13	low6	all	6	22	0.970	0.689	+0.280	+0.000	+0.424	no
+A3_4plus_whole_vs_single	clipped	nongut13	low6	HU012	6	11	0.955	0.682	+0.273	+0.000	+0.455	no
+A3_4plus_whole_vs_single	clipped	nongut13	low6	HU083	6	11	0.985	0.697	+0.288	+0.000	+0.477	no
+A3_4plus_whole_vs_single	clipped	nongut13	healthy_HU012	HU083	11	11	0.909	0.545	+0.364	+0.132	+0.620	yes
+A3_4plus_whole_vs_single	clipped	placebo7	all20	all	20	22	0.793	0.669	+0.124	+0.020	+0.245	yes
+A3_4plus_whole_vs_single	clipped	placebo7	all20	HU012	20	11	0.609	0.473	+0.136	-0.039	+0.354	no
+A3_4plus_whole_vs_single	clipped	placebo7	all20	HU083	20	11	0.977	0.866	+0.111	-0.015	+0.227	no
+A3_4plus_whole_vs_single	clipped	placebo7	low6	all	6	22	0.811	0.803	+0.008	-0.205	+0.273	no
+A3_4plus_whole_vs_single	clipped	placebo7	low6	HU012	6	11	0.652	0.652	+0.000	-0.364	+0.545	no
+A3_4plus_whole_vs_single	clipped	placebo7	low6	HU083	6	11	0.970	0.955	+0.015	-0.091	+0.136	no
+A3_4plus_whole_vs_single	clipped	placebo7	healthy_HU012	HU083	11	11	0.926	0.893	+0.033	-0.066	+0.157	no
+A4_bucket1_whole_only	unclipped	epithelial16	all20	all	20	22	0.993	0.993	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	epithelial16	all20	HU012	20	11	0.995	0.995	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	epithelial16	all20	HU083	20	11	0.991	0.991	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	epithelial16	low6	all	6	22	0.977	0.977	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	epithelial16	low6	HU012	6	11	0.985	0.985	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	epithelial16	low6	HU083	6	11	0.970	0.970	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	epithelial16	healthy_HU012	HU083	11	11	0.438	0.438	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	gut3	all20	all	20	22	0.877	0.877	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	gut3	all20	HU012	20	11	0.895	0.895	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	gut3	all20	HU083	20	11	0.859	0.859	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	gut3	low6	all	6	22	0.598	0.598	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	gut3	low6	HU012	6	11	0.667	0.667	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	gut3	low6	HU083	6	11	0.530	0.530	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	gut3	healthy_HU012	HU083	11	11	0.339	0.339	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	nongut13	all20	all	20	22	0.709	0.709	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	nongut13	all20	HU012	20	11	0.714	0.714	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	nongut13	all20	HU083	20	11	0.705	0.705	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	nongut13	low6	all	6	22	0.894	0.894	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	nongut13	low6	HU012	6	11	0.894	0.894	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	nongut13	low6	HU083	6	11	0.894	0.894	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	nongut13	healthy_HU012	HU083	11	11	0.496	0.496	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	placebo7	all20	all	20	22	0.341	0.341	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	placebo7	all20	HU012	20	11	0.286	0.286	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	placebo7	all20	HU083	20	11	0.395	0.395	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	placebo7	low6	all	6	22	0.273	0.273	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	placebo7	low6	HU012	6	11	0.227	0.227	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	placebo7	low6	HU083	6	11	0.318	0.318	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	unclipped	placebo7	healthy_HU012	HU083	11	11	0.678	0.678	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	epithelial16	all20	all	20	22	0.998	0.998	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	epithelial16	all20	HU012	20	11	0.995	0.995	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	epithelial16	all20	HU083	20	11	1.000	1.000	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	epithelial16	low6	all	6	22	0.992	0.992	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	epithelial16	low6	HU012	6	11	0.985	0.985	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	epithelial16	low6	HU083	6	11	1.000	1.000	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	epithelial16	healthy_HU012	HU083	11	11	0.554	0.554	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	gut3	all20	all	20	22	0.877	0.877	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	gut3	all20	HU012	20	11	0.895	0.895	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	gut3	all20	HU083	20	11	0.859	0.859	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	gut3	low6	all	6	22	0.598	0.598	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	gut3	low6	HU012	6	11	0.667	0.667	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	gut3	low6	HU083	6	11	0.530	0.530	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	gut3	healthy_HU012	HU083	11	11	0.372	0.372	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	nongut13	all20	all	20	22	0.748	0.748	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	nongut13	all20	HU012	20	11	0.755	0.755	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	nongut13	all20	HU083	20	11	0.741	0.741	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	nongut13	low6	all	6	22	0.902	0.902	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	nongut13	low6	HU012	6	11	0.909	0.909	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	nongut13	low6	HU083	6	11	0.894	0.894	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	nongut13	healthy_HU012	HU083	11	11	0.521	0.521	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	placebo7	all20	all	20	22	0.361	0.361	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	placebo7	all20	HU012	20	11	0.309	0.309	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	placebo7	all20	HU083	20	11	0.414	0.414	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	placebo7	low6	all	6	22	0.258	0.258	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	placebo7	low6	HU012	6	11	0.227	0.227	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	placebo7	low6	HU083	6	11	0.288	0.288	+0.000	+0.000	+0.000	no
+A4_bucket1_whole_only	clipped	placebo7	healthy_HU012	HU083	11	11	0.645	0.645	+0.000	+0.000	+0.000	no
+A4_bucket2	unclipped	epithelial16	all20	all	20	22	0.868	0.820	+0.048	+0.010	+0.123	yes
+A4_bucket2	unclipped	epithelial16	all20	HU012	20	11	0.805	0.768	+0.036	-0.023	+0.150	no
+A4_bucket2	unclipped	epithelial16	all20	HU083	20	11	0.932	0.873	+0.059	+0.015	+0.152	yes
+A4_bucket2	unclipped	epithelial16	low6	all	6	22	0.697	0.598	+0.098	-0.023	+0.284	no
+A4_bucket2	unclipped	epithelial16	low6	HU012	6	11	0.591	0.485	+0.106	-0.073	+0.346	no
+A4_bucket2	unclipped	epithelial16	low6	HU083	6	11	0.803	0.712	+0.091	-0.034	+0.318	no
+A4_bucket2	unclipped	epithelial16	healthy_HU012	HU083	11	11	0.669	0.620	+0.050	-0.091	+0.198	no
+A4_bucket2	unclipped	gut3	all20	all	20	22	0.850	0.814	+0.036	-0.037	+0.254	no
+A4_bucket2	unclipped	gut3	all20	HU012	20	11	0.809	0.818	-0.009	-0.121	+0.182	no
+A4_bucket2	unclipped	gut3	all20	HU083	20	11	0.891	0.809	+0.082	+0.019	+0.356	yes
+A4_bucket2	unclipped	gut3	low6	all	6	22	0.553	0.530	+0.023	-0.110	+0.273	no
+A4_bucket2	unclipped	gut3	low6	HU012	6	11	0.455	0.561	-0.106	-0.292	+0.182	no
+A4_bucket2	unclipped	gut3	low6	HU083	6	11	0.652	0.500	+0.152	+0.006	+0.409	yes
+A4_bucket2	unclipped	gut3	healthy_HU012	HU083	11	11	0.607	0.430	+0.178	+0.016	+0.355	yes
+A4_bucket2	unclipped	nongut13	all20	all	20	22	0.661	0.636	+0.025	-0.040	+0.098	no
+A4_bucket2	unclipped	nongut13	all20	HU012	20	11	0.586	0.545	+0.041	-0.068	+0.145	no
+A4_bucket2	unclipped	nongut13	all20	HU083	20	11	0.736	0.727	+0.009	-0.061	+0.114	no
+A4_bucket2	unclipped	nongut13	low6	all	6	22	0.621	0.492	+0.129	+0.045	+0.239	yes
+A4_bucket2	unclipped	nongut13	low6	HU012	6	11	0.561	0.424	+0.136	+0.000	+0.318	no
+A4_bucket2	unclipped	nongut13	low6	HU083	6	11	0.682	0.561	+0.121	+0.000	+0.273	no
+A4_bucket2	unclipped	nongut13	healthy_HU012	HU083	11	11	0.595	0.645	-0.050	-0.232	+0.091	no
+A4_bucket2	unclipped	placebo7	all20	all	20	22	0.568	0.480	+0.089	-0.042	+0.165	no
+A4_bucket2	unclipped	placebo7	all20	HU012	20	11	0.441	0.382	+0.059	-0.125	+0.140	no
+A4_bucket2	unclipped	placebo7	all20	HU083	20	11	0.695	0.577	+0.118	+0.000	+0.253	no
+A4_bucket2	unclipped	placebo7	low6	all	6	22	0.568	0.545	+0.023	-0.136	+0.131	no
+A4_bucket2	unclipped	placebo7	low6	HU012	6	11	0.439	0.455	-0.015	-0.182	+0.104	no
+A4_bucket2	unclipped	placebo7	low6	HU083	6	11	0.697	0.636	+0.061	-0.109	+0.182	no
+A4_bucket2	unclipped	placebo7	healthy_HU012	HU083	11	11	0.777	0.678	+0.099	-0.033	+0.240	no
+A4_bucket2	clipped	epithelial16	all20	all	20	22	0.920	0.873	+0.048	-0.019	+0.117	no
+A4_bucket2	clipped	epithelial16	all20	HU012	20	11	0.864	0.818	+0.045	-0.053	+0.149	no
+A4_bucket2	clipped	epithelial16	all20	HU083	20	11	0.977	0.927	+0.050	-0.017	+0.121	no
+A4_bucket2	clipped	epithelial16	low6	all	6	22	0.818	0.697	+0.121	-0.032	+0.364	no
+A4_bucket2	clipped	epithelial16	low6	HU012	6	11	0.697	0.576	+0.121	-0.102	+0.455	no
+A4_bucket2	clipped	epithelial16	low6	HU083	6	11	0.939	0.818	+0.121	-0.030	+0.409	no
+A4_bucket2	clipped	epithelial16	healthy_HU012	HU083	11	11	0.826	0.694	+0.132	-0.058	+0.347	no
+A4_bucket2	clipped	gut3	all20	all	20	22	0.893	0.820	+0.073	+0.014	+0.273	yes
+A4_bucket2	clipped	gut3	all20	HU012	20	11	0.855	0.818	+0.036	-0.039	+0.208	no
+A4_bucket2	clipped	gut3	all20	HU083	20	11	0.932	0.823	+0.109	+0.042	+0.382	yes
+A4_bucket2	clipped	gut3	low6	all	6	22	0.689	0.545	+0.144	+0.015	+0.409	yes
+A4_bucket2	clipped	gut3	low6	HU012	6	11	0.606	0.576	+0.030	-0.108	+0.227	no
+A4_bucket2	clipped	gut3	low6	HU083	6	11	0.773	0.515	+0.258	+0.091	+0.580	yes
+A4_bucket2	clipped	gut3	healthy_HU012	HU083	11	11	0.665	0.459	+0.207	+0.033	+0.397	yes
+A4_bucket2	clipped	nongut13	all20	all	20	22	0.743	0.682	+0.061	-0.009	+0.139	no
+A4_bucket2	clipped	nongut13	all20	HU012	20	11	0.627	0.600	+0.027	-0.073	+0.182	no
+A4_bucket2	clipped	nongut13	all20	HU083	20	11	0.859	0.764	+0.095	+0.000	+0.194	no
+A4_bucket2	clipped	nongut13	low6	all	6	22	0.629	0.568	+0.061	-0.074	+0.227	no
+A4_bucket2	clipped	nongut13	low6	HU012	6	11	0.485	0.500	-0.015	-0.182	+0.205	no
+A4_bucket2	clipped	nongut13	low6	HU083	6	11	0.773	0.636	+0.136	-0.026	+0.341	no
+A4_bucket2	clipped	nongut13	healthy_HU012	HU083	11	11	0.777	0.661	+0.116	-0.074	+0.314	no
+A4_bucket2	clipped	placebo7	all20	all	20	22	0.607	0.507	+0.100	+0.016	+0.191	yes
+A4_bucket2	clipped	placebo7	all20	HU012	20	11	0.509	0.400	+0.109	+0.000	+0.214	no
+A4_bucket2	clipped	placebo7	all20	HU083	20	11	0.705	0.614	+0.091	-0.026	+0.227	no
+A4_bucket2	clipped	placebo7	low6	all	6	22	0.583	0.576	+0.008	-0.209	+0.175	no
+A4_bucket2	clipped	placebo7	low6	HU012	6	11	0.485	0.455	+0.030	-0.200	+0.212	no
+A4_bucket2	clipped	placebo7	low6	HU083	6	11	0.682	0.697	-0.015	-0.273	+0.208	no
+A4_bucket2	clipped	placebo7	healthy_HU012	HU083	11	11	0.727	0.752	-0.025	-0.207	+0.132	no
+A4_bucket3	unclipped	epithelial16	all20	all	20	22	0.925	0.852	+0.073	+0.017	+0.167	yes
+A4_bucket3	unclipped	epithelial16	all20	HU012	20	11	0.909	0.845	+0.064	-0.015	+0.147	no
+A4_bucket3	unclipped	epithelial16	all20	HU083	20	11	0.941	0.859	+0.082	+0.007	+0.231	yes
+A4_bucket3	unclipped	epithelial16	low6	all	6	22	0.750	0.621	+0.129	-0.023	+0.318	no
+A4_bucket3	unclipped	epithelial16	low6	HU012	6	11	0.697	0.636	+0.061	-0.102	+0.273	no
+A4_bucket3	unclipped	epithelial16	low6	HU083	6	11	0.803	0.606	+0.197	-0.000	+0.418	no
+A4_bucket3	unclipped	epithelial16	healthy_HU012	HU083	11	11	0.661	0.413	+0.248	+0.050	+0.479	yes
+A4_bucket3	unclipped	gut3	all20	all	20	22	0.843	0.835	+0.008	-0.034	+0.104	no
+A4_bucket3	unclipped	gut3	all20	HU012	20	11	0.855	0.857	-0.002	-0.050	+0.068	no
+A4_bucket3	unclipped	gut3	all20	HU083	20	11	0.832	0.814	+0.018	-0.055	+0.154	no
+A4_bucket3	unclipped	gut3	low6	all	6	22	0.477	0.489	-0.011	-0.273	+0.169	no
+A4_bucket3	unclipped	gut3	low6	HU012	6	11	0.515	0.553	-0.038	-0.243	+0.125	no
+A4_bucket3	unclipped	gut3	low6	HU083	6	11	0.439	0.424	+0.015	-0.327	+0.286	no
+A4_bucket3	unclipped	gut3	healthy_HU012	HU083	11	11	0.438	0.331	+0.107	-0.124	+0.331	no
+A4_bucket3	unclipped	nongut13	all20	all	20	22	0.843	0.668	+0.175	+0.076	+0.263	yes
+A4_bucket3	unclipped	nongut13	all20	HU012	20	11	0.782	0.655	+0.127	+0.014	+0.236	yes
+A4_bucket3	unclipped	nongut13	all20	HU083	20	11	0.905	0.682	+0.223	+0.061	+0.391	yes
+A4_bucket3	unclipped	nongut13	low6	all	6	22	0.750	0.591	+0.159	+0.030	+0.364	yes
+A4_bucket3	unclipped	nongut13	low6	HU012	6	11	0.652	0.591	+0.061	-0.052	+0.273	no
+A4_bucket3	unclipped	nongut13	low6	HU083	6	11	0.848	0.591	+0.258	+0.054	+0.500	yes
+A4_bucket3	unclipped	nongut13	healthy_HU012	HU083	11	11	0.669	0.545	+0.124	-0.050	+0.314	no
+A4_bucket3	unclipped	placebo7	all20	all	20	22	0.675	0.524	+0.151	+0.026	+0.293	yes
+A4_bucket3	unclipped	placebo7	all20	HU012	20	11	0.500	0.445	+0.055	-0.136	+0.249	no
+A4_bucket3	unclipped	placebo7	all20	HU083	20	11	0.850	0.602	+0.248	+0.101	+0.413	yes
+A4_bucket3	unclipped	placebo7	low6	all	6	22	0.750	0.780	-0.030	-0.227	+0.102	no
+A4_bucket3	unclipped	placebo7	low6	HU012	6	11	0.606	0.667	-0.061	-0.273	+0.136	no
+A4_bucket3	unclipped	placebo7	low6	HU083	6	11	0.894	0.894	+0.000	-0.218	+0.182	no
+A4_bucket3	unclipped	placebo7	healthy_HU012	HU083	11	11	0.777	0.727	+0.050	-0.174	+0.281	no
+A4_bucket3	clipped	epithelial16	all20	all	20	22	0.920	0.859	+0.061	+0.006	+0.145	yes
+A4_bucket3	clipped	epithelial16	all20	HU012	20	11	0.905	0.850	+0.055	-0.018	+0.142	no
+A4_bucket3	clipped	epithelial16	all20	HU083	20	11	0.936	0.868	+0.068	+0.000	+0.182	no
+A4_bucket3	clipped	epithelial16	low6	all	6	22	0.735	0.636	+0.098	-0.052	+0.282	no
+A4_bucket3	clipped	epithelial16	low6	HU012	6	11	0.682	0.636	+0.045	-0.117	+0.273	no
+A4_bucket3	clipped	epithelial16	low6	HU083	6	11	0.788	0.636	+0.152	-0.036	+0.364	no
+A4_bucket3	clipped	epithelial16	healthy_HU012	HU083	11	11	0.603	0.512	+0.091	-0.074	+0.273	no
+A4_bucket3	clipped	gut3	all20	all	20	22	0.841	0.855	-0.014	-0.054	+0.073	no
+A4_bucket3	clipped	gut3	all20	HU012	20	11	0.841	0.870	-0.030	-0.087	+0.030	no
+A4_bucket3	clipped	gut3	all20	HU083	20	11	0.841	0.839	+0.002	-0.066	+0.136	no
+A4_bucket3	clipped	gut3	low6	all	6	22	0.470	0.538	-0.068	-0.309	+0.119	no
+A4_bucket3	clipped	gut3	low6	HU012	6	11	0.470	0.583	-0.114	-0.364	+0.061	no
+A4_bucket3	clipped	gut3	low6	HU083	6	11	0.470	0.492	-0.023	-0.327	+0.260	no
+A4_bucket3	clipped	gut3	healthy_HU012	HU083	11	11	0.488	0.426	+0.062	-0.190	+0.322	no
+A4_bucket3	clipped	nongut13	all20	all	20	22	0.839	0.659	+0.180	+0.088	+0.248	yes
+A4_bucket3	clipped	nongut13	all20	HU012	20	11	0.814	0.605	+0.209	+0.097	+0.316	yes
+A4_bucket3	clipped	nongut13	all20	HU083	20	11	0.864	0.714	+0.150	+0.000	+0.242	no
+A4_bucket3	clipped	nongut13	low6	all	6	22	0.727	0.591	+0.136	-0.000	+0.455	no
+A4_bucket3	clipped	nongut13	low6	HU012	6	11	0.727	0.530	+0.197	+0.023	+0.636	yes
+A4_bucket3	clipped	nongut13	low6	HU083	6	11	0.727	0.652	+0.076	-0.091	+0.295	no
+A4_bucket3	clipped	nongut13	healthy_HU012	HU083	11	11	0.603	0.587	+0.017	-0.083	+0.124	no
+A4_bucket3	clipped	placebo7	all20	all	20	22	0.689	0.536	+0.152	-0.005	+0.294	no
+A4_bucket3	clipped	placebo7	all20	HU012	20	11	0.455	0.445	+0.009	-0.219	+0.217	no
+A4_bucket3	clipped	placebo7	all20	HU083	20	11	0.923	0.627	+0.295	+0.153	+0.416	yes
+A4_bucket3	clipped	placebo7	low6	all	6	22	0.758	0.750	+0.008	-0.145	+0.130	no
+A4_bucket3	clipped	placebo7	low6	HU012	6	11	0.576	0.591	-0.015	-0.212	+0.182	no
+A4_bucket3	clipped	placebo7	low6	HU083	6	11	0.939	0.909	+0.030	-0.182	+0.208	no
+A4_bucket3	clipped	placebo7	healthy_HU012	HU083	11	11	0.860	0.785	+0.074	-0.099	+0.265	no
+D1_simulated	unclipped	epithelial16	all20	all	20	22	0.970	0.941	+0.030	-0.007	+0.132	no
+D1_simulated	unclipped	epithelial16	all20	HU012	20	11	0.955	0.932	+0.023	-0.014	+0.136	no
+D1_simulated	unclipped	epithelial16	all20	HU083	20	11	0.986	0.950	+0.036	+0.000	+0.167	no
+D1_simulated	unclipped	epithelial16	low6	all	6	22	0.902	0.803	+0.098	-0.036	+0.239	no
+D1_simulated	unclipped	epithelial16	low6	HU012	6	11	0.848	0.773	+0.076	-0.073	+0.242	no
+D1_simulated	unclipped	epithelial16	low6	HU083	6	11	0.955	0.833	+0.121	+0.000	+0.286	no
+D1_simulated	unclipped	epithelial16	healthy_HU012	HU083	11	11	0.686	0.686	+0.000	-0.207	+0.223	no
+D1_simulated	unclipped	gut3	all20	all	20	22	0.960	0.952	+0.008	-0.005	+0.045	no
+D1_simulated	unclipped	gut3	all20	HU012	20	11	0.959	0.955	+0.005	-0.028	+0.045	no
+D1_simulated	unclipped	gut3	all20	HU083	20	11	0.961	0.950	+0.011	+0.000	+0.061	no
+D1_simulated	unclipped	gut3	low6	all	6	22	0.867	0.841	+0.027	-0.011	+0.084	no
+D1_simulated	unclipped	gut3	low6	HU012	6	11	0.864	0.848	+0.015	-0.057	+0.104	no
+D1_simulated	unclipped	gut3	low6	HU083	6	11	0.871	0.833	+0.038	+0.000	+0.106	no
+D1_simulated	unclipped	gut3	healthy_HU012	HU083	11	11	0.678	0.455	+0.223	-0.046	+0.500	no
+D1_simulated	unclipped	nongut13	all20	all	20	22	0.682	0.618	+0.064	-0.042	+0.199	no
+D1_simulated	unclipped	nongut13	all20	HU012	20	11	0.623	0.555	+0.068	-0.105	+0.260	no
+D1_simulated	unclipped	nongut13	all20	HU083	20	11	0.741	0.682	+0.059	-0.059	+0.211	no
+D1_simulated	unclipped	nongut13	low6	all	6	22	0.606	0.508	+0.098	-0.091	+0.455	no
+D1_simulated	unclipped	nongut13	low6	HU012	6	11	0.530	0.439	+0.091	-0.200	+0.455	no
+D1_simulated	unclipped	nongut13	low6	HU083	6	11	0.682	0.576	+0.106	-0.068	+0.455	no
+D1_simulated	unclipped	nongut13	healthy_HU012	HU083	11	11	0.603	0.694	-0.091	-0.372	+0.215	no
+D1_simulated	unclipped	placebo7	all20	all	20	22	0.236	0.211	+0.025	-0.061	+0.116	no
+D1_simulated	unclipped	placebo7	all20	HU012	20	11	0.264	0.255	+0.009	-0.091	+0.106	no
+D1_simulated	unclipped	placebo7	all20	HU083	20	11	0.209	0.168	+0.041	-0.044	+0.152	no
+D1_simulated	unclipped	placebo7	low6	all	6	22	0.659	0.508	+0.152	-0.045	+0.258	no
+D1_simulated	unclipped	placebo7	low6	HU012	6	11	0.667	0.561	+0.106	-0.091	+0.221	no
+D1_simulated	unclipped	placebo7	low6	HU083	6	11	0.652	0.455	+0.197	-0.036	+0.325	no
+D1_simulated	unclipped	placebo7	healthy_HU012	HU083	11	11	0.463	0.306	+0.157	-0.025	+0.347	no
+D1_simulated	clipped	epithelial16	all20	all	20	22	0.975	0.952	+0.023	-0.005	+0.099	no
+D1_simulated	clipped	epithelial16	all20	HU012	20	11	0.964	0.936	+0.027	-0.011	+0.132	no
+D1_simulated	clipped	epithelial16	all20	HU083	20	11	0.986	0.968	+0.018	+0.000	+0.091	no
+D1_simulated	clipped	epithelial16	low6	all	6	22	0.917	0.841	+0.076	-0.023	+0.176	no
+D1_simulated	clipped	epithelial16	low6	HU012	6	11	0.879	0.788	+0.091	-0.045	+0.234	no
+D1_simulated	clipped	epithelial16	low6	HU083	6	11	0.955	0.894	+0.061	+0.000	+0.156	no
+D1_simulated	clipped	epithelial16	healthy_HU012	HU083	11	11	0.686	0.752	-0.066	-0.298	+0.182	no
+D1_simulated	clipped	gut3	all20	all	20	22	0.960	0.959	+0.001	-0.008	+0.015	no
+D1_simulated	clipped	gut3	all20	HU012	20	11	0.959	0.959	+0.000	-0.016	+0.016	no
+D1_simulated	clipped	gut3	all20	HU083	20	11	0.961	0.959	+0.002	-0.009	+0.023	no
+D1_simulated	clipped	gut3	low6	all	6	22	0.867	0.864	+0.004	-0.018	+0.027	no
+D1_simulated	clipped	gut3	low6	HU012	6	11	0.864	0.864	+0.000	-0.038	+0.038	no
+D1_simulated	clipped	gut3	low6	HU083	6	11	0.871	0.864	+0.008	-0.023	+0.045	no
+D1_simulated	clipped	gut3	healthy_HU012	HU083	11	11	0.678	0.504	+0.174	-0.074	+0.430	no
+D1_simulated	clipped	nongut13	all20	all	20	22	0.702	0.595	+0.107	+0.000	+0.244	no
+D1_simulated	clipped	nongut13	all20	HU012	20	11	0.632	0.518	+0.114	-0.055	+0.300	no
+D1_simulated	clipped	nongut13	all20	HU083	20	11	0.773	0.673	+0.100	-0.024	+0.257	no
+D1_simulated	clipped	nongut13	low6	all	6	22	0.629	0.470	+0.159	-0.052	+0.500	no
+D1_simulated	clipped	nongut13	low6	HU012	6	11	0.545	0.394	+0.152	-0.136	+0.600	no
+D1_simulated	clipped	nongut13	low6	HU083	6	11	0.712	0.545	+0.167	-0.013	+0.455	no
+D1_simulated	clipped	nongut13	healthy_HU012	HU083	11	11	0.587	0.744	-0.157	-0.471	+0.182	no
+D1_simulated	clipped	placebo7	all20	all	20	22	0.250	0.277	-0.027	-0.152	+0.067	no
+D1_simulated	clipped	placebo7	all20	HU012	20	11	0.245	0.300	-0.055	-0.224	+0.087	no
+D1_simulated	clipped	placebo7	all20	HU083	20	11	0.255	0.255	+0.000	-0.114	+0.074	no
+D1_simulated	clipped	placebo7	low6	all	6	22	0.583	0.470	+0.114	-0.136	+0.247	no
+D1_simulated	clipped	placebo7	low6	HU012	6	11	0.576	0.470	+0.106	-0.182	+0.262	no
+D1_simulated	clipped	placebo7	low6	HU083	6	11	0.591	0.470	+0.121	-0.160	+0.273	no
+D1_simulated	clipped	placebo7	healthy_HU012	HU083	11	11	0.562	0.421	+0.140	-0.124	+0.397	no
+
+T1b: median score per group (all strings, unclipped), and rank correlation with tumor share over the 20 cancers
+score	version	healthy HU012	healthy HU083	breast4	cancer low6	cancer 20%+	rank_corr_with_tumor_share
+epithelial16	whole	0.216	0.171	0.251	0.286	0.461	+0.79
+epithelial16	single	0.129	0.154	0.133	0.134	0.443	+0.76
+gut3	whole	0.038	0.045	0.069	0.059	0.205	+0.64
+gut3	single	0.017	0.047	0.042	0.031	0.271	+0.65
+nongut13	whole	0.176	0.120	0.179	0.215	0.239	+0.60
+nongut13	single	0.113	0.102	0.083	0.097	0.163	+0.72
+placebo7	whole	0.100	0.070	0.102	0.132	0.100	-0.34
+placebo7	single	0.084	0.040	0.087	0.140	0.043	-0.65
+
+T1c: where the share sits, per single type (all strings, unclipped, group medians in points of 100)
+type	set	healthy HU012 whole	healthy HU012 single	healthy HU083 whole	healthy HU083 single	breast4 whole	breast4 single	cancer low6 whole	cancer low6 single	cancer 20%+ whole	cancer 20%+ single
+Blood-B	other	2.6	1.5	2.4	0.8	4.8	3.9	2.9	1.3	3.0	1.3
+Eryth-prog	other	9.4	13.4	1.4	0.0	9.7	16.1	11.7	20.8	22.7	37.5
+Gastric-Ep	gut3	1.2	0.0	0.8	2.6	2.4	1.1	1.4	0.4	2.3	0.0
+Breast-Luminal-Ep	nongut13	1.2	0.0	0.3	0.0	0.8	0.0	2.0	0.0	1.2	0.0
+Pancreas-Alpha	placebo7	1.5	0.4	1.0	0.5	1.3	0.0	1.9	0.7	1.6	0.0
+Ovary-Ep	nongut13	0.3	0.0	0.4	0.0	1.0	0.0	0.1	0.0	1.3	0.0
+Small-Int-Ep	gut3	1.9	0.2	0.9	0.7	3.1	0.6	2.1	0.2	7.9	7.8
+Lung-Ep-Alveo	nongut13	2.0	0.6	0.6	0.0	2.0	1.0	2.0	0.0	2.8	1.9
+Adipocytes	placebo7	0.0	0.0	0.0	0.0	0.2	0.9	0.0	2.1	0.2	0.0
+Breast-Basal-Ep	nongut13	3.2	2.1	1.1	0.0	2.7	2.1	3.0	0.7	1.7	0.0
+Prostate-Ep	nongut13	0.6	0.0	1.9	2.0	0.5	0.0	1.5	0.2	1.4	0.0
+Oligodend	placebo7	1.2	0.7	1.1	0.4	2.5	2.1	1.7	0.0	2.1	1.3
+Pancreas-Duct	nongut13	1.2	0.0	2.4	4.2	0.1	0.0	0.5	0.0	0.2	0.0
+Head-Neck-Ep	nongut13	0.8	0.2	0.3	0.0	1.0	0.0	1.0	0.3	1.6	0.3
+Endothel	other	1.7	2.3	3.7	7.7	4.3	8.2	2.5	0.7	0.3	0.0
+Neuron	placebo7	1.6	0.0	2.2	0.9	2.5	1.2	2.4	2.8	0.9	0.0
+Blood-T	other	1.9	0.8	1.2	1.7	0.7	0.1	2.8	0.0	2.5	0.0
+Blood-NK	other	4.7	3.3	4.5	2.9	5.8	5.2	4.6	5.0	2.1	0.0
+Blood-Granul	other	29.0	31.8	37.6	30.4	31.6	35.5	18.8	24.5	6.3	6.8
+Blood-Mono+Macro	other	13.4	15.7	19.1	28.2	8.2	7.1	8.5	8.6	2.4	0.0
+Liver-Hep	other	2.3	2.3	4.0	1.4	2.0	0.9	3.7	2.5	3.1	2.6
+Pancreas-Acinar	nongut13	1.2	0.0	0.5	0.0	2.1	2.4	1.5	1.6	3.7	4.1
+Bladder-Ep	nongut13	1.4	0.2	0.5	0.0	1.5	0.0	2.0	0.1	2.9	2.3
+Thyroid-Ep	nongut13	1.3	0.4	1.0	0.0	2.0	0.5	2.1	1.5	1.2	0.3
+Kidney-Ep	nongut13	0.8	0.0	0.8	0.0	1.5	0.4	2.4	0.1	1.2	0.0
+Pancreas-Delta	placebo7	1.0	0.0	0.5	0.0	0.3	0.0	1.4	0.0	1.2	0.0
+Heart-Cardio	placebo7	2.3	2.4	1.4	0.2	1.9	1.9	2.3	2.1	1.8	0.0
+Colon-Ep	gut3	1.0	0.8	1.5	2.0	1.9	0.4	2.5	0.4	9.1	15.2
+Lung-Ep-Bron	nongut13	0.6	0.0	0.4	0.0	0.2	0.2	1.0	0.0	0.9	0.0
+Pancreas-Beta	placebo7	1.6	0.2	1.1	0.0	0.8	0.3	1.1	1.1	1.9	0.0
+Fallopian-Ep	nongut13	1.9	0.0	1.3	1.3	2.4	0.7	1.0	0.0	1.3	0.0
+
+
+T2: offset null (all strings, unclipped, epithelial score)
+whole-minus-single gap of the breast samples: +0.034, +0.116, +0.120, +0.134; mean +0.101
+whole-minus-single gap of the cancer samples: low6 mean +0.115, 20%+ mean +0.029
+positives	controls	observed_whole	single + none (single beads as they are) (+0.000)	single + breast mean (+0.101)	single + breast mean without sample 1 (+0.123)	single + breast mean without sample 2 (+0.096)	single + breast mean without sample 3 (+0.094)	single + breast mean without sample 4 (+0.090)
+all20	all	0.991	0.802	0.959	0.986	0.959	0.959	0.955
+all20	HU012	0.982	0.773	0.918	0.973	0.918	0.918	0.918
+all20	HU083	1.000	0.832	1.000	1.000	1.000	1.000	0.991
+low6	all	0.970	0.386	0.864	0.955	0.864	0.864	0.848
+low6	HU012	0.939	0.333	0.727	0.909	0.727	0.727	0.727
+low6	HU083	1.000	0.439	1.000	1.000	1.000	1.000	0.970
+
+
+T3: dilution series in HU012 and in HU083 background (B3 fits, epithelial score, unclipped)
+A dilution file is a mixture: a share x of the cancer sample's strings and 1-x of healthy background.
+If estimates mix in proportion, a series is a straight line from the background's floor (x=0) to the
+undiluted sample's own estimate (x=1), whatever that estimate is made of. Then the slope is
+'undiluted estimate minus floor' and must differ between two backgrounds by exactly the difference of
+their floors. So a different slope in the two backgrounds does NOT separate tumor from run; this table
+only checks that the series behave as straight-line mixtures (line fitted to the 5 dilution levels).
+version	mean_floor_HU012_bg	mean_floor_HU083_bg	floor_difference	mean_slope_HU012_bg	mean_slope_HU083_bg	slope_difference	mean |line at x=1 minus undiluted estimate| HU012_bg	same HU083_bg
+whole	0.218	0.186	+0.032	0.240	0.364	+0.124	0.084	0.149
+single	0.137	0.180	-0.043	0.265	0.338	+0.073	0.105	0.175
+strings per dilution file (the two backgrounds do not hold the same amount of data):
+  HU012 background: median 2932, range 1350-4768
+  HU083 background: median 3070, range 1398-4950
+
+
+T4: fully 'off' strings at gut markers and at placebo markers (strings with 2+ beads, as fitted in step 2)
+common string-length mix used for every file and marker group: 2 beads 0.32, 3 beads 0.23, 4+ beads 0.46
+group (strings pooled over its files)	gut markers: all-off share (strings)	other epithelial markers	placebo markers	gut minus placebo
+healthy HU012	2.87% (2952)	3.16% (13639)	3.17% (7328)	-0.30 points
+healthy HU083	1.25% (5634)	1.27% (27098)	1.19% (14718)	+0.06 points
+breast4	4.95% (1084)	4.35% (5221)	3.70% (2730)	+1.25 points
+cancer low6	4.70% (1422)	4.99% (7212)	5.30% (3866)	-0.59 points
+cancer 20%+	17.25% (2165)	8.42% (10539)	7.64% (5683)	+9.61 points
+per file:
+sample	group	tumor_share	gut strings (2+ beads)	gut all-off share	placebo all-off share	gut minus placebo (points)
+HU012.01.PL4406	healthy HU012	0.022	227	2.52%	2.96%	-0.44
+HU012.02.PL4504	healthy HU012	0.000	310	2.72%	3.48%	-0.76
+HU012.03.PL4472	healthy HU012	0.020	221	3.17%	2.47%	+0.70
+HU012.04.PL4374	healthy HU012	0.000	349	3.42%	3.47%	-0.05
+HU012.05.PL4473	healthy HU012	0.000	288	0.34%	2.45%	-2.11
+HU012.06.PL4376	healthy HU012	0.011	478	3.27%	2.35%	+0.91
+HU012.07.PL4412	healthy HU012	0.000	284	4.56%	2.80%	+1.76
+HU012.08.PL4420	healthy HU012	0.010	163	3.39%	3.19%	+0.20
+HU012.09.PL4430	healthy HU012	0.014	203	4.19%	4.25%	-0.06
+HU012.10.PL4489	healthy HU012	0.000	241	2.02%	4.05%	-2.03
+HU012.11.PL4512	healthy HU012	0.021	188	1.47%	4.49%	-3.02
+HU083.63	healthy HU083	0.041	613	2.42%	1.49%	+0.93
+HU083.64	healthy HU083	0.000	379	0.97%	1.15%	-0.18
+HU083.65	healthy HU083	0.014	464	2.10%	1.45%	+0.65
+HU083.66	healthy HU083	0.015	486	1.46%	1.37%	+0.10
+HU083.67	healthy HU083	0.000	543	1.69%	1.23%	+0.46
+HU083.68	healthy HU083	0.000	655	0.75%	0.76%	-0.00
+HU083.69	healthy HU083	0.016	622	0.49%	1.03%	-0.54
+HU083.71	healthy HU083	0.011	439	0.69%	0.99%	-0.29
+HU083.72	healthy HU083	0.018	443	0.67%	1.30%	-0.63
+HU083.73	healthy HU083	0.010	498	1.50%	1.58%	-0.07
+HU083.89	healthy HU083	0.021	492	0.94%	0.79%	+0.15
+HU017.04.PL4596	breast4	nan	81	3.91%	3.34%	+0.58
+HU017and19.05.PL4434	breast4	nan	322	5.63%	3.12%	+2.51
+HU017and19.06.PL4518	breast4	nan	279	6.10%	4.22%	+1.88
+HU025.13.PL4704	breast4	nan	402	3.79%	3.88%	-0.09
+HU030abcd.02.PL3478	cancer low6	0.082	212	3.29%	4.69%	-1.40
+HU030abcd.04.PL3838	cancer low6	0.125	221	3.58%	2.97%	+0.61
+HU023.02.PL2552	cancer low6	0.174	191	8.33%	6.65%	+1.68
+HU023.03.PL3842	cancer low6	0.018	231	2.02%	4.75%	-2.72
+HU023.04.PL3881	cancer low6	0.014	353	4.83%	6.38%	-1.55
+HU025.14.PL2876	cancer low6	0.157	214	6.41%	6.28%	+0.13
+HU017.02.PL5761	cancer 20%+	0.262	111	15.27%	5.04%	+10.23
+HU017.01.PL5832	cancer 20%+	0.551	99	10.46%	6.42%	+4.04
+HU030.01.PL3393	cancer 20%+	0.383	163	10.34%	8.62%	+1.72
+HU030abcd.03.PL3729	cancer 20%+	0.310	167	12.57%	5.94%	+6.62
+HU030abcd.05.PL4004	cancer 20%+	0.280	213	9.97%	4.95%	+5.03
+HU030abcd.12.PL4360	cancer 20%+	0.354	180	21.14%	9.53%	+11.62
+HU030abcd.06.PL4449	cancer 20%+	0.500	117	22.98%	8.05%	+14.94
+HU030abcd.07.PL4766	cancer 20%+	0.528	158	17.49%	7.88%	+9.61
+HU030abcd.08.PL4809	cancer 20%+	0.477	114	18.46%	7.19%	+11.27
+HU030.09.PL4937	cancer 20%+	0.529	120	18.10%	8.14%	+9.96
+HU030abcd.10.PL4967	cancer 20%+	0.457	96	22.31%	8.04%	+14.26
+HU030abcd.11.PL4972	cancer 20%+	0.533	191	20.85%	10.52%	+10.33
+HU023.01.PL2504	cancer 20%+	0.347	260	15.76%	7.31%	+8.45
+HU025.15.PL4098	cancer 20%+	0.469	176	26.99%	9.47%	+17.52
+rank correlation of 'gut minus placebo' with tumor share over 20 cancer samples: +0.70
+
+
+T5: scores after removing the age line fitted in the healthy controls (all strings, unclipped, epithelial score)
+age line in controls (points of score per 10 years): whole -1.1, single -1.3
+ages: controls 20-79, cancer patients 22-86 (patient P1, 12 samples, is 22-23: at the young edge of the controls)
+scores	positives	negatives	auroc_whole	auroc_single	gain	ci_lo	ci_hi	moved
+as fitted	all20	all	0.991	0.857	+0.134	+0.044	+0.315	yes
+as fitted	all20	HU012	0.982	0.859	+0.123	+0.029	+0.298	yes
+as fitted	all20	HU083	1.000	0.855	+0.145	+0.040	+0.375	yes
+as fitted	low6	all	0.970	0.530	+0.439	+0.273	+0.552	yes
+as fitted	low6	HU012	0.939	0.545	+0.394	+0.205	+0.532	yes
+as fitted	low6	HU083	1.000	0.515	+0.485	+0.273	+0.636	yes
+as fitted	breast4	all	0.955	0.500	+0.455	+0.091	+0.773	yes
+as fitted	breast4	HU012	0.909	0.591	+0.318	-0.091	+0.727	no
+as fitted	breast4	HU083	1.000	0.409	+0.591	+0.227	+0.909	yes
+as fitted	healthy_HU012	HU083	0.926	0.430	+0.496	+0.273	+0.719	yes
+age line removed	all20	all	0.998	0.861	+0.136	+0.000	+0.312	no
+age line removed	all20	HU012	0.995	0.891	+0.105	+0.000	+0.255	no
+age line removed	all20	HU083	1.000	0.832	+0.168	+0.000	+0.400	no
+age line removed	low6	all	0.992	0.576	+0.417	+0.000	+0.557	no
+age line removed	low6	HU012	0.985	0.652	+0.333	+0.000	+0.494	no
+age line removed	low6	HU083	1.000	0.500	+0.500	+0.000	+0.667	no
+age line removed	breast4	all	0.989	0.648	+0.341	+0.091	+0.614	yes
+age line removed	breast4	HU012	0.977	0.795	+0.182	-0.068	+0.455	no
+age line removed	breast4	HU083	1.000	0.500	+0.500	+0.159	+0.818	yes
+age line removed	healthy_HU012	HU083	0.810	0.215	+0.595	+0.405	+0.793	yes

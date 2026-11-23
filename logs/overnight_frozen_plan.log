@@ -1,0 +1,20 @@
+11-17 02:05 start step4/run_step4.sh
+step 4 finished:      568 fits,        0 failed,        0 empty
+11-17 02:39 scored
+11-17 02:39 start step3/run_step3.sh
+step 3 unmatched finished:      710 fits,        0 failed,        0 empty
+11-17 03:40 scored
+11-17 03:40 start step2/run_step2_2plus.sh
+A2 finished:      284 fits,        0 failed,        0 empty
+11-17 04:42 scored
+11-17 04:42 start step3/run_step3_matched.sh
+step 3 matched finished:     8520 fits,        0 failed,        0 empty
+11-17 12:47 scored
+11-17 12:47 start step_b3/run_b3.sh
+B3 finished:      400 fits,        0 failed
+11-17 15:05 scored
+11-17 15:05 start step_d1/run_d1.sh
+wrote 142 simulated files to results/d1/sim
+D1 finished:      284 fits,        0 failed
+11-17 17:26 scored
+11-17 17:26 all done

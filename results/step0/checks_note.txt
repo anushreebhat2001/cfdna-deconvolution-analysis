@@ -1,0 +1,16 @@
+Note on the one FAIL in checks.txt (sample HU083.68, check C)
+
+Check C compares the program's answer on the whole-read file made by the cutter with its answer
+on the original reads. For HU083.68 they differ by 0.037 (unclipped) and 0.052 (clipped)
+percentage points, above the 0.01 tolerance; every other check on every sample passes.
+
+The difference comes from one read: chr13, starting at CpG 19914459, an unusually long read
+whose last five positions reach into a marker region (the cutter's piece is "C.CCC" at CpG
+19914532). With that single read removed from both files (orig_minus1.pat, whole_minus1.pat in
+results/step0/HU083.68) the two answers agree to 0.0000 on all 31 cell types, clipped and
+unclipped. Verified again on 2026-11-19.
+
+So the cutter and the program's own reader treat this one read differently; why exactly is not
+established. The effect is one read in 10,368 on one control, under 0.06 percentage points, and
+it does not touch the whole-against-single comparison (check A: both versions hold the same
+31,096 CpG calls).

@@ -1,0 +1,9 @@
+group	beads	strings	all_off_seen	share_seen	all_off_expected	ratio	ratio_ci_lo	ratio_ci_hi	all_off_expected_marker_rate	ratio_marker_rate
+healthy	1	5792	1313	0.2267	1206.4	1.09	1.00	1.18	1103.9	1.19
+healthy	2	4279	383	0.0895	261.8	1.46	1.35	1.57	247.9	1.55
+healthy	3	3102	173	0.0558	75.6	2.29	1.88	3.00	78.4	2.21
+healthy	4+	5586	132	0.0236	39.9	3.31	2.46	4.84	44.4	2.97
+cancer_high_tumor	1	2081	1426	0.6852	431.1	3.31	2.98	3.60	396.8	3.59
+cancer_high_tumor	2	1525	904	0.5928	96.8	9.34	8.28	10.89	85.6	10.56
+cancer_high_tumor	3	978	530	0.5419	20.9	25.32	17.82	38.49	22.0	24.06
+cancer_high_tumor	4+	1715	810	0.4723	13.0	62.44	42.26	97.48	11.9	67.87

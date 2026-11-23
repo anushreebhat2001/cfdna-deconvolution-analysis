@@ -1,0 +1,11 @@
+[panepi] 22 healthy controls, 8 cancer samples with tumor share >= 0.4
+[panepi] strings that could not be predicted (no other healthy call in the place): {'healthy': 3}
+group	beads	strings	all_off_seen	share_seen	all_off_expected	ratio	ratio_ci_lo	ratio_ci_hi	all_off_expected_marker_rate	ratio_marker_rate
+healthy	1	16683	2900	0.1738	2667.7	1.09	0.99	1.21	2434.9	1.19
+healthy	2	12871	793	0.0616	394.0	2.01	1.77	2.33	371.4	2.13
+healthy	3	9284	302	0.0325	62.0	4.87	3.84	6.19	64.9	4.66
+healthy	4+	16859	194	0.0115	17.6	11.00	7.73	16.13	20.8	9.33
+cancer_high_tumor	1	2094	1431	0.6834	343.5	4.17	3.87	4.38	306.9	4.66
+cancer_high_tumor	2	1530	905	0.5915	49.6	18.26	16.68	20.72	44.1	20.52
+cancer_high_tumor	3	985	535	0.5431	7.0	76.21	62.62	92.94	6.9	77.78
+cancer_high_tumor	4+	1719	811	0.4718	1.5	557.40	450.97	683.95	2.4	339.89

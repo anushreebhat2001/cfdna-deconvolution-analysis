@@ -1,0 +1,532 @@
+step_scripts/common/run_one.sh data/mix_breast/HU017.04.PL4596__d12.5.pat results/factors/t9_breast_dil/HU017.04.PL4596__d12.5/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017.04.PL4596__d12.5.pat results/factors/t9_breast_dil/HU017.04.PL4596__d12.5/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017.04.PL4596__d25.pat results/factors/t9_breast_dil/HU017.04.PL4596__d25/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017.04.PL4596__d25.pat results/factors/t9_breast_dil/HU017.04.PL4596__d25/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017.04.PL4596__d3.125.pat results/factors/t9_breast_dil/HU017.04.PL4596__d3.125/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017.04.PL4596__d3.125.pat results/factors/t9_breast_dil/HU017.04.PL4596__d3.125/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017.04.PL4596__d50.pat results/factors/t9_breast_dil/HU017.04.PL4596__d50/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017.04.PL4596__d50.pat results/factors/t9_breast_dil/HU017.04.PL4596__d50/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017.04.PL4596__d6.25.pat results/factors/t9_breast_dil/HU017.04.PL4596__d6.25/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017.04.PL4596__d6.25.pat results/factors/t9_breast_dil/HU017.04.PL4596__d6.25/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.05.PL4434__d12.5.pat results/factors/t9_breast_dil/HU017and19.05.PL4434__d12.5/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.05.PL4434__d12.5.pat results/factors/t9_breast_dil/HU017and19.05.PL4434__d12.5/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.05.PL4434__d25.pat results/factors/t9_breast_dil/HU017and19.05.PL4434__d25/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.05.PL4434__d25.pat results/factors/t9_breast_dil/HU017and19.05.PL4434__d25/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.05.PL4434__d3.125.pat results/factors/t9_breast_dil/HU017and19.05.PL4434__d3.125/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.05.PL4434__d3.125.pat results/factors/t9_breast_dil/HU017and19.05.PL4434__d3.125/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.05.PL4434__d50.pat results/factors/t9_breast_dil/HU017and19.05.PL4434__d50/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.05.PL4434__d50.pat results/factors/t9_breast_dil/HU017and19.05.PL4434__d50/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.05.PL4434__d6.25.pat results/factors/t9_breast_dil/HU017and19.05.PL4434__d6.25/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.05.PL4434__d6.25.pat results/factors/t9_breast_dil/HU017and19.05.PL4434__d6.25/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.06.PL4518__d12.5.pat results/factors/t9_breast_dil/HU017and19.06.PL4518__d12.5/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.06.PL4518__d12.5.pat results/factors/t9_breast_dil/HU017and19.06.PL4518__d12.5/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.06.PL4518__d25.pat results/factors/t9_breast_dil/HU017and19.06.PL4518__d25/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.06.PL4518__d25.pat results/factors/t9_breast_dil/HU017and19.06.PL4518__d25/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.06.PL4518__d3.125.pat results/factors/t9_breast_dil/HU017and19.06.PL4518__d3.125/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.06.PL4518__d3.125.pat results/factors/t9_breast_dil/HU017and19.06.PL4518__d3.125/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.06.PL4518__d50.pat results/factors/t9_breast_dil/HU017and19.06.PL4518__d50/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.06.PL4518__d50.pat results/factors/t9_breast_dil/HU017and19.06.PL4518__d50/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.06.PL4518__d6.25.pat results/factors/t9_breast_dil/HU017and19.06.PL4518__d6.25/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU017and19.06.PL4518__d6.25.pat results/factors/t9_breast_dil/HU017and19.06.PL4518__d6.25/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU025.13.PL4704__d12.5.pat results/factors/t9_breast_dil/HU025.13.PL4704__d12.5/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU025.13.PL4704__d12.5.pat results/factors/t9_breast_dil/HU025.13.PL4704__d12.5/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU025.13.PL4704__d25.pat results/factors/t9_breast_dil/HU025.13.PL4704__d25/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU025.13.PL4704__d25.pat results/factors/t9_breast_dil/HU025.13.PL4704__d25/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU025.13.PL4704__d3.125.pat results/factors/t9_breast_dil/HU025.13.PL4704__d3.125/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU025.13.PL4704__d3.125.pat results/factors/t9_breast_dil/HU025.13.PL4704__d3.125/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU025.13.PL4704__d50.pat results/factors/t9_breast_dil/HU025.13.PL4704__d50/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU025.13.PL4704__d50.pat results/factors/t9_breast_dil/HU025.13.PL4704__d50/cut u250 --size 1
+step_scripts/common/run_one.sh data/mix_breast/HU025.13.PL4704__d6.25.pat results/factors/t9_breast_dil/HU025.13.PL4704__d6.25/whole u250
+step_scripts/common/run_one.sh data/mix_breast/HU025.13.PL4704__d6.25.pat results/factors/t9_breast_dil/HU025.13.PL4704__d6.25/cut u250 --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.01.PL4406.pat results/factors/t8_no_megak/HU012.01.PL4406/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.01.PL4406.pat results/factors/t8_no_megak/HU012.01.PL4406/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.02.PL4504.pat results/factors/t8_no_megak/HU012.02.PL4504/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.02.PL4504.pat results/factors/t8_no_megak/HU012.02.PL4504/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.03.PL4472.pat results/factors/t8_no_megak/HU012.03.PL4472/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.03.PL4472.pat results/factors/t8_no_megak/HU012.03.PL4472/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.04.PL4374.pat results/factors/t8_no_megak/HU012.04.PL4374/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.04.PL4374.pat results/factors/t8_no_megak/HU012.04.PL4374/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.05.PL4473.pat results/factors/t8_no_megak/HU012.05.PL4473/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.05.PL4473.pat results/factors/t8_no_megak/HU012.05.PL4473/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.06.PL4376.pat results/factors/t8_no_megak/HU012.06.PL4376/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.06.PL4376.pat results/factors/t8_no_megak/HU012.06.PL4376/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.07.PL4412.pat results/factors/t8_no_megak/HU012.07.PL4412/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.07.PL4412.pat results/factors/t8_no_megak/HU012.07.PL4412/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.08.PL4420.pat results/factors/t8_no_megak/HU012.08.PL4420/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.08.PL4420.pat results/factors/t8_no_megak/HU012.08.PL4420/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.09.PL4430.pat results/factors/t8_no_megak/HU012.09.PL4430/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.09.PL4430.pat results/factors/t8_no_megak/HU012.09.PL4430/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.10.PL4489.pat results/factors/t8_no_megak/HU012.10.PL4489/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.10.PL4489.pat results/factors/t8_no_megak/HU012.10.PL4489/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.11.PL4512.pat results/factors/t8_no_megak/HU012.11.PL4512/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.11.PL4512.pat results/factors/t8_no_megak/HU012.11.PL4512/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.63.pat results/factors/t8_no_megak/HU083.63/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.63.pat results/factors/t8_no_megak/HU083.63/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.64.pat results/factors/t8_no_megak/HU083.64/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.64.pat results/factors/t8_no_megak/HU083.64/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.65.pat results/factors/t8_no_megak/HU083.65/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.65.pat results/factors/t8_no_megak/HU083.65/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.66.pat results/factors/t8_no_megak/HU083.66/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.66.pat results/factors/t8_no_megak/HU083.66/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.67.pat results/factors/t8_no_megak/HU083.67/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.67.pat results/factors/t8_no_megak/HU083.67/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.68.pat results/factors/t8_no_megak/HU083.68/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.68.pat results/factors/t8_no_megak/HU083.68/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.69.pat results/factors/t8_no_megak/HU083.69/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.69.pat results/factors/t8_no_megak/HU083.69/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.71.pat results/factors/t8_no_megak/HU083.71/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.71.pat results/factors/t8_no_megak/HU083.71/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.72.pat results/factors/t8_no_megak/HU083.72/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.72.pat results/factors/t8_no_megak/HU083.72/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.73.pat results/factors/t8_no_megak/HU083.73/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.73.pat results/factors/t8_no_megak/HU083.73/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.89.pat results/factors/t8_no_megak/HU083.89/whole results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.89.pat results/factors/t8_no_megak/HU083.89/cut results/factors/atlas/max_minus_megak.txt data/ref/blood_epithelial_merged_regions_file_max_markers.txt --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.01.PL4406.pat results/factors/t7_off/HU012.01.PL4406/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.01.PL4406.pat results/factors/t7_off/HU012.01.PL4406/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.02.PL4504.pat results/factors/t7_off/HU012.02.PL4504/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.02.PL4504.pat results/factors/t7_off/HU012.02.PL4504/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.03.PL4472.pat results/factors/t7_off/HU012.03.PL4472/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.03.PL4472.pat results/factors/t7_off/HU012.03.PL4472/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.04.PL4374.pat results/factors/t7_off/HU012.04.PL4374/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.04.PL4374.pat results/factors/t7_off/HU012.04.PL4374/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.05.PL4473.pat results/factors/t7_off/HU012.05.PL4473/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.05.PL4473.pat results/factors/t7_off/HU012.05.PL4473/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.06.PL4376.pat results/factors/t7_off/HU012.06.PL4376/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.06.PL4376.pat results/factors/t7_off/HU012.06.PL4376/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.07.PL4412.pat results/factors/t7_off/HU012.07.PL4412/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.07.PL4412.pat results/factors/t7_off/HU012.07.PL4412/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.08.PL4420.pat results/factors/t7_off/HU012.08.PL4420/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.08.PL4420.pat results/factors/t7_off/HU012.08.PL4420/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.09.PL4430.pat results/factors/t7_off/HU012.09.PL4430/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.09.PL4430.pat results/factors/t7_off/HU012.09.PL4430/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.10.PL4489.pat results/factors/t7_off/HU012.10.PL4489/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.10.PL4489.pat results/factors/t7_off/HU012.10.PL4489/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.11.PL4512.pat results/factors/t7_off/HU012.11.PL4512/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.11.PL4512.pat results/factors/t7_off/HU012.11.PL4512/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.63.pat results/factors/t7_off/HU083.63/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.63.pat results/factors/t7_off/HU083.63/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.64.pat results/factors/t7_off/HU083.64/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.64.pat results/factors/t7_off/HU083.64/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.65.pat results/factors/t7_off/HU083.65/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.65.pat results/factors/t7_off/HU083.65/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.66.pat results/factors/t7_off/HU083.66/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.66.pat results/factors/t7_off/HU083.66/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.67.pat results/factors/t7_off/HU083.67/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.67.pat results/factors/t7_off/HU083.67/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.68.pat results/factors/t7_off/HU083.68/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.68.pat results/factors/t7_off/HU083.68/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.69.pat results/factors/t7_off/HU083.69/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.69.pat results/factors/t7_off/HU083.69/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.71.pat results/factors/t7_off/HU083.71/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.71.pat results/factors/t7_off/HU083.71/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.72.pat results/factors/t7_off/HU083.72/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.72.pat results/factors/t7_off/HU083.72/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.73.pat results/factors/t7_off/HU083.73/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.73.pat results/factors/t7_off/HU083.73/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.89.pat results/factors/t7_off/HU083.89/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.89.pat results/factors/t7_off/HU083.89/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.02.PL5761.pat results/factors/t7_off/HU017.02.PL5761/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.02.PL5761.pat results/factors/t7_off/HU017.02.PL5761/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.01.PL5832.pat results/factors/t7_off/HU017.01.PL5832/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.01.PL5832.pat results/factors/t7_off/HU017.01.PL5832/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030.01.PL3393.pat results/factors/t7_off/HU030.01.PL3393/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030.01.PL3393.pat results/factors/t7_off/HU030.01.PL3393/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.02.PL3478.pat results/factors/t7_off/HU030abcd.02.PL3478/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.02.PL3478.pat results/factors/t7_off/HU030abcd.02.PL3478/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.03.PL3729.pat results/factors/t7_off/HU030abcd.03.PL3729/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.03.PL3729.pat results/factors/t7_off/HU030abcd.03.PL3729/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.04.PL3838.pat results/factors/t7_off/HU030abcd.04.PL3838/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.04.PL3838.pat results/factors/t7_off/HU030abcd.04.PL3838/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.05.PL4004.pat results/factors/t7_off/HU030abcd.05.PL4004/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.05.PL4004.pat results/factors/t7_off/HU030abcd.05.PL4004/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.12.PL4360.pat results/factors/t7_off/HU030abcd.12.PL4360/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.12.PL4360.pat results/factors/t7_off/HU030abcd.12.PL4360/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.06.PL4449.pat results/factors/t7_off/HU030abcd.06.PL4449/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.06.PL4449.pat results/factors/t7_off/HU030abcd.06.PL4449/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.07.PL4766.pat results/factors/t7_off/HU030abcd.07.PL4766/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.07.PL4766.pat results/factors/t7_off/HU030abcd.07.PL4766/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.08.PL4809.pat results/factors/t7_off/HU030abcd.08.PL4809/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.08.PL4809.pat results/factors/t7_off/HU030abcd.08.PL4809/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030.09.PL4937.pat results/factors/t7_off/HU030.09.PL4937/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030.09.PL4937.pat results/factors/t7_off/HU030.09.PL4937/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.10.PL4967.pat results/factors/t7_off/HU030abcd.10.PL4967/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.10.PL4967.pat results/factors/t7_off/HU030abcd.10.PL4967/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.11.PL4972.pat results/factors/t7_off/HU030abcd.11.PL4972/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.11.PL4972.pat results/factors/t7_off/HU030abcd.11.PL4972/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.01.PL2504.pat results/factors/t7_off/HU023.01.PL2504/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.01.PL2504.pat results/factors/t7_off/HU023.01.PL2504/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.02.PL2552.pat results/factors/t7_off/HU023.02.PL2552/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.02.PL2552.pat results/factors/t7_off/HU023.02.PL2552/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.03.PL3842.pat results/factors/t7_off/HU023.03.PL3842/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.03.PL3842.pat results/factors/t7_off/HU023.03.PL3842/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.04.PL3881.pat results/factors/t7_off/HU023.04.PL3881/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.04.PL3881.pat results/factors/t7_off/HU023.04.PL3881/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.14.PL2876.pat results/factors/t7_off/HU025.14.PL2876/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.14.PL2876.pat results/factors/t7_off/HU025.14.PL2876/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.15.PL4098.pat results/factors/t7_off/HU025.15.PL4098/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.15.PL4098.pat results/factors/t7_off/HU025.15.PL4098/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.04.PL4596.pat results/factors/t7_off/HU017.04.PL4596/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.04.PL4596.pat results/factors/t7_off/HU017.04.PL4596/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017and19.05.PL4434.pat results/factors/t7_off/HU017and19.05.PL4434/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017and19.05.PL4434.pat results/factors/t7_off/HU017and19.05.PL4434/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017and19.06.PL4518.pat results/factors/t7_off/HU017and19.06.PL4518/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017and19.06.PL4518.pat results/factors/t7_off/HU017and19.06.PL4518/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.13.PL4704.pat results/factors/t7_off/HU025.13.PL4704/whole results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.13.PL4704.pat results/factors/t7_off/HU025.13.PL4704/cut results/factors/atlas/u250_plus_off.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.01.PL4406.pat results/factors/t7_on/HU012.01.PL4406/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.01.PL4406.pat results/factors/t7_on/HU012.01.PL4406/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.02.PL4504.pat results/factors/t7_on/HU012.02.PL4504/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.02.PL4504.pat results/factors/t7_on/HU012.02.PL4504/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.03.PL4472.pat results/factors/t7_on/HU012.03.PL4472/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.03.PL4472.pat results/factors/t7_on/HU012.03.PL4472/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.04.PL4374.pat results/factors/t7_on/HU012.04.PL4374/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.04.PL4374.pat results/factors/t7_on/HU012.04.PL4374/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.05.PL4473.pat results/factors/t7_on/HU012.05.PL4473/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.05.PL4473.pat results/factors/t7_on/HU012.05.PL4473/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.06.PL4376.pat results/factors/t7_on/HU012.06.PL4376/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.06.PL4376.pat results/factors/t7_on/HU012.06.PL4376/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.07.PL4412.pat results/factors/t7_on/HU012.07.PL4412/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.07.PL4412.pat results/factors/t7_on/HU012.07.PL4412/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.08.PL4420.pat results/factors/t7_on/HU012.08.PL4420/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.08.PL4420.pat results/factors/t7_on/HU012.08.PL4420/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.09.PL4430.pat results/factors/t7_on/HU012.09.PL4430/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.09.PL4430.pat results/factors/t7_on/HU012.09.PL4430/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.10.PL4489.pat results/factors/t7_on/HU012.10.PL4489/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.10.PL4489.pat results/factors/t7_on/HU012.10.PL4489/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.11.PL4512.pat results/factors/t7_on/HU012.11.PL4512/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU012.11.PL4512.pat results/factors/t7_on/HU012.11.PL4512/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.63.pat results/factors/t7_on/HU083.63/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.63.pat results/factors/t7_on/HU083.63/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.64.pat results/factors/t7_on/HU083.64/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.64.pat results/factors/t7_on/HU083.64/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.65.pat results/factors/t7_on/HU083.65/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.65.pat results/factors/t7_on/HU083.65/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.66.pat results/factors/t7_on/HU083.66/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.66.pat results/factors/t7_on/HU083.66/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.67.pat results/factors/t7_on/HU083.67/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.67.pat results/factors/t7_on/HU083.67/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.68.pat results/factors/t7_on/HU083.68/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.68.pat results/factors/t7_on/HU083.68/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.69.pat results/factors/t7_on/HU083.69/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.69.pat results/factors/t7_on/HU083.69/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.71.pat results/factors/t7_on/HU083.71/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.71.pat results/factors/t7_on/HU083.71/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.72.pat results/factors/t7_on/HU083.72/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.72.pat results/factors/t7_on/HU083.72/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.73.pat results/factors/t7_on/HU083.73/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.73.pat results/factors/t7_on/HU083.73/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.89.pat results/factors/t7_on/HU083.89/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU083.89.pat results/factors/t7_on/HU083.89/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.02.PL5761.pat results/factors/t7_on/HU017.02.PL5761/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.02.PL5761.pat results/factors/t7_on/HU017.02.PL5761/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.01.PL5832.pat results/factors/t7_on/HU017.01.PL5832/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.01.PL5832.pat results/factors/t7_on/HU017.01.PL5832/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030.01.PL3393.pat results/factors/t7_on/HU030.01.PL3393/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030.01.PL3393.pat results/factors/t7_on/HU030.01.PL3393/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.02.PL3478.pat results/factors/t7_on/HU030abcd.02.PL3478/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.02.PL3478.pat results/factors/t7_on/HU030abcd.02.PL3478/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.03.PL3729.pat results/factors/t7_on/HU030abcd.03.PL3729/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.03.PL3729.pat results/factors/t7_on/HU030abcd.03.PL3729/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.04.PL3838.pat results/factors/t7_on/HU030abcd.04.PL3838/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.04.PL3838.pat results/factors/t7_on/HU030abcd.04.PL3838/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.05.PL4004.pat results/factors/t7_on/HU030abcd.05.PL4004/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.05.PL4004.pat results/factors/t7_on/HU030abcd.05.PL4004/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.12.PL4360.pat results/factors/t7_on/HU030abcd.12.PL4360/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.12.PL4360.pat results/factors/t7_on/HU030abcd.12.PL4360/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.06.PL4449.pat results/factors/t7_on/HU030abcd.06.PL4449/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.06.PL4449.pat results/factors/t7_on/HU030abcd.06.PL4449/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.07.PL4766.pat results/factors/t7_on/HU030abcd.07.PL4766/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.07.PL4766.pat results/factors/t7_on/HU030abcd.07.PL4766/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.08.PL4809.pat results/factors/t7_on/HU030abcd.08.PL4809/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.08.PL4809.pat results/factors/t7_on/HU030abcd.08.PL4809/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030.09.PL4937.pat results/factors/t7_on/HU030.09.PL4937/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030.09.PL4937.pat results/factors/t7_on/HU030.09.PL4937/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.10.PL4967.pat results/factors/t7_on/HU030abcd.10.PL4967/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.10.PL4967.pat results/factors/t7_on/HU030abcd.10.PL4967/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.11.PL4972.pat results/factors/t7_on/HU030abcd.11.PL4972/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU030abcd.11.PL4972.pat results/factors/t7_on/HU030abcd.11.PL4972/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.01.PL2504.pat results/factors/t7_on/HU023.01.PL2504/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.01.PL2504.pat results/factors/t7_on/HU023.01.PL2504/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.02.PL2552.pat results/factors/t7_on/HU023.02.PL2552/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.02.PL2552.pat results/factors/t7_on/HU023.02.PL2552/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.03.PL3842.pat results/factors/t7_on/HU023.03.PL3842/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.03.PL3842.pat results/factors/t7_on/HU023.03.PL3842/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.04.PL3881.pat results/factors/t7_on/HU023.04.PL3881/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU023.04.PL3881.pat results/factors/t7_on/HU023.04.PL3881/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.14.PL2876.pat results/factors/t7_on/HU025.14.PL2876/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.14.PL2876.pat results/factors/t7_on/HU025.14.PL2876/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.15.PL4098.pat results/factors/t7_on/HU025.15.PL4098/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.15.PL4098.pat results/factors/t7_on/HU025.15.PL4098/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.04.PL4596.pat results/factors/t7_on/HU017.04.PL4596/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017.04.PL4596.pat results/factors/t7_on/HU017.04.PL4596/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017and19.05.PL4434.pat results/factors/t7_on/HU017and19.05.PL4434/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017and19.05.PL4434.pat results/factors/t7_on/HU017and19.05.PL4434/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017and19.06.PL4518.pat results/factors/t7_on/HU017and19.06.PL4518/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU017and19.06.PL4518.pat results/factors/t7_on/HU017and19.06.PL4518/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.13.PL4704.pat results/factors/t7_on/HU025.13.PL4704/whole results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed
+step_scripts/factors/run_one_atlas.sh data/marker_pat/HU025.13.PL4704.pat results/factors/t7_on/HU025.13.PL4704/cut results/factors/atlas/u250_plus_on.txt data/ref/31CT_U250_Netanel_merged_regions_file.bed --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.01.PL4406.pat results/factors/t10_clumped_1/HU012.01.PL4406/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.01.PL4406.pat results/factors/t10_clumped_1/HU012.01.PL4406/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.02.PL4504.pat results/factors/t10_clumped_1/HU012.02.PL4504/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.02.PL4504.pat results/factors/t10_clumped_1/HU012.02.PL4504/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.03.PL4472.pat results/factors/t10_clumped_1/HU012.03.PL4472/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.03.PL4472.pat results/factors/t10_clumped_1/HU012.03.PL4472/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.04.PL4374.pat results/factors/t10_clumped_1/HU012.04.PL4374/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.04.PL4374.pat results/factors/t10_clumped_1/HU012.04.PL4374/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.05.PL4473.pat results/factors/t10_clumped_1/HU012.05.PL4473/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.05.PL4473.pat results/factors/t10_clumped_1/HU012.05.PL4473/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.06.PL4376.pat results/factors/t10_clumped_1/HU012.06.PL4376/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.06.PL4376.pat results/factors/t10_clumped_1/HU012.06.PL4376/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.07.PL4412.pat results/factors/t10_clumped_1/HU012.07.PL4412/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.07.PL4412.pat results/factors/t10_clumped_1/HU012.07.PL4412/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.08.PL4420.pat results/factors/t10_clumped_1/HU012.08.PL4420/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.08.PL4420.pat results/factors/t10_clumped_1/HU012.08.PL4420/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.09.PL4430.pat results/factors/t10_clumped_1/HU012.09.PL4430/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.09.PL4430.pat results/factors/t10_clumped_1/HU012.09.PL4430/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.10.PL4489.pat results/factors/t10_clumped_1/HU012.10.PL4489/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.10.PL4489.pat results/factors/t10_clumped_1/HU012.10.PL4489/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.11.PL4512.pat results/factors/t10_clumped_1/HU012.11.PL4512/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU012.11.PL4512.pat results/factors/t10_clumped_1/HU012.11.PL4512/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.63.pat results/factors/t10_clumped_1/HU083.63/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.63.pat results/factors/t10_clumped_1/HU083.63/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.64.pat results/factors/t10_clumped_1/HU083.64/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.64.pat results/factors/t10_clumped_1/HU083.64/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.65.pat results/factors/t10_clumped_1/HU083.65/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.65.pat results/factors/t10_clumped_1/HU083.65/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.66.pat results/factors/t10_clumped_1/HU083.66/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.66.pat results/factors/t10_clumped_1/HU083.66/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.67.pat results/factors/t10_clumped_1/HU083.67/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.67.pat results/factors/t10_clumped_1/HU083.67/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.68.pat results/factors/t10_clumped_1/HU083.68/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.68.pat results/factors/t10_clumped_1/HU083.68/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.69.pat results/factors/t10_clumped_1/HU083.69/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.69.pat results/factors/t10_clumped_1/HU083.69/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.71.pat results/factors/t10_clumped_1/HU083.71/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.71.pat results/factors/t10_clumped_1/HU083.71/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.72.pat results/factors/t10_clumped_1/HU083.72/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.72.pat results/factors/t10_clumped_1/HU083.72/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.73.pat results/factors/t10_clumped_1/HU083.73/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.73.pat results/factors/t10_clumped_1/HU083.73/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.89.pat results/factors/t10_clumped_1/HU083.89/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_1/HU083.89.pat results/factors/t10_clumped_1/HU083.89/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.01.PL4406.pat results/factors/t10_clumped_3/HU012.01.PL4406/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.01.PL4406.pat results/factors/t10_clumped_3/HU012.01.PL4406/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.02.PL4504.pat results/factors/t10_clumped_3/HU012.02.PL4504/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.02.PL4504.pat results/factors/t10_clumped_3/HU012.02.PL4504/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.03.PL4472.pat results/factors/t10_clumped_3/HU012.03.PL4472/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.03.PL4472.pat results/factors/t10_clumped_3/HU012.03.PL4472/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.04.PL4374.pat results/factors/t10_clumped_3/HU012.04.PL4374/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.04.PL4374.pat results/factors/t10_clumped_3/HU012.04.PL4374/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.05.PL4473.pat results/factors/t10_clumped_3/HU012.05.PL4473/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.05.PL4473.pat results/factors/t10_clumped_3/HU012.05.PL4473/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.06.PL4376.pat results/factors/t10_clumped_3/HU012.06.PL4376/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.06.PL4376.pat results/factors/t10_clumped_3/HU012.06.PL4376/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.07.PL4412.pat results/factors/t10_clumped_3/HU012.07.PL4412/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.07.PL4412.pat results/factors/t10_clumped_3/HU012.07.PL4412/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.08.PL4420.pat results/factors/t10_clumped_3/HU012.08.PL4420/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.08.PL4420.pat results/factors/t10_clumped_3/HU012.08.PL4420/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.09.PL4430.pat results/factors/t10_clumped_3/HU012.09.PL4430/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.09.PL4430.pat results/factors/t10_clumped_3/HU012.09.PL4430/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.10.PL4489.pat results/factors/t10_clumped_3/HU012.10.PL4489/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.10.PL4489.pat results/factors/t10_clumped_3/HU012.10.PL4489/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.11.PL4512.pat results/factors/t10_clumped_3/HU012.11.PL4512/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU012.11.PL4512.pat results/factors/t10_clumped_3/HU012.11.PL4512/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.63.pat results/factors/t10_clumped_3/HU083.63/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.63.pat results/factors/t10_clumped_3/HU083.63/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.64.pat results/factors/t10_clumped_3/HU083.64/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.64.pat results/factors/t10_clumped_3/HU083.64/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.65.pat results/factors/t10_clumped_3/HU083.65/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.65.pat results/factors/t10_clumped_3/HU083.65/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.66.pat results/factors/t10_clumped_3/HU083.66/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.66.pat results/factors/t10_clumped_3/HU083.66/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.67.pat results/factors/t10_clumped_3/HU083.67/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.67.pat results/factors/t10_clumped_3/HU083.67/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.68.pat results/factors/t10_clumped_3/HU083.68/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.68.pat results/factors/t10_clumped_3/HU083.68/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.69.pat results/factors/t10_clumped_3/HU083.69/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.69.pat results/factors/t10_clumped_3/HU083.69/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.71.pat results/factors/t10_clumped_3/HU083.71/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.71.pat results/factors/t10_clumped_3/HU083.71/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.72.pat results/factors/t10_clumped_3/HU083.72/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.72.pat results/factors/t10_clumped_3/HU083.72/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.73.pat results/factors/t10_clumped_3/HU083.73/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.73.pat results/factors/t10_clumped_3/HU083.73/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.89.pat results/factors/t10_clumped_3/HU083.89/whole u250
+step_scripts/common/run_one.sh results/factors/sim/clumped_3/HU083.89.pat results/factors/t10_clumped_3/HU083.89/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.01.PL4406.pat results/factors/t10_scattered_1/HU012.01.PL4406/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.01.PL4406.pat results/factors/t10_scattered_1/HU012.01.PL4406/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.02.PL4504.pat results/factors/t10_scattered_1/HU012.02.PL4504/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.02.PL4504.pat results/factors/t10_scattered_1/HU012.02.PL4504/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.03.PL4472.pat results/factors/t10_scattered_1/HU012.03.PL4472/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.03.PL4472.pat results/factors/t10_scattered_1/HU012.03.PL4472/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.04.PL4374.pat results/factors/t10_scattered_1/HU012.04.PL4374/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.04.PL4374.pat results/factors/t10_scattered_1/HU012.04.PL4374/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.05.PL4473.pat results/factors/t10_scattered_1/HU012.05.PL4473/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.05.PL4473.pat results/factors/t10_scattered_1/HU012.05.PL4473/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.06.PL4376.pat results/factors/t10_scattered_1/HU012.06.PL4376/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.06.PL4376.pat results/factors/t10_scattered_1/HU012.06.PL4376/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.07.PL4412.pat results/factors/t10_scattered_1/HU012.07.PL4412/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.07.PL4412.pat results/factors/t10_scattered_1/HU012.07.PL4412/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.08.PL4420.pat results/factors/t10_scattered_1/HU012.08.PL4420/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.08.PL4420.pat results/factors/t10_scattered_1/HU012.08.PL4420/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.09.PL4430.pat results/factors/t10_scattered_1/HU012.09.PL4430/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.09.PL4430.pat results/factors/t10_scattered_1/HU012.09.PL4430/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.10.PL4489.pat results/factors/t10_scattered_1/HU012.10.PL4489/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.10.PL4489.pat results/factors/t10_scattered_1/HU012.10.PL4489/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.11.PL4512.pat results/factors/t10_scattered_1/HU012.11.PL4512/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU012.11.PL4512.pat results/factors/t10_scattered_1/HU012.11.PL4512/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.63.pat results/factors/t10_scattered_1/HU083.63/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.63.pat results/factors/t10_scattered_1/HU083.63/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.64.pat results/factors/t10_scattered_1/HU083.64/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.64.pat results/factors/t10_scattered_1/HU083.64/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.65.pat results/factors/t10_scattered_1/HU083.65/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.65.pat results/factors/t10_scattered_1/HU083.65/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.66.pat results/factors/t10_scattered_1/HU083.66/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.66.pat results/factors/t10_scattered_1/HU083.66/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.67.pat results/factors/t10_scattered_1/HU083.67/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.67.pat results/factors/t10_scattered_1/HU083.67/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.68.pat results/factors/t10_scattered_1/HU083.68/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.68.pat results/factors/t10_scattered_1/HU083.68/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.69.pat results/factors/t10_scattered_1/HU083.69/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.69.pat results/factors/t10_scattered_1/HU083.69/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.71.pat results/factors/t10_scattered_1/HU083.71/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.71.pat results/factors/t10_scattered_1/HU083.71/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.72.pat results/factors/t10_scattered_1/HU083.72/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.72.pat results/factors/t10_scattered_1/HU083.72/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.73.pat results/factors/t10_scattered_1/HU083.73/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.73.pat results/factors/t10_scattered_1/HU083.73/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.89.pat results/factors/t10_scattered_1/HU083.89/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_1/HU083.89.pat results/factors/t10_scattered_1/HU083.89/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.01.PL4406.pat results/factors/t10_scattered_3/HU012.01.PL4406/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.01.PL4406.pat results/factors/t10_scattered_3/HU012.01.PL4406/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.02.PL4504.pat results/factors/t10_scattered_3/HU012.02.PL4504/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.02.PL4504.pat results/factors/t10_scattered_3/HU012.02.PL4504/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.03.PL4472.pat results/factors/t10_scattered_3/HU012.03.PL4472/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.03.PL4472.pat results/factors/t10_scattered_3/HU012.03.PL4472/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.04.PL4374.pat results/factors/t10_scattered_3/HU012.04.PL4374/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.04.PL4374.pat results/factors/t10_scattered_3/HU012.04.PL4374/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.05.PL4473.pat results/factors/t10_scattered_3/HU012.05.PL4473/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.05.PL4473.pat results/factors/t10_scattered_3/HU012.05.PL4473/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.06.PL4376.pat results/factors/t10_scattered_3/HU012.06.PL4376/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.06.PL4376.pat results/factors/t10_scattered_3/HU012.06.PL4376/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.07.PL4412.pat results/factors/t10_scattered_3/HU012.07.PL4412/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.07.PL4412.pat results/factors/t10_scattered_3/HU012.07.PL4412/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.08.PL4420.pat results/factors/t10_scattered_3/HU012.08.PL4420/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.08.PL4420.pat results/factors/t10_scattered_3/HU012.08.PL4420/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.09.PL4430.pat results/factors/t10_scattered_3/HU012.09.PL4430/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.09.PL4430.pat results/factors/t10_scattered_3/HU012.09.PL4430/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.10.PL4489.pat results/factors/t10_scattered_3/HU012.10.PL4489/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.10.PL4489.pat results/factors/t10_scattered_3/HU012.10.PL4489/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.11.PL4512.pat results/factors/t10_scattered_3/HU012.11.PL4512/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU012.11.PL4512.pat results/factors/t10_scattered_3/HU012.11.PL4512/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.63.pat results/factors/t10_scattered_3/HU083.63/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.63.pat results/factors/t10_scattered_3/HU083.63/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.64.pat results/factors/t10_scattered_3/HU083.64/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.64.pat results/factors/t10_scattered_3/HU083.64/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.65.pat results/factors/t10_scattered_3/HU083.65/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.65.pat results/factors/t10_scattered_3/HU083.65/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.66.pat results/factors/t10_scattered_3/HU083.66/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.66.pat results/factors/t10_scattered_3/HU083.66/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.67.pat results/factors/t10_scattered_3/HU083.67/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.67.pat results/factors/t10_scattered_3/HU083.67/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.68.pat results/factors/t10_scattered_3/HU083.68/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.68.pat results/factors/t10_scattered_3/HU083.68/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.69.pat results/factors/t10_scattered_3/HU083.69/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.69.pat results/factors/t10_scattered_3/HU083.69/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.71.pat results/factors/t10_scattered_3/HU083.71/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.71.pat results/factors/t10_scattered_3/HU083.71/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.72.pat results/factors/t10_scattered_3/HU083.72/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.72.pat results/factors/t10_scattered_3/HU083.72/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.73.pat results/factors/t10_scattered_3/HU083.73/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.73.pat results/factors/t10_scattered_3/HU083.73/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.89.pat results/factors/t10_scattered_3/HU083.89/whole u250
+step_scripts/common/run_one.sh results/factors/sim/scattered_3/HU083.89.pat results/factors/t10_scattered_3/HU083.89/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.01.PL4406.pat results/factors/t10_symmetric_5/HU012.01.PL4406/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.01.PL4406.pat results/factors/t10_symmetric_5/HU012.01.PL4406/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.02.PL4504.pat results/factors/t10_symmetric_5/HU012.02.PL4504/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.02.PL4504.pat results/factors/t10_symmetric_5/HU012.02.PL4504/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.03.PL4472.pat results/factors/t10_symmetric_5/HU012.03.PL4472/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.03.PL4472.pat results/factors/t10_symmetric_5/HU012.03.PL4472/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.04.PL4374.pat results/factors/t10_symmetric_5/HU012.04.PL4374/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.04.PL4374.pat results/factors/t10_symmetric_5/HU012.04.PL4374/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.05.PL4473.pat results/factors/t10_symmetric_5/HU012.05.PL4473/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.05.PL4473.pat results/factors/t10_symmetric_5/HU012.05.PL4473/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.06.PL4376.pat results/factors/t10_symmetric_5/HU012.06.PL4376/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.06.PL4376.pat results/factors/t10_symmetric_5/HU012.06.PL4376/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.07.PL4412.pat results/factors/t10_symmetric_5/HU012.07.PL4412/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.07.PL4412.pat results/factors/t10_symmetric_5/HU012.07.PL4412/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.08.PL4420.pat results/factors/t10_symmetric_5/HU012.08.PL4420/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.08.PL4420.pat results/factors/t10_symmetric_5/HU012.08.PL4420/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.09.PL4430.pat results/factors/t10_symmetric_5/HU012.09.PL4430/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.09.PL4430.pat results/factors/t10_symmetric_5/HU012.09.PL4430/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.10.PL4489.pat results/factors/t10_symmetric_5/HU012.10.PL4489/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.10.PL4489.pat results/factors/t10_symmetric_5/HU012.10.PL4489/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.11.PL4512.pat results/factors/t10_symmetric_5/HU012.11.PL4512/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU012.11.PL4512.pat results/factors/t10_symmetric_5/HU012.11.PL4512/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.63.pat results/factors/t10_symmetric_5/HU083.63/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.63.pat results/factors/t10_symmetric_5/HU083.63/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.64.pat results/factors/t10_symmetric_5/HU083.64/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.64.pat results/factors/t10_symmetric_5/HU083.64/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.65.pat results/factors/t10_symmetric_5/HU083.65/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.65.pat results/factors/t10_symmetric_5/HU083.65/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.66.pat results/factors/t10_symmetric_5/HU083.66/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.66.pat results/factors/t10_symmetric_5/HU083.66/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.67.pat results/factors/t10_symmetric_5/HU083.67/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.67.pat results/factors/t10_symmetric_5/HU083.67/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.68.pat results/factors/t10_symmetric_5/HU083.68/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.68.pat results/factors/t10_symmetric_5/HU083.68/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.69.pat results/factors/t10_symmetric_5/HU083.69/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.69.pat results/factors/t10_symmetric_5/HU083.69/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.71.pat results/factors/t10_symmetric_5/HU083.71/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.71.pat results/factors/t10_symmetric_5/HU083.71/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.72.pat results/factors/t10_symmetric_5/HU083.72/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.72.pat results/factors/t10_symmetric_5/HU083.72/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.73.pat results/factors/t10_symmetric_5/HU083.73/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.73.pat results/factors/t10_symmetric_5/HU083.73/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.89.pat results/factors/t10_symmetric_5/HU083.89/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_5/HU083.89.pat results/factors/t10_symmetric_5/HU083.89/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.01.PL4406.pat results/factors/t10_symmetric_10/HU012.01.PL4406/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.01.PL4406.pat results/factors/t10_symmetric_10/HU012.01.PL4406/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.02.PL4504.pat results/factors/t10_symmetric_10/HU012.02.PL4504/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.02.PL4504.pat results/factors/t10_symmetric_10/HU012.02.PL4504/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.03.PL4472.pat results/factors/t10_symmetric_10/HU012.03.PL4472/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.03.PL4472.pat results/factors/t10_symmetric_10/HU012.03.PL4472/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.04.PL4374.pat results/factors/t10_symmetric_10/HU012.04.PL4374/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.04.PL4374.pat results/factors/t10_symmetric_10/HU012.04.PL4374/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.05.PL4473.pat results/factors/t10_symmetric_10/HU012.05.PL4473/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.05.PL4473.pat results/factors/t10_symmetric_10/HU012.05.PL4473/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.06.PL4376.pat results/factors/t10_symmetric_10/HU012.06.PL4376/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.06.PL4376.pat results/factors/t10_symmetric_10/HU012.06.PL4376/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.07.PL4412.pat results/factors/t10_symmetric_10/HU012.07.PL4412/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.07.PL4412.pat results/factors/t10_symmetric_10/HU012.07.PL4412/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.08.PL4420.pat results/factors/t10_symmetric_10/HU012.08.PL4420/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.08.PL4420.pat results/factors/t10_symmetric_10/HU012.08.PL4420/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.09.PL4430.pat results/factors/t10_symmetric_10/HU012.09.PL4430/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.09.PL4430.pat results/factors/t10_symmetric_10/HU012.09.PL4430/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.10.PL4489.pat results/factors/t10_symmetric_10/HU012.10.PL4489/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.10.PL4489.pat results/factors/t10_symmetric_10/HU012.10.PL4489/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.11.PL4512.pat results/factors/t10_symmetric_10/HU012.11.PL4512/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU012.11.PL4512.pat results/factors/t10_symmetric_10/HU012.11.PL4512/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.63.pat results/factors/t10_symmetric_10/HU083.63/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.63.pat results/factors/t10_symmetric_10/HU083.63/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.64.pat results/factors/t10_symmetric_10/HU083.64/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.64.pat results/factors/t10_symmetric_10/HU083.64/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.65.pat results/factors/t10_symmetric_10/HU083.65/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.65.pat results/factors/t10_symmetric_10/HU083.65/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.66.pat results/factors/t10_symmetric_10/HU083.66/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.66.pat results/factors/t10_symmetric_10/HU083.66/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.67.pat results/factors/t10_symmetric_10/HU083.67/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.67.pat results/factors/t10_symmetric_10/HU083.67/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.68.pat results/factors/t10_symmetric_10/HU083.68/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.68.pat results/factors/t10_symmetric_10/HU083.68/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.69.pat results/factors/t10_symmetric_10/HU083.69/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.69.pat results/factors/t10_symmetric_10/HU083.69/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.71.pat results/factors/t10_symmetric_10/HU083.71/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.71.pat results/factors/t10_symmetric_10/HU083.71/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.72.pat results/factors/t10_symmetric_10/HU083.72/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.72.pat results/factors/t10_symmetric_10/HU083.72/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.73.pat results/factors/t10_symmetric_10/HU083.73/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.73.pat results/factors/t10_symmetric_10/HU083.73/cut u250 --size 1
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.89.pat results/factors/t10_symmetric_10/HU083.89/whole u250
+step_scripts/common/run_one.sh results/factors/sim/symmetric_10/HU083.89.pat results/factors/t10_symmetric_10/HU083.89/cut u250 --size 1
